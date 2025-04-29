@@ -1,3 +1,27 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.pyenv/
+.env
+.venv/
+build/
+dist/
+.eggs/
+*.egg-info/
+
+# Poetry
+poetry.lock
+
+# IDE
+.idea/
+.vscode/
+
+# Logs
+logs/
+*.log
+
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]

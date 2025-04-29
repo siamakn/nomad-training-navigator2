@@ -1,0 +1,139 @@
+{
+  "subjects": [
+    "GeneralNOMAD",
+    "Publish",
+    "Explore",
+    "Analyze",
+    "ElectronicLabNotebook",
+    "API",
+    "OasisCustomization",
+    "OasisInstallation",
+    "OasisConfiguration",
+    "NOMADPlugins",
+    "DevelopNOMAD"
+  ],
+  "keywords": [
+    "login",
+    "register",
+    "Introduction",
+    "UploadData",
+    "CreateDataset",
+    "GetDOI",
+    "ManageMembers",
+    "SupportedFiles",
+    "FilterMenu",
+    "Widgets",
+    "Dashboard",
+    "NORTH",
+    "BuiltinSchema",
+    "CustomYAMLSchema",
+    "TabularParserYAML",
+    "BaseSection",
+    "NeXusDataConverter",
+    "WriteApp",
+    "WriteExampleUpload",
+    "WriteNormalizer",
+    "WriteParser",
+    "WriteSchemaPackage",
+    "DevelopPlugin",
+    "InstallPlugin",
+    "InstallOasis",
+    "ConfigureOasis"],
+  "educational_levels": [
+    "Beginner",
+    "Intermediate",
+    "Advanced"
+  ],
+  "instructional_methods": [
+    "Tutorial",
+    "HowTo",
+    "Explanation",
+    "Reference"
+  ],
+  "learning_resource_types": [
+    {
+      "label": "FAIRmat Tutorial",
+      "value": "FAIRmatTutorial",
+      "help": "A tutorial created or endorsed by the FAIRmat project.",
+      "url": "https://fairmat-nfdi.eu"
+    },
+    {
+      "label": "NOMAD Documentation",
+      "value": "NOMADDocumentation",
+      "help": "Official user or developer documentation from the NOMAD platform.",
+      "url": "https://nomad-lab.eu/prod/v1/docs/"
+    },
+    {
+      "label": "Git Repository",
+      "value": "GitRepo",
+      "help": "A Git-based repository containing scripts, workflows, or examples.",
+      "url": "https://git-scm.com"
+    },
+    {
+      "label": "NOMAD Examples",
+      "value": "NOMADExamples",
+      "help": "Example usage cases provided by NOMAD developers or users.",
+      "url": "https://nomad-lab.eu"
+    },
+    {
+      "label": "Self-Learning Resource",
+      "value": "SelfLearning",
+      "help": "Materials suited for individual learning, such as Jupyter notebooks.",
+      "url": "https://en.wikipedia.org/wiki/Self-directed_learning"
+    }
+  ],
+  "formats": [
+    {
+      "label": "Video File",
+      "value": "schema:VideoObject",
+      "help": "A digital representation of a video (e.g., MP4, AVI).",
+      "url": "https://schema.org/VideoObject"
+    },
+    {
+      "label": "Technical Article",
+      "value": "schema:TechArticle",
+      "help": "A technical documentation or publication (e.g., blog, whitepaper).",
+      "url": "https://schema.org/TechArticle"
+    },
+    {
+      "label": "Presentation Document",
+      "value": "schema:PresentationDigitalDocument",
+      "help": "Slides or documents from presentations, such as PDFs or PPT files.",
+      "url": "https://schema.org/PresentationDigitalDocument"
+    },
+    {
+      "label": "Software Application",
+      "value": "schema:SoftwareApplication",
+      "help": "An executable or installable software application.",
+      "url": "https://schema.org/SoftwareApplication"
+    },
+    {
+      "label": "Source Code",
+      "value": "schema:SoftwareSourceCode",
+      "help": "Source code in any programming language, such as a GitHub repo.",
+      "url": "https://schema.org/SoftwareSourceCode"
+    }
+  ],
+  "licenses": [
+    {
+      "name": "CC BY 4.0",
+      "url": "https://creativecommons.org/licenses/by/4.0/"
+    },
+    {
+      "name": "CC0",
+      "url": "https://creativecommons.org/publicdomain/zero/1.0/"
+    },
+    {
+      "name": "MIT License",
+      "url": "https://opensource.org/licenses/MIT"
+    },
+    {
+      "name": "Apache License 2.0",
+      "url": "https://www.apache.org/licenses/LICENSE-2.0"
+    },
+    {
+      "name": "GNU GPLv3",
+      "url": "https://www.gnu.org/licenses/gpl-3.0.html"
+    }
+  ]
+}

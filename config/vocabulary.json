@@ -55,7 +55,7 @@
       "label": "FAIRmat Tutorial",
       "value": "FAIRmatTutorial",
       "help": "A tutorial created or endorsed by the FAIRmat project.",
-      "url": "https://fairmat-nfdi.eu"
+      "url": "https://www.fairmat-nfdi.eu/fairmat/outreach-fairmat/outreach-activities/tutorials-fairmat"
     },
     {
       "label": "NOMAD Documentation",
@@ -67,7 +67,7 @@
       "label": "Git Repository",
       "value": "GitRepo",
       "help": "A Git-based repository containing scripts, workflows, or examples.",
-      "url": "https://git-scm.com"
+      "url": "https://github.com/orgs/FAIRmat-NFDI/repositories"
     },
     {
       "label": "NOMAD Examples",

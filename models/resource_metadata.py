@@ -1,11 +1,13 @@
-from pydantic import BaseModel, Field
+# models/resource_metadata.py
+
+from pydantic import BaseModel, HttpUrl, Field
 from typing import List, Optional
 from datetime import date
 
 
 class ResourceMetadata(BaseModel):
-    id: str = Field(..., description="Unique identifier (URN UUID).")
-    type: str = Field(default="schema:LearningResource")
+    id: str
+    type: str = "schema:LearningResource"
     title: str
     description: str
     subject: List[str]
@@ -16,10 +18,7 @@ class ResourceMetadata(BaseModel):
     instructional_method: List[str]
     learning_resource_type: List[str]
     format: List[str]
-    license: str
-    identifier: str
+    license: List[HttpUrl]
+    identifier: HttpUrl
     language: str = "en"
-    is_based_on: Optional[str] = None
-
-    class Config:
-        from_attributes = True
+    is_based_on: Optional[List[HttpUrl]] = None

@@ -1,6 +1,6 @@
 # models/resource_metadata.py
 
-from pydantic import BaseModel, HttpUrl, Field
+from pydantic import BaseModel, HttpUrl
 from typing import List, Optional
 from datetime import date
 
@@ -18,7 +18,7 @@ class ResourceMetadata(BaseModel):
     instructional_method: List[str]
     learning_resource_type: List[str]
     format: List[str]
-    license: List[HttpUrl]
-    identifier: HttpUrl
-    language: str = "en"
-    is_based_on: Optional[List[HttpUrl]] = None
+    license: List[str]  # URLs as strings
+    identifier: str  # Can be a DOI or regular URL string
+    language: Optional[str] = "en"
+    is_based_on: Optional[List[str]] = []

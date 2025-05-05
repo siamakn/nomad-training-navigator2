@@ -1,3 +1,5 @@
+# services/metadata_manager.py
+
 from models.resource_metadata import ResourceMetadata
 from utils.logger import logger
 from config.settings import settings
@@ -54,10 +56,10 @@ class MetadataManager:
             "dct:instructionalMethod": metadata.instructional_method,
             "schema:learningResourceType": metadata.learning_resource_type,
             "schema:encodingFormat": metadata.format,
-            "schema:license": [str(url) for url in metadata.license],
+            "schema:license": [str(l) for l in metadata.license],
             "schema:identifier": str(metadata.identifier),
             "schema:inLanguage": metadata.language,
-            "schema:isBasedOn": [str(url) for url in metadata.is_based_on] if metadata.is_based_on else None
+            "schema:isBasedOn": [str(u) for u in metadata.is_based_on] if metadata.is_based_on else []
         }
 
     @staticmethod
@@ -79,5 +81,5 @@ class MetadataManager:
             license=data["schema:license"],
             identifier=data["schema:identifier"],
             language=data.get("schema:inLanguage", "en"),
-            is_based_on=data.get("schema:isBasedOn")
+            is_based_on=data.get("schema:isBasedOn", [])
         )

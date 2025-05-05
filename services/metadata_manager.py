@@ -4,6 +4,7 @@ from models.resource_metadata import ResourceMetadata
 from utils.logger import logger
 from config.settings import settings
 from services.json_file_backend import JSONFileBackend
+from utils.helpers import generate_filename
 from datetime import date
 import json
 
@@ -15,7 +16,8 @@ class MetadataManager:
     def save_metadata(metadata: ResourceMetadata) -> str:
         """Save metadata using the configured backend."""
         data = MetadataManager._to_jsonld(metadata)
-        resource_id = MetadataManager.backend.save(data)
+        filename = generate_filename(metadata)
+        resource_id = MetadataManager.backend.save(data, filename)
         logger.info(f"Metadata saved: {resource_id}")
         return resource_id
 
@@ -40,6 +42,13 @@ class MetadataManager:
         logger.info(f"Metadata deleted: {metadata_id}")
 
     @staticmethod
+    def update_metadata(metadata_id: str, metadata: ResourceMetadata) -> None:
+        """Update metadata by overwriting the existing file."""
+        data = MetadataManager._to_jsonld(metadata)
+        MetadataManager.backend.save(data, metadata_id)  # force overwrite
+        logger.info(f"Metadata updated: {metadata_id}")
+
+    @staticmethod
     def _to_jsonld(metadata: ResourceMetadata) -> dict:
         """Convert ResourceMetadata instance to JSON-LD structure."""
         return {
@@ -56,17 +65,17 @@ class MetadataManager:
             "dct:instructionalMethod": metadata.instructional_method,
             "schema:learningResourceType": metadata.learning_resource_type,
             "schema:encodingFormat": metadata.format,
-            "schema:license": [str(l) for l in metadata.license],
-            "schema:identifier": str(metadata.identifier),
+            "schema:license": metadata.license,
+            "schema:identifier": metadata.identifier,
             "schema:inLanguage": metadata.language,
-            "schema:isBasedOn": [str(u) for u in metadata.is_based_on] if metadata.is_based_on else []
+            "schema:isBasedOn": metadata.is_based_on
         }
 
     @staticmethod
     def _from_jsonld(data: dict) -> ResourceMetadata:
         """Convert JSON-LD structure to ResourceMetadata instance."""
         return ResourceMetadata(
-            id=data["@id"],
+            id=data.get("@id"),
             type=data.get("@type", "schema:LearningResource"),
             title=data["dct:title"],
             description=data["dct:description"],

@@ -37,7 +37,7 @@ FIELD_HELP = {
     "subject": "Select subjects relevant to the material. Add if not listed.",
     "keywords": "Choose keywords that describe the resource. You may add new ones.",
     "license": "Select one or more licenses. Add a new one if not listed.",
-    "format": "Select applicable content formats.\n\nVideo (schema:VideoObject): A digital representation of a video, e.g., Videos of FAIRmat tutorials on YouTube.\n\nTechnical Article (schema:TechArticle): A documentation or blog-style article that explains a process or method.\n\nPresentation Document (schema:PresentationDigitalDocument): A digital version of a presentation, e.g., PDF or PowerPoint slides.\n\nSoftware Application (schema:SoftwareApplication): An installable or executable software package.\n\nSource Code (schema:SoftwareSourceCode): The codebase behind a tool or script, e.g., GitHub repository."
+    "format": "Select applicable content formats.",
 }
 
 # --- Tabs ---
@@ -86,17 +86,9 @@ with tabs[0]:
     with col2:
         instructional_method = st.multiselect("Instructional Method", vocab["instructional_methods"])
     with col3:
-        learning_resource_type = st.multiselect(
-            "Resource Type",
-            [rt["label"] for rt in vocab["learning_resource_types"]],
-            help="Choose applicable resource types."
-        )
+        learning_resource_type = st.multiselect("Resource Type", [rt["label"] for rt in vocab["learning_resource_types"]])
     with col4:
-        format_ = st.multiselect(
-            "Format",
-            [f["label"] for f in vocab["formats"]],
-            help=FIELD_HELP["format"]
-        )
+        format_ = st.multiselect("Format", [f["label"] for f in vocab["formats"]], help=FIELD_HELP["format"])
 
     st.subheader("Relationships")
     for rel_type in st.session_state.relationship_inputs:
@@ -156,24 +148,31 @@ with tabs[0]:
             language="en"
         )
 
-        MetadataManager.save_metadata(metadata)
+        saved_filename = MetadataManager.save_metadata(metadata)
 
-        metadata_path = Path("data/metadata") / f"{metadata.id}.jsonld"
-        data = json.loads(metadata_path.read_text(encoding="utf-8"))
-        for key, urls in st.session_state.relationship_inputs.items():
-            valid_urls = [u for u in urls if u.strip()]
-            if valid_urls:
-                data[f"schema:{key}"] = valid_urls
-        metadata_path.write_text(json.dumps(data, indent=2, ensure_ascii=False))
+        metadata_path = Path("data/metadata") / f"{saved_filename}.jsonld"
+        if metadata_path.exists():
+            data = json.loads(metadata_path.read_text(encoding="utf-8"))
+            for key, urls in st.session_state.relationship_inputs.items():
+                valid_urls = [u for u in urls if u.strip()]
+                if valid_urls:
+                    data[f"schema:{key}"] = valid_urls
+            metadata_path.write_text(json.dumps(data, indent=2, ensure_ascii=False))
+            st.success("Metadata saved with relationships and license.")
 
-        st.success("Metadata saved with relationships and license.")
+            st.session_state.clear()
+            st.success("Form cleared. You can now enter a new resource.")
+        else:
+            st.error("Failed to save metadata file.")
 
 with tabs[1]:
     st.header("Load Existing Metadata")
-    metadata_id = st.text_input("Enter Metadata ID (UUID)")
-    if st.button("Load Metadata"):
+    metadata_files = list((Path("data/metadata")).glob("*.jsonld"))
+    file_options = [f.name for f in metadata_files]
+    selected_file = st.selectbox("Select a metadata file", options=file_options)
+    if st.button("Load Metadata") and selected_file:
         try:
-            metadata = MetadataManager.load_metadata(metadata_id)
+            metadata = MetadataManager.load_metadata(selected_file)
             st.json(metadata.dict())
         except Exception as e:
             st.error(f"Error: {e}")

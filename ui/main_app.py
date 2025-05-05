@@ -166,13 +166,9 @@ with tabs[0]:
             st.error("Failed to save metadata file.")
 
 with tabs[1]:
-    st.header("Load Existing Metadata")
-    metadata_files = list((Path("data/metadata")).glob("*.jsonld"))
-    file_options = [f.name for f in metadata_files]
-    selected_file = st.selectbox("Select a metadata file", options=file_options)
-    if st.button("Load Metadata") and selected_file:
-        try:
-            metadata = MetadataManager.load_metadata(selected_file)
-            st.json(metadata.dict())
-        except Exception as e:
-            st.error(f"Error: {e}")
+    from ui.search_and_explore import render_search_tab
+    render_search_tab()
+
+with tabs[2]:
+    render_search_tab()
+

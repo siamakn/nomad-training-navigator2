@@ -9,8 +9,8 @@ import json
 from services.metadata_manager import MetadataManager
 from utils.logger import logger
 
-st.set_page_config(page_title="Search Training Resources", layout="wide")
-st.title("Search & Explore Resources")
+#st.set_page_config(page_title="Search Training Resources", layout="wide")
+#st.title("Search & Explore Resources")
 
 # --- Sidebar filters ---
 st.sidebar.header("Filters")

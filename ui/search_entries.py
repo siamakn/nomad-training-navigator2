@@ -1,60 +1,55 @@
-# ui/search_entries.py
+# ui/search_and_explore.py
 
 import sys
 from pathlib import Path
 sys.path.append(str(Path(__file__).resolve().parent.parent))
 
 import streamlit as st
+import json
 from services.metadata_manager import MetadataManager
-from models.resource_metadata import ResourceMetadata
+from utils.logger import logger
 
-st.set_page_config(page_title="Search Metadata Entries", layout="wide")
-st.title("Search NOMAD Training Resources")
+st.set_page_config(page_title="Search Training Resources", layout="wide")
+st.title("Search & Explore Resources")
 
-entries = MetadataManager.list_metadata()
+# --- Sidebar filters ---
+st.sidebar.header("Filters")
+vocab_path = Path("config") / "vocabulary.json"
+vocab = json.loads(vocab_path.read_text(encoding="utf-8"))
 
-# Admin toggle
-admin_mode = st.sidebar.toggle("Admin Mode", value=False)
+selected_subjects = st.sidebar.multiselect("Subjects", vocab["subjects"])
+selected_keywords = st.sidebar.multiselect("Keywords", vocab["keywords"])
+admin_mode = st.sidebar.checkbox("Admin Mode", value=False)
 
-# Filtering UI
-subjects = sorted(set(s for entry in entries for s in entry.subject))
-keywords = sorted(set(k for entry in entries for k in entry.keywords))
+# --- Load metadata ---
+all_resources = MetadataManager.list_metadata()
 
-col1, col2 = st.columns(2)
-with col1:
-    selected_subjects = st.multiselect("Filter by Subject", options=subjects)
-with col2:
-    selected_keywords = st.multiselect("Filter by Keyword", options=keywords)
+# --- Filtering logic ---
+def matches_filters(resource):
+    if selected_subjects:
+        if not set(selected_subjects) & set(resource.subject):
+            return False
+    if selected_keywords:
+        if not set(selected_keywords) & set(resource.keywords):
+            return False
+    return True
 
-# Filter results
-filtered = []
-for entry in entries:
-    if selected_subjects and not set(entry.subject) & set(selected_subjects):
-        continue
-    if selected_keywords and not set(entry.keywords) & set(selected_keywords):
-        continue
-    filtered.append(entry)
+filtered_resources = list(filter(matches_filters, all_resources))
 
-# Display results
-st.markdown(f"### {len(filtered)} Matching Entries")
+st.subheader(f"Found {len(filtered_resources)} matching resources")
 
-for entry in filtered:
-    with st.expander(entry.title):
-        st.write(f"**ID**: {entry.id}")
-        st.write(f"**Description**: {entry.description}")
-        st.write(f"**Subjects**: {', '.join(entry.subject)}")
-        st.write(f"**Keywords**: {', '.join(entry.keywords)}")
-        st.write(f"**Modified**: {entry.date_modified}")
-        st.write(f"**Identifier**: {entry.identifier}")
+# --- Display list ---
+for resource in filtered_resources:
+    with st.expander(f"{resource.title} ({resource.date_modified})"):
+        st.markdown(f"**ID**: `{resource.id}`")
+        st.markdown(f"**Description**: {resource.description}")
+        st.markdown(f"**Subjects**: {', '.join(resource.subject)}")
+        st.markdown(f"**Keywords**: {', '.join(resource.keywords)}")
+        st.markdown(f"**License(s)**: {', '.join(resource.license)}")
+        st.markdown(f"**Identifier**: {resource.identifier}")
 
         if admin_mode:
-            st.markdown("---")
-            st.markdown("#### Admin Tools")
-            if st.button(f"Delete {entry.id}"):
-                MetadataManager.delete_metadata(entry.id)
-                st.success(f"Deleted {entry.id}")
-                st.experimental_rerun()
+            st.info("Edit mode not implemented yet — but admin view enabled")
 
-            if st.button(f"Edit {entry.id}"):
-                st.session_state.editing_entry = entry.id
-                st.switch_page("main_app.py")
+if not filtered_resources:
+    st.info("Try adjusting the filters in the sidebar.")

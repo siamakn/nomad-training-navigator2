@@ -1,6 +1,4 @@
-Saved file: 20250506_fairmat_users_meeting_achieving_semantic_interoperability_abril_azocar_guzman.jsonld
-
-# ui/search_and_explore.py
+# pages/1_Explore_Metadata.py
 
 import sys
 from pathlib import Path
@@ -11,17 +9,35 @@ import json
 from services.metadata_manager import MetadataManager
 from utils.logger import logger
 
+# Load vocabulary
 vocab_path = Path("config") / "vocabulary.json"
 vocab = json.loads(vocab_path.read_text(encoding="utf-8"))
 
-selected_subjects = st.sidebar.multiselect("Subjects", vocab["subjects"])
-selected_keywords = st.sidebar.multiselect("Keywords", vocab["keywords"])
-selected_education = st.sidebar.multiselect("Education Level", vocab["educational_levels"])
-selected_methods = st.sidebar.multiselect("Instructional Method", vocab["instructional_methods"])
-selected_types = st.sidebar.multiselect("Resource Type", [rt["label"] for rt in vocab["learning_resource_types"]])
-selected_formats = st.sidebar.multiselect("Format", [f["label"] for f in vocab["formats"]])
-admin_mode = st.sidebar.checkbox("Admin Mode", value=False)
+# Sidebar filters
+if "filters_initialized" not in st.session_state:
+    st.session_state.filters_initialized = True
+    st.session_state.update({
+        "filter_subjects": [],
+        "filter_keywords": [],
+        "filter_education": [],
+        "filter_methods": [],
+        "filter_types": [],
+        "filter_formats": [],
+        "admin_mode": False,
+        "pagination_page": 1
+    })
 
+with st.sidebar:
+    st.header("Filters")
+    selected_subjects = st.multiselect("Subjects", vocab["subjects"], key="filter_subjects")
+    selected_keywords = st.multiselect("Keywords", vocab["keywords"], key="filter_keywords")
+    selected_education = st.multiselect("Education Level", vocab["educational_levels"], key="filter_education")
+    selected_methods = st.multiselect("Instructional Method", vocab["instructional_methods"], key="filter_methods")
+    selected_types = st.multiselect("Resource Type", [rt["label"] for rt in vocab["learning_resource_types"]], key="filter_types")
+    selected_formats = st.multiselect("Format", [f["label"] for f in vocab["formats"]], key="filter_formats")
+    admin_mode = st.checkbox("Admin Mode", value=False, key="admin_mode")
+
+# Load and validate metadata
 all_resources = []
 for raw in MetadataManager.backend.list_all():
     try:
@@ -29,7 +45,7 @@ for raw in MetadataManager.backend.list_all():
     except Exception as e:
         logger.warning(f"Skipped malformed resource: {e}")
 
-# --- Filtering logic ---
+# Filtering logic
 def matches(resource):
     def any_match(selected, available):
         return not selected or set(selected) & set(available)
@@ -46,15 +62,16 @@ def matches(resource):
 filtered = list(filter(matches, all_resources))
 total = len(filtered)
 
-# --- Pagination ---
+# Pagination
 page_size = 50
-page_num = st.sidebar.number_input("Page", min_value=1, max_value=max(1, (total - 1) // page_size + 1), value=1)
+page_num = st.sidebar.number_input("Page", min_value=1, max_value=max(1, (total - 1) // page_size + 1), value=1, key="pagination_page")
 offset = (page_num - 1) * page_size
 paginated = filtered[offset : offset + page_size]
 
+st.title("Search & Explore Metadata")
 st.subheader(f"Showing {len(paginated)} of {total} matching resources")
 
-# --- Display Results ---
+# Display Results
 for res in paginated:
     with st.expander(f"{res.title} ({res.date_modified})"):
         st.markdown(f"**ID**: `{res.id}`")

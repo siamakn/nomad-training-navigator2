@@ -2,9 +2,9 @@
 
 from models.resource_metadata import ResourceMetadata
 from utils.logger import logger
+from utils.helpers import generate_filename
 from config.settings import settings
 from services.json_file_backend import JSONFileBackend
-from utils.helpers import generate_filename
 from datetime import date
 import json
 
@@ -16,10 +16,10 @@ class MetadataManager:
     def save_metadata(metadata: ResourceMetadata) -> str:
         """Save metadata using the configured backend."""
         data = MetadataManager._to_jsonld(metadata)
-        filename = generate_filename(metadata)
-        resource_id = MetadataManager.backend.save(data, filename)
-        logger.info(f"Metadata saved: {resource_id}")
-        return resource_id
+        filename = generate_filename(metadata) + ".jsonld"
+        MetadataManager.backend.save(data, filename=filename)
+        logger.info(f"Metadata saved: {filename}")
+        return filename
 
     @staticmethod
     def load_metadata(metadata_id: str) -> ResourceMetadata:
@@ -40,13 +40,6 @@ class MetadataManager:
         """Delete a metadata resource."""
         MetadataManager.backend.delete(metadata_id)
         logger.info(f"Metadata deleted: {metadata_id}")
-
-    @staticmethod
-    def update_metadata(metadata_id: str, metadata: ResourceMetadata) -> None:
-        """Update metadata by overwriting the existing file."""
-        data = MetadataManager._to_jsonld(metadata)
-        MetadataManager.backend.save(data, metadata_id)  # force overwrite
-        logger.info(f"Metadata updated: {metadata_id}")
 
     @staticmethod
     def _to_jsonld(metadata: ResourceMetadata) -> dict:
@@ -75,7 +68,7 @@ class MetadataManager:
     def _from_jsonld(data: dict) -> ResourceMetadata:
         """Convert JSON-LD structure to ResourceMetadata instance."""
         return ResourceMetadata(
-            id=data.get("@id"),
+            id=data["@id"],
             type=data.get("@type", "schema:LearningResource"),
             title=data["dct:title"],
             description=data["dct:description"],
@@ -90,5 +83,5 @@ class MetadataManager:
             license=data["schema:license"],
             identifier=data["schema:identifier"],
             language=data.get("schema:inLanguage", "en"),
-            is_based_on=data.get("schema:isBasedOn", [])
+            is_based_on=data.get("schema:isBasedOn")
         )

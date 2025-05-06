@@ -9,9 +9,11 @@ class Settings(BaseSettings):
     DATA_DIR: Path = Path("data/metadata")
     LOG_DIR: Path = Path("logs")
     DEFAULT_LANGUAGE: str = "en"
+    BASE_DIR: Path = Path(__file__).resolve().parent.parent
 
     class Config:
-        env_prefix = "NTN_"  # e.g., NTN_DATA_DIR
+        env_prefix = "NTN_"
+        env_file = ".env"
 
 
 settings = Settings()

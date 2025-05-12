@@ -5,7 +5,7 @@ import json
 import re
 from pathlib import Path
 from config.settings import settings
-from datetime import date
+from datetime import date, datetime
 
 
 def generate_uuid() -> str:
@@ -30,3 +30,7 @@ def generate_filename(metadata) -> str:
     title_part = re.sub(r"[^a-z0-9 ]", "", title_part)
     title_part = "_".join(title_part.split()[:20])
     return f"{date_part}_{title_part}"
+
+def generate_timestamped_zip_name(prefix="selected_resources") -> str:
+    now = datetime.now().strftime("%Y%m%d_%H%M")
+    return f"{prefix}_{now}.zip"

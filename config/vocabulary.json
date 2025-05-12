@@ -10,9 +10,7 @@
     "OasisInstallation",
     "OasisConfiguration",
     "NOMADPlugins",
-    "DevelopNOMAD",
-    "NewTestSubject",
-    "NewNewSubject"
+    "DevelopNOMAD"
   ],
   "keywords": [
     "login",
@@ -40,8 +38,7 @@
     "DevelopPlugin",
     "InstallPlugin",
     "InstallOasis",
-    "ConfigureOasis",
-    "NewKeyword1"
+    "ConfigureOasis"
   ],
   "educational_levels": [
     "Beginner",

@@ -1,0 +1,41 @@
+{
+  "@context": "context/context.jsonld",
+  "@id": "e43ec136-7c13-4066-bc52-120783d2ae15",
+  "@type": "schema:LearningResource",
+  "dct:title": " FAIRmat users meeting | FAIR Research Data Management with FAIRmat and NOMAD - Ahmed Mansour ",
+  "dct:description": "asgfasgf",
+  "dct:subject": [
+    "Explore",
+    "OasisCustomization",
+    "OasisInstallation",
+    "ElectronicLabNotebook"
+  ],
+  "schema:keywords": [
+    "ManageMembers",
+    "UploadData",
+    "Introduction"
+  ],
+  "schema:dateCreated": "2025-05-06",
+  "schema:dateModified": "2025-05-25",
+  "schema:educationalLevel": [
+    "Intermediate"
+  ],
+  "dct:instructionalMethod": [
+    "HowTo"
+  ],
+  "schema:learningResourceType": [
+    "NOMADDocumentation"
+  ],
+  "schema:encodingFormat": [
+    "schema:PresentationDigitalDocument"
+  ],
+  "schema:license": [
+    "https://creativecommons.org/publicdomain/zero/1.0/"
+  ],
+  "schema:identifier": "https://www.youtube.com/watch?v=HuCVRxJ0bqk",
+  "schema:inLanguage": "en",
+  "schema:isBasedOn": [],
+  "schema:isFormatOf": [
+    "https://www.youtube.com/watch?v=Wl_HJk6Pf0Y"
+  ]
+}

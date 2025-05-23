@@ -1,0 +1,38 @@
+{
+  "@context": "context/context.jsonld",
+  "@id": "85144eed-8448-4653-800f-9b6befbcd616",
+  "@type": "schema:LearningResource",
+  "dct:title": "Configure an Oasis",
+  "dct:description": "This guide provides a comprehensive overview of how to configure and deploy a NOMAD Oasis, a standalone installation of the NOMAD software for managing and sharing materials science data. It explains how to set up an Oasis using the official distribution template, configure core services via Docker Compose, integrate user management with Keycloak, and register the Oasis with FAIRmat. Additional topics include plugin integration, local and centralized authentication, logging, privacy options, and troubleshooting common deployment issues.",
+  "dct:subject": [
+    "Oasis Installation",
+    "Oasis Configuration"
+  ],
+  "schema:keywords": [
+    "Install Oasis",
+    "Configure Oasis"
+  ],
+  "schema:dateCreated": "2025-05-23",
+  "schema:dateModified": "2025-05-09",
+  "schema:educationalLevel": [
+    "Intermediate"
+  ],
+  "dct:instructionalMethod": [
+    "HowTo"
+  ],
+  "schema:learningResourceType": [
+    "NOMADDocumentation"
+  ],
+  "schema:encodingFormat": [
+    "schema:TechArticle"
+  ],
+  "schema:license": [
+    "https://creativecommons.org/publicdomain/zero/1.0/"
+  ],
+  "schema:identifier": "https://nomad-lab.eu/prod/v1/docs/howto/oasis/configure.html",
+  "schema:inLanguage": "en",
+  "schema:isBasedOn": [],
+  "schema:isPartOf": [
+    "https://nomad-lab.eu/prod/v1/docs/"
+  ]
+}

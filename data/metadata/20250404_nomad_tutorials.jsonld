@@ -1,0 +1,38 @@
+{
+  "@context": "context/context.jsonld",
+  "@id": "d3ad4ddf-bce4-413b-8164-5d7fd1fced42",
+  "@type": "schema:LearningResource",
+  "dct:title": "NOMAD Tutorials",
+  "dct:description": "This section provides a structured set of interactive tutorials designed to help users effectively engage with the NOMAD platform. Covering both Central NOMAD and NOMAD Oasis, the tutorials walk users through essential tasks like uploading data, creating user accounts, and performing basic customizations. Each tutorial includes practical tasks, examples, and explanations to support learning through real-world scenarios. The section also outlines access options, required skill levels, and links to additional documentation for deeper exploration.",
+  "dct:subject": [
+    "General NOMAD"
+  ],
+  "schema:keywords": [
+    "Introduction",
+    "register",
+    "login"
+  ],
+  "schema:dateCreated": "2025-05-23",
+  "schema:dateModified": "2025-04-04",
+  "schema:educationalLevel": [
+    "Beginner"
+  ],
+  "dct:instructionalMethod": [
+    "Tutorial"
+  ],
+  "schema:learningResourceType": [
+    "NOMADDocumentation"
+  ],
+  "schema:encodingFormat": [
+    "schema:TechArticle"
+  ],
+  "schema:license": [
+    "https://creativecommons.org/publicdomain/zero/1.0/"
+  ],
+  "schema:identifier": "https://nomad-lab.eu/prod/v1/docs/tutorial/overview.html",
+  "schema:inLanguage": "en",
+  "schema:isBasedOn": [],
+  "schema:isPartOf": [
+    "https://nomad-lab.eu/prod/v1/docs/"
+  ]
+}

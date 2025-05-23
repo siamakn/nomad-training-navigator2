@@ -1,0 +1,38 @@
+{
+  "@context": "context/context.jsonld",
+  "@id": "4770bb41-2e78-4bbc-a9e5-06934a7accdb",
+  "@type": "schema:LearningResource",
+  "dct:title": "Using NOMAD as an Electronic Lab Notebook",
+  "dct:description": "This tutorial demonstrates how to use NOMAD’s built-in Electronic Lab Notebook (ELN) functionality to document experimental workflows. It guides users through creating structured entries for substances, samples, instruments, processes, and measurements using predefined schemas. The tutorial also explains how to interlink these entries into workflows, visualize them through interactive graphs, and group them under experiments. Additionally, it covers how to explore and filter ELN data efficiently using NOMAD’s search tools and customizable widgets. The tutorial is based on a real-world example involving polymer thin-film preparation and UV-Vis spectroscopy.",
+  "dct:subject": [
+    "ELN"
+  ],
+  "schema:keywords": [
+    "Built-in Schema",
+    "Workflows",
+    "Data documentation"
+  ],
+  "schema:dateCreated": "2025-05-23",
+  "schema:dateModified": "2025-04-04",
+  "schema:educationalLevel": [
+    "Beginner"
+  ],
+  "dct:instructionalMethod": [
+    "Tutorial"
+  ],
+  "schema:learningResourceType": [
+    "NOMADDocumentation"
+  ],
+  "schema:encodingFormat": [
+    "schema:TechArticle"
+  ],
+  "schema:license": [
+    "https://creativecommons.org/publicdomain/zero/1.0/"
+  ],
+  "schema:identifier": "https://nomad-lab.eu/prod/v1/docs/tutorial/NOMAD_ELN.html",
+  "schema:inLanguage": "en",
+  "schema:isBasedOn": [],
+  "schema:isPartOf": [
+    "https://nomad-lab.eu/prod/v1/docs/"
+  ]
+}

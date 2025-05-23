@@ -1,0 +1,37 @@
+{
+  "@context": "context/context.jsonld",
+  "@id": "b7dc2646-7674-46b7-ad35-3deeddafc9ed",
+  "@type": "schema:LearningResource",
+  "dct:title": "How to write a normalizer",
+  "dct:description": "This guide explains how to develop a custom normalizer in NOMAD using the plugin system. Normalizers enrich parsed data by adding or modifying content within the archive, such as computing additional properties or standardizing values. The document covers how to define a NormalizerEntryPoint, implement a Normalizer class (or SystemBasedNormalizer for system-specific logic), register the normalizer in the plugin configuration, control execution order via levels, and run the normalizer via the CLI or within Python scripts.",
+  "dct:subject": [
+    "NOMAD Plugins"
+  ],
+  "schema:keywords": [
+    "Develop Plugin",
+    "Write Normalizer"
+  ],
+  "schema:dateCreated": "2025-05-23",
+  "schema:dateModified": "2025-03-21",
+  "schema:educationalLevel": [
+    "Intermediate"
+  ],
+  "dct:instructionalMethod": [
+    "HowTo"
+  ],
+  "schema:learningResourceType": [
+    "NOMADDocumentation"
+  ],
+  "schema:encodingFormat": [
+    "schema:TechArticle"
+  ],
+  "schema:license": [
+    "https://creativecommons.org/publicdomain/zero/1.0/"
+  ],
+  "schema:identifier": "https://nomad-lab.eu/prod/v1/docs/howto/plugins/normalizers.html",
+  "schema:inLanguage": "en",
+  "schema:isBasedOn": [],
+  "schema:isPartOf": [
+    "https://nomad-lab.eu/prod/v1/docs/"
+  ]
+}

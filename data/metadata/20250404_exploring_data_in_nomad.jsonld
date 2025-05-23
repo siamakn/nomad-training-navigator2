@@ -1,0 +1,38 @@
+{
+  "@context": "context/context.jsonld",
+  "@id": "9aece9ca-b15e-453b-97ac-ba659c1d9005",
+  "@type": "schema:LearningResource",
+  "dct:title": "Exploring Data in NOMAD",
+  "dct:description": "This tutorial introduces users to NOMAD’s data exploration features, focusing on how to search, filter, and analyze materials-science data using the EXPLORE interface. It explains the use of filters, the search bar, and customizable widgets such as histograms, scatter plots, and periodic tables. Through real-world examples—like finding alternative ETL materials for solar cells or studying Sn-based perovskite devices—users learn how to construct complex queries, visualize results, and interpret data within NOMAD’s interactive dashboards.",
+  "dct:subject": [
+    "Explore"
+  ],
+  "schema:keywords": [
+    "Filter Menu",
+    "Dashboard",
+    "Widgets"
+  ],
+  "schema:dateCreated": "2025-05-23",
+  "schema:dateModified": "2025-04-04",
+  "schema:educationalLevel": [
+    "Beginner"
+  ],
+  "dct:instructionalMethod": [
+    "Tutorial"
+  ],
+  "schema:learningResourceType": [
+    "NOMADDocumentation"
+  ],
+  "schema:encodingFormat": [
+    "schema:TechArticle"
+  ],
+  "schema:license": [
+    "https://creativecommons.org/publicdomain/zero/1.0/"
+  ],
+  "schema:identifier": "https://nomad-lab.eu/prod/v1/docs/tutorial/explore.html",
+  "schema:inLanguage": "en",
+  "schema:isBasedOn": [],
+  "schema:isPartOf": [
+    "https://nomad-lab.eu/prod/v1/docs/"
+  ]
+}

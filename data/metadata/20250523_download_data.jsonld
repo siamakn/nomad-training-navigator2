@@ -1,0 +1,36 @@
+{
+  "@context": "context/context.jsonld",
+  "@id": "14571325-1760-4e1c-8e9a-ae79e825c422",
+  "@type": "schema:LearningResource",
+  "dct:title": "Download data",
+  "dct:description": "This how-to guide explains how to use the NOMAD API with curl to efficiently download large sets of data from the NOMAD repository. It covers downloading raw files and processed data at scale, including entire uploads, datasets, or selected query results. The guide introduces key API endpoints, distinctions between entries and uploads, and provides practical examples for compressing and streaming .zip archives directly via HTTP requests.",
+  "dct:subject": [
+    "API"
+  ],
+  "schema:keywords": [
+    "Download Data"
+  ],
+  "schema:dateCreated": "2025-05-23",
+  "schema:dateModified": "2024-03-19",
+  "schema:educationalLevel": [
+    "Intermediate"
+  ],
+  "dct:instructionalMethod": [
+    "HowTo"
+  ],
+  "schema:learningResourceType": [
+    "NOMADDocumentation"
+  ],
+  "schema:encodingFormat": [
+    "schema:TechArticle"
+  ],
+  "schema:license": [
+    "https://creativecommons.org/publicdomain/zero/1.0/"
+  ],
+  "schema:identifier": "https://nomad-lab.eu/prod/v1/docs/howto/programmatic/download.html",
+  "schema:inLanguage": "en",
+  "schema:isBasedOn": [],
+  "schema:isPartOf": [
+    "https://nomad-lab.eu/prod/v1/docs/"
+  ]
+}

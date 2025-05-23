@@ -1,0 +1,38 @@
+{
+  "@context": "context/context.jsonld",
+  "@id": "521eb78e-2113-42bb-aed1-683e0c8c4a1d",
+  "@type": "schema:LearningResource",
+  "dct:title": "Processing",
+  "dct:description": "This page describes how NOMAD processes raw files into structured, schema-based data entries through a series of steps including matching, parsing, normalization, and data persistence. It explains the processing lifecycle, triggering mechanisms, plugin customization, and various scenarios (e.g., one file to multiple entries, or file-based ELN automation). Users and developers will gain a clear understanding of how processing works in NOMAD, how to extend it using plugins and schema normalizers, and how to manage workflows for computational and experimental data.",
+  "dct:subject": [
+    "General NOMAD",
+    "Develop NOMAD"
+  ],
+  "schema:keywords": [
+    "Data processing",
+    "Develop Plugin"
+  ],
+  "schema:dateCreated": "2025-05-23",
+  "schema:dateModified": "2025-05-23",
+  "schema:educationalLevel": [
+    "Intermediate"
+  ],
+  "dct:instructionalMethod": [
+    "Explanation"
+  ],
+  "schema:learningResourceType": [
+    "NOMADDocumentation"
+  ],
+  "schema:encodingFormat": [
+    "schema:TechArticle"
+  ],
+  "schema:license": [
+    "https://creativecommons.org/publicdomain/zero/1.0/"
+  ],
+  "schema:identifier": "https://nomad-lab.eu/prod/v1/docs/explanation/processing.html",
+  "schema:inLanguage": "en",
+  "schema:isBasedOn": [],
+  "schema:isPartOf": [
+    "https://nomad-lab.eu/prod/v1/docs/"
+  ]
+}

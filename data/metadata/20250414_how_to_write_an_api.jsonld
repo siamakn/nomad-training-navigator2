@@ -1,0 +1,39 @@
+{
+  "@context": "context/context.jsonld",
+  "@id": "bdefe73a-96e4-4a41-bd88-25c80b134669",
+  "@type": "schema:LearningResource",
+  "dct:title": "How to write an API",
+  "dct:description": "This guide explains how to develop a custom API in NOMAD using the plugin system. It walks you through creating a FastAPI app, registering it as a plugin entry point using APIEntryPoint, and integrating it into a NOMAD distribution. You’ll learn how to define your API’s structure using a Python package, configure it with pyproject.toml, and build endpoints using FastAPI. This enables extending NOMAD with custom services accessible via new API routes. A working example and links to plugin development best practices are also provided.",
+  "dct:subject": [
+    "API",
+    "NOMAD Plugins"
+  ],
+  "schema:keywords": [
+    "Custom API",
+    "Develop Plugin",
+    "Plugin Entry Points"
+  ],
+  "schema:dateCreated": "2025-05-23",
+  "schema:dateModified": "2025-04-14",
+  "schema:educationalLevel": [
+    "Intermediate"
+  ],
+  "dct:instructionalMethod": [
+    "HowTo"
+  ],
+  "schema:learningResourceType": [
+    "NOMADDocumentation"
+  ],
+  "schema:encodingFormat": [
+    "schema:TechArticle"
+  ],
+  "schema:license": [
+    "https://creativecommons.org/publicdomain/zero/1.0/"
+  ],
+  "schema:identifier": "https://nomad-lab.eu/prod/v1/docs/howto/plugins/apis.html",
+  "schema:inLanguage": "en",
+  "schema:isBasedOn": [],
+  "schema:isPartOf": [
+    "https://nomad-lab.eu/prod/v1/docs/"
+  ]
+}

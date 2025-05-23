@@ -1,0 +1,37 @@
+{
+  "@context": "context/context.jsonld",
+  "@id": "2a7cd2d7-4509-4f89-b3ca-6e65bcf67e50",
+  "@type": "schema:LearningResource",
+  "dct:title": "How to write a parser",
+  "dct:description": "This guide explains how to write a custom parser in NOMAD using the plugin system. It walks you through creating a ParserEntryPoint, implementing a Parser or MatchingParser class, defining file matching rules, and populating the NOMAD archive with extracted data. The document also covers best practices for parsing text files using regular expressions, working with the NOMAD metainfo system, and integrating schema extensions. Both command-line and Python-based parser execution are demonstrated, enabling developers to test and deploy custom data ingestion workflows.",
+  "dct:subject": [
+    "NOMAD Plugins"
+  ],
+  "schema:keywords": [
+    "Develop Plugin",
+    "Write Parser"
+  ],
+  "schema:dateCreated": "2025-05-23",
+  "schema:dateModified": "2025-03-21",
+  "schema:educationalLevel": [
+    "Intermediate"
+  ],
+  "dct:instructionalMethod": [
+    "HowTo"
+  ],
+  "schema:learningResourceType": [
+    "NOMADDocumentation"
+  ],
+  "schema:encodingFormat": [
+    "schema:TechArticle"
+  ],
+  "schema:license": [
+    "https://creativecommons.org/publicdomain/zero/1.0/"
+  ],
+  "schema:identifier": "https://nomad-lab.eu/prod/v1/docs/howto/plugins/parsers.html",
+  "schema:inLanguage": "en",
+  "schema:isBasedOn": [],
+  "schema:isPartOf": [
+    "https://nomad-lab.eu/prod/v1/docs/"
+  ]
+}

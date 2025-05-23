@@ -1,0 +1,38 @@
+{
+  "@context": "context/context.jsonld",
+  "@id": "df4893f4-eac0-4f42-b84e-07b51d0f530d",
+  "@type": "schema:LearningResource",
+  "dct:title": "Developing a NOMAD Plugin",
+  "dct:description": "This tutorial guides you through the complete process of developing a NOMAD plugin using FAIRmat's official template. It covers repository setup with GitHub, generating plugin structure with Cookiecutter and Cruft, creating schema packages in YAML, converting them into Python classes, integrating them into a NOMAD-compatible plugin, and implementing custom normalizers. A practical example based on a sintering process is used to demonstrate schema definition, data parsing, and unit-aware normalization. This tutorial is ideal for researchers and developers aiming to extend NOMAD's data infrastructure with custom processing workflows.",
+  "dct:subject": [
+    "NOMAD Plugins"
+  ],
+  "schema:keywords": [
+    "Develop Plugin",
+    "Install Plugin",
+    "Write Schema Package"
+  ],
+  "schema:dateCreated": "2025-05-23",
+  "schema:dateModified": "2024-06-05",
+  "schema:educationalLevel": [
+    "Advanced"
+  ],
+  "dct:instructionalMethod": [
+    "Tutorial"
+  ],
+  "schema:learningResourceType": [
+    "NOMADDocumentation"
+  ],
+  "schema:encodingFormat": [
+    "schema:TechArticle"
+  ],
+  "schema:license": [
+    "https://creativecommons.org/publicdomain/zero/1.0/"
+  ],
+  "schema:identifier": "https://nomad-lab.eu/prod/v1/docs/tutorial/develop_plugin.html",
+  "schema:inLanguage": "en",
+  "schema:isBasedOn": [],
+  "schema:isPartOf": [
+    "https://nomad-lab.eu/prod/v1/docs/"
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "@context": "context/context.jsonld",
+  "@id": "596613b7-5fc4-493c-8f68-55207ed0d39f",
+  "@type": "schema:LearningResource",
+  "dct:title": "How to Update Oasis versions",
+  "dct:description": "This guide explains how to update the software version of a NOMAD Oasis installation. It covers NOMAD’s versioning strategy (semantic versioning), and describes the relationship between software, configuration, and data versions. The document also includes step-by-step migration instructions for updating to newer NOMAD releases (e.g. 1.2.0, 1.2.2), including changes to plugins, archive formats, workflows, and JupyterHub. Guidance is also provided for safely upgrading from legacy versions (e.g. 0.8.x to 1.x) while preserving existing data.",
+  "dct:subject": [
+    "Oasis Installation",
+    "Oasis Configuration"
+  ],
+  "schema:keywords": [
+    "Configure Oasis"
+  ],
+  "schema:dateCreated": "2025-05-23",
+  "schema:dateModified": "2025-01-17",
+  "schema:educationalLevel": [
+    "Advanced"
+  ],
+  "dct:instructionalMethod": [
+    "HowTo"
+  ],
+  "schema:learningResourceType": [
+    "NOMADDocumentation"
+  ],
+  "schema:encodingFormat": [
+    "schema:TechArticle"
+  ],
+  "schema:license": [
+    "https://creativecommons.org/publicdomain/zero/1.0/"
+  ],
+  "schema:identifier": "https://nomad-lab.eu/prod/v1/docs/howto/oasis/update.html",
+  "schema:inLanguage": "en",
+  "schema:isBasedOn": [],
+  "schema:isPartOf": [
+    "https://nomad-lab.eu/prod/v1/docs/"
+  ]
+}

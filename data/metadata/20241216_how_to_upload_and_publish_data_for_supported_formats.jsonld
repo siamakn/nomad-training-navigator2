@@ -1,0 +1,39 @@
+{
+  "@context": "context/context.jsonld",
+  "@id": "f8cdaf89-9931-46ef-914f-70023d839b62",
+  "@type": "schema:LearningResource",
+  "dct:title": "How to upload and publish data for supported formats",
+  "dct:description": "This guide explains how to upload and publish data to the NOMAD Repository using supported file formats. It covers file preparation, upload methods, processing, metadata annotation, access control, and DOI assignment. The guide also includes strategies for handling large datasets, automation via API, and special considerations for sensitive data like VASP POTCAR files. Ideal for users looking to contribute FAIR data efficiently and reproducibly.",
+  "dct:subject": [
+    "Publish"
+  ],
+  "schema:keywords": [
+    "Upload Data",
+    "Get DOI",
+    "Supported Files",
+    "Manage Members"
+  ],
+  "schema:dateCreated": "2025-05-22",
+  "schema:dateModified": "2024-12-16",
+  "schema:educationalLevel": [
+    "Beginner"
+  ],
+  "dct:instructionalMethod": [
+    "HowTo"
+  ],
+  "schema:learningResourceType": [
+    "NOMADDocumentation"
+  ],
+  "schema:encodingFormat": [
+    "schema:TechArticle"
+  ],
+  "schema:license": [
+    "https://creativecommons.org/publicdomain/zero/1.0/"
+  ],
+  "schema:identifier": "https://nomad-lab.eu/prod/v1/docs/howto/manage/upload.html",
+  "schema:inLanguage": "en",
+  "schema:isBasedOn": [],
+  "schema:isPartOf": [
+    "https://nomad-lab.eu/prod/v1/docs"
+  ]
+}

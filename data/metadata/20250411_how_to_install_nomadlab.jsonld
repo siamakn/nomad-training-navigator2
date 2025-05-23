@@ -1,0 +1,37 @@
+{
+  "@context": "context/context.jsonld",
+  "@id": "440b7639-b748-43b9-ab1e-f57927725574",
+  "@type": "schema:LearningResource",
+  "dct:title": "How to install nomad-lab",
+  "dct:description": "This page explains how to install the nomad-lab Python package, which provides access to NOMAD’s core functionality — including data parsing, normalization, and querying the NOMAD Archive — from a local Python environment. It offers installation options for stable PyPI releases, development versions via GitLab, and specific older versions. It also explains how to install optional dependencies tailored for parsing, infrastructure setup, and development.",
+  "dct:subject": [
+    "Develop NOMAD"
+  ],
+  "schema:keywords": [
+    "Install NOMAD",
+    "NOMAD Python Package"
+  ],
+  "schema:dateCreated": "2025-05-23",
+  "schema:dateModified": "2025-04-11",
+  "schema:educationalLevel": [
+    "Intermediate"
+  ],
+  "dct:instructionalMethod": [
+    "HowTo"
+  ],
+  "schema:learningResourceType": [
+    "NOMADDocumentation"
+  ],
+  "schema:encodingFormat": [
+    "schema:TechArticle"
+  ],
+  "schema:license": [
+    "https://creativecommons.org/publicdomain/zero/1.0/"
+  ],
+  "schema:identifier": "https://nomad-lab.eu/prod/v1/docs/howto/programmatic/pythonlib.html",
+  "schema:inLanguage": "en",
+  "schema:isBasedOn": [],
+  "schema:isPartOf": [
+    "https://nomad-lab.eu/prod/v1/docs/"
+  ]
+}

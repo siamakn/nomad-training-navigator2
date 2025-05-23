@@ -1,0 +1,73 @@
+{
+  "@context": "context/context.jsonld",
+  "@id": "0cf0e34e-b2cc-4baa-9e4e-cb9c00f034cd",
+  "@type": "schema:LearningResource",
+  "dct:title": "NOMAD How-to guides",
+  "dct:description": "This page provides categorized how-to guides for using, customizing, and developing the NOMAD platform. It supports a wide range of users � from researchers managing and exploring data via the web interface and APIs, to data stewards and developers configuring NOMAD Oasis or contributing plugins and code. Each guide offers practical, task-oriented instructions, making it easier to work with data, extend functionality, and self-host NOMAD services.",
+  "dct:subject": [
+    "General NOMAD",
+    "Publish",
+    "Explore",
+    "Analyze",
+    "ELN",
+    "API",
+    "Oasis Customization",
+    "Oasis Installation",
+    "Oasis Configuration",
+    "NOMAD Plugins",
+    "Develop NOMAD"
+  ],
+  "schema:keywords": [
+    "login",
+    "register",
+    "Introduction",
+    "Upload Data",
+    "Create Dataset",
+    "Get DOI",
+    "Manage Members",
+    "Supported Files",
+    "Filter Menu",
+    "Widgets",
+    "Dashboard",
+    "NORTH",
+    "Built-in Schema",
+    "Custom YAML Schema",
+    "Tabular Parser YAML",
+    "Base Section",
+    "NeXus Data Converter",
+    "Write App",
+    "Write Example Upload",
+    "Write Normalizer",
+    "Configure Oasis",
+    "Install Oasis",
+    "Write Parser",
+    "Write Schema Package",
+    "Develop Plugin",
+    "Install Plugin"
+  ],
+  "schema:dateCreated": "2025-05-22",
+  "schema:dateModified": "2024-04-25",
+  "schema:educationalLevel": [
+    "Beginner",
+    "Intermediate",
+    "Advanced"
+  ],
+  "dct:instructionalMethod": [
+    "HowTo"
+  ],
+  "schema:learningResourceType": [
+    "NOMADDocumentation"
+  ],
+  "schema:encodingFormat": [
+    "schema:TechArticle"
+  ],
+  "schema:license": [
+    "https://creativecommons.org/publicdomain/zero/1.0/"
+  ],
+  "schema:identifier": "https://nomad-lab.eu/prod/v1/docs/howto/overview.html",
+  "schema:inLanguage": "en",
+  "schema:isBasedOn": [],
+  "schema:isPartOf": [
+    "https://nomad-lab.eu/prod/v1/docs/"
+  ]
+}

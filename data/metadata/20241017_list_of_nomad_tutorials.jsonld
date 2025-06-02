@@ -1,0 +1,36 @@
+{
+  "@context": "context/context.jsonld",
+  "@id": "15d3e8e2-5cc1-4628-accb-2a89e69c9408",
+  "@type": "schema:LearningResource",
+  "dct:title": "List of NOMAD tutorials",
+  "dct:description": "This reference page provides a chronological list of NOMAD and FAIRmat tutorials covering key topics in research data management (RDM), FAIR data principles, electronic lab notebooks (ELNs), plugin development, molecular simulations, and more. Each tutorial includes a title, date, event link, and a short summary of the covered topics, helping users to find hands-on learning resources for using the NOMAD platform effectively.",
+  "dct:subject": [
+    "General NOMAD"
+  ],
+  "schema:keywords": [
+    "Introduction"
+  ],
+  "schema:dateCreated": "2025-06-02",
+  "schema:dateModified": "2024-10-17",
+  "schema:educationalLevel": [
+    "Beginner"
+  ],
+  "dct:instructionalMethod": [
+    "Reference"
+  ],
+  "schema:learningResourceType": [
+    "NOMADDocumentation"
+  ],
+  "schema:encodingFormat": [
+    "schema:TechArticle"
+  ],
+  "schema:license": [
+    "https://creativecommons.org/publicdomain/zero/1.0/"
+  ],
+  "schema:identifier": "https://nomad-lab.eu/prod/v1/docs/reference/tutorials.html",
+  "schema:inLanguage": "en",
+  "schema:isBasedOn": [],
+  "schema:isPartOf": [
+    "https://nomad-lab.eu/prod/v1/docs/index.html"
+  ]
+}

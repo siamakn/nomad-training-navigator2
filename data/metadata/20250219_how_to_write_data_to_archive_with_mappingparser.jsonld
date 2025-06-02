@@ -1,0 +1,38 @@
+{
+  "@context": "context/context.jsonld",
+  "@id": "9346daad-6472-4d12-b9fd-3bb366bb910f",
+  "@type": "schema:LearningResource",
+  "dct:title": "How to write data to archive with MappingParser",
+  "dct:description": "This documentation explains how to use the MappingParser framework in NOMAD to write data into archive files from various source formats (e.g., XML, HDF5). It details the abstract structure of MappingParser, including its subclasses (XMLParser, HDF5Parser, and MetainfoParser), and illustrates how to define data transformations using a Mapper. Mappers can handle direct path mapping (Map), functional transformations (Evaluate), or nested mappers (Mapper). The guide includes examples of converting HDF5 content into NOMAD archive sections with annotated metainfo schemas.",
+  "dct:subject": [
+    "General NOMAD"
+  ],
+  "schema:keywords": [
+    "Write Parser",
+    "JSON Transformer",
+    "Data Modeling"
+  ],
+  "schema:dateCreated": "2025-06-02",
+  "schema:dateModified": "2025-02-19",
+  "schema:educationalLevel": [
+    "Intermediate"
+  ],
+  "dct:instructionalMethod": [
+    "HowTo"
+  ],
+  "schema:learningResourceType": [
+    "NOMADDocumentation"
+  ],
+  "schema:encodingFormat": [
+    "schema:TechArticle"
+  ],
+  "schema:license": [
+    "https://creativecommons.org/publicdomain/zero/1.0/"
+  ],
+  "schema:identifier": "https://nomad-lab.eu/prod/v1/docs/howto/customization/mapping_parser.html",
+  "schema:inLanguage": "en",
+  "schema:isBasedOn": [],
+  "schema:isPartOf": [
+    "https://nomad-lab.eu/prod/v1/docs/index.html"
+  ]
+}

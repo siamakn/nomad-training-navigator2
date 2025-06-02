@@ -1,0 +1,39 @@
+{
+  "@context": "context/context.jsonld",
+  "@id": "1c33df69-4041-4f08-bd1f-28d520a99451",
+  "@type": "schema:LearningResource",
+  "dct:title": "How to work with units",
+  "dct:description": "This documentation explains how units are handled in the NOMAD infrastructure, ensuring consistency and correctness in scientific data processing. It covers unit definitions using the Pint library, best practices for storing and displaying quantities with units, and how to use the nomad.units package to ensure interoperable unit conversions in Python. It also demonstrates how display units can differ from storage units, allowing user-specific preferences in the GUI via ELN annotations.",
+  "dct:subject": [
+    "General NOMAD"
+  ],
+  "schema:keywords": [
+    "Units",
+    "SI Units",
+    "Scientific Units",
+    "Pint Library"
+  ],
+  "schema:dateCreated": "2025-06-02",
+  "schema:dateModified": "2024-04-17",
+  "schema:educationalLevel": [
+    "Beginner"
+  ],
+  "dct:instructionalMethod": [
+    "HowTo"
+  ],
+  "schema:learningResourceType": [
+    "NOMADDocumentation"
+  ],
+  "schema:encodingFormat": [
+    "schema:TechArticle"
+  ],
+  "schema:license": [
+    "https://creativecommons.org/publicdomain/zero/1.0/"
+  ],
+  "schema:identifier": "https://nomad-lab.eu/prod/v1/docs/howto/customization/units.html",
+  "schema:inLanguage": "en",
+  "schema:isBasedOn": [],
+  "schema:isPartOf": [
+    "https://nomad-lab.eu/prod/v1/docs/index.html"
+  ]
+}

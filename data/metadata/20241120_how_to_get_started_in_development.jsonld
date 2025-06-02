@@ -1,0 +1,42 @@
+{
+  "@context": "context/context.jsonld",
+  "@id": "c2120202-9847-4924-b2c2-77443ef62e5a",
+  "@type": "schema:LearningResource",
+  "dct:title": "How to get started in development",
+  "dct:description": "A comprehensive step-by-step guide for developers to set up the NOMAD development environment. It covers cloning the source code, creating Python and Node.js environments, installing dependencies, running NOMAD services with Docker, configuring JupyterHub, executing backend and frontend tests, and building the application. The guide also includes setup instructions for Visual Studio Code and tips for plugin development using nomad-distro-dev.",
+  "dct:subject": [
+    "Develop NOMAD",
+    "NOMAD Plugins"
+  ],
+  "schema:keywords": [
+    "Docker Compose",
+    "Elasticsearch",
+    "MongoDB",
+    "Visual Studio Code",
+    "Node.js",
+    "Python Environment"
+  ],
+  "schema:dateCreated": "2025-06-02",
+  "schema:dateModified": "2024-11-20",
+  "schema:educationalLevel": [
+    "Intermediate"
+  ],
+  "dct:instructionalMethod": [
+    "HowTo"
+  ],
+  "schema:learningResourceType": [
+    "NOMADDocumentation"
+  ],
+  "schema:encodingFormat": [
+    "schema:TechArticle"
+  ],
+  "schema:license": [
+    "https://creativecommons.org/publicdomain/zero/1.0/"
+  ],
+  "schema:identifier": "https://nomad-lab.eu/prod/v1/docs/howto/develop/setup.html",
+  "schema:inLanguage": "en",
+  "schema:isBasedOn": [],
+  "schema:isPartOf": [
+    "https://nomad-lab.eu/prod/v1/docs/index.html"
+  ]
+}

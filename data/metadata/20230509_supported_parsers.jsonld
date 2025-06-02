@@ -1,0 +1,37 @@
+{
+  "@context": "context/context.jsonld",
+  "@id": "c3cd462c-6a84-43ef-9987-23881d643ede",
+  "@type": "schema:LearningResource",
+  "dct:title": "Supported parsers",
+  "dct:description": "This section provides an up-to-date list of all file parsers integrated into the NOMAD infrastructure. Each parser is tailored to specific simulation or measurement codes and is capable of extracting structured data and metadata from raw output files. The table outlines the supported file formats, corresponding parser names, and their associated domains in materials science. These parsers enable automatic data extraction, normalization, and indexing within the NOMAD repository.",
+  "dct:subject": [
+    "General NOMAD"
+  ],
+  "schema:keywords": [
+    "Supported Files",
+    "Parsers"
+  ],
+  "schema:dateCreated": "2025-06-02",
+  "schema:dateModified": "2023-05-09",
+  "schema:educationalLevel": [
+    "Beginner"
+  ],
+  "dct:instructionalMethod": [
+    "Reference"
+  ],
+  "schema:learningResourceType": [
+    "NOMADDocumentation"
+  ],
+  "schema:encodingFormat": [
+    "schema:TechArticle"
+  ],
+  "schema:license": [
+    "https://creativecommons.org/publicdomain/zero/1.0/"
+  ],
+  "schema:identifier": "https://nomad-lab.eu/prod/v1/docs/reference/parsers.html",
+  "schema:inLanguage": "en",
+  "schema:isBasedOn": [],
+  "schema:isPartOf": [
+    "https://nomad-lab.eu/prod/v1/docs/index.html"
+  ]
+}

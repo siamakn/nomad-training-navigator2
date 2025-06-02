@@ -1,0 +1,39 @@
+{
+  "@context": "context/context.jsonld",
+  "@id": "4c5cea20-a5d3-4b60-9d59-31c10ff607dd",
+  "@type": "schema:LearningResource",
+  "dct:title": "Code guidelines",
+  "dct:description": "This reference page outlines the coding standards and best practices for contributing to the NOMAD project. It covers principles for code clarity, structure, and maintainability; formatting and testing requirements; documentation expectations; naming conventions; and structured logging. The guidelines ensure consistency across the NOMAD codebase, facilitate collaborative development, and help maintain high code quality through CI/CD enforcement. Contributors are expected to follow Pythonic principles, Clean Code practices, and use tools like linters, formatters, and automated documentation generation.",
+  "dct:subject": [
+    "Develop NOMAD"
+  ],
+  "schema:keywords": [
+    "Develop Plugin",
+    "Introduction",
+    "Git Best Practices",
+    "NOMAD Python Package"
+  ],
+  "schema:dateCreated": "2025-06-02",
+  "schema:dateModified": "2023-12-12",
+  "schema:educationalLevel": [
+    "Beginner"
+  ],
+  "dct:instructionalMethod": [
+    "Reference"
+  ],
+  "schema:learningResourceType": [
+    "NOMADDocumentation"
+  ],
+  "schema:encodingFormat": [
+    "schema:TechArticle"
+  ],
+  "schema:license": [
+    "https://creativecommons.org/publicdomain/zero/1.0/"
+  ],
+  "schema:identifier": "https://nomad-lab.eu/prod/v1/docs/reference/code_guidelines.html",
+  "schema:inLanguage": "en",
+  "schema:isBasedOn": [],
+  "schema:isPartOf": [
+    "https://nomad-lab.eu/prod/v1/docs/index.html"
+  ]
+}

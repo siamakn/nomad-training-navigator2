@@ -1,0 +1,46 @@
+{
+  "@context": "context/context.jsonld",
+  "@id": "c0d9f633-86a4-46cc-aaf7-7bb97d8f6295",
+  "@type": "schema:LearningResource",
+  "dct:title": "FAIRmat Tutorial 9: How to create a NOMAD plugin",
+  "dct:description": "In this tutorial video, Markus Scheidgen introduces the new plugin mechanism for NOMAD and demonstrates its usage.\n\n    For more info on the FAIRmat tutorial series, and for access to the hands-on materials, visit our website: https://www.fairmat-nfdi.eu/fairmat/outreach-fairmat/tutorials-fairmat\n    Watch the rest of the tutorial here at    • FAIRmat Tutorial 9: Plugins: Python s...  \n\n\nDisclaimer: NOMAD is being continuously developed based on input and feedback from the scientific community. Hence the features, services or interface may have changed since the time of recording of this video. For up-to-date information please consult our latest tutorials and the NOMAD documentation https://nomad-lab.eu/prod/v1/docs/",
+  "dct:subject": [
+    "General NOMAD",
+    "NOMAD Plugins"
+  ],
+  "schema:keywords": [
+    "Introduction",
+    "Develop Plugin",
+    "Install Plugin"
+  ],
+  "schema:dateCreated": "2025-05-19",
+  "schema:dateModified": "2023-05-08",
+  "schema:educationalLevel": [
+    "Intermediate",
+    "Advanced"
+  ],
+  "dct:instructionalMethod": [
+    "Tutorial"
+  ],
+  "schema:learningResourceType": [
+    "FAIRmatTutorial"
+  ],
+  "schema:encodingFormat": [
+    "schema:VideoObject"
+  ],
+  "schema:license": [
+    "https://creativecommons.org/licenses/by/4.0/"
+  ],
+  "schema:identifier": "https://youtu.be/_5hADA1QVw8?si=BKCFk_FcFyuKW8eX",
+  "schema:inLanguage": "en",
+  "schema:isBasedOn": [],
+  "schema:isPartOf": [
+    "https://www.youtube.com/playlist?list=PLrRaxjvn6FDW-_DzZ4OShfMPcTtnFoynT"
+  ],
+  "schema:isFormatOf": [
+    "https://docs.google.com/presentation/d/19wDUGjw_RsZ_kF75XALyNz7WKiKY1TWVB3lpbmncgjk/edit?slide=id.g22f27c6ffee_0_8#slide=id.g22f27c6ffee_0_8"
+  ],
+  "schema:isReplacedBy": [
+    "https://youtu.be/c99XEC6GPfE?si=WQm62yU3hqwBvSV3"
+  ]
+}

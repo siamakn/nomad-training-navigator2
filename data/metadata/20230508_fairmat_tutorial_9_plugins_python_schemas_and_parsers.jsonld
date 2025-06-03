@@ -1,0 +1,44 @@
+{
+  "@context": "context/context.jsonld",
+  "@id": "53769c5f-3071-4442-9c3f-4801aa1679e2",
+  "@type": "schema:LearningResource",
+  "dct:title": "FAIRmat Tutorial 9: Plugins: Python schemas and parsers ",
+  "dct:description": "This tutorial aims to introduce participants to the new plugin mechanism in NOMAD and teach them how to develop and integrate their own Python schemas and parsers to a NOMAD Oasis. Plugins enable you to alter how NOMAD processes data and therefore allow for more powerful customisations than the custom schemas presented in past tutorials. Participants will learn how to enable the conversion of new materials science data formats into NOMAD's standardised and machine-readable format. NOMAD plugins can be contributed to the community to further promote reproducibility and transparency in materials science.",
+  "dct:subject": [
+    "General NOMAD",
+    "NOMAD Plugins",
+    "Oasis Customization"
+  ],
+  "schema:keywords": [
+    "Introduction",
+    "Tabular Parser YAML",
+    "Write Normalizer",
+    "Write Parser",
+    "Develop Plugin",
+    "Install Plugin",
+    "Tabular Parser"
+  ],
+  "schema:dateCreated": "2025-05-21",
+  "schema:dateModified": "2023-05-08",
+  "schema:educationalLevel": [
+    "Intermediate"
+  ],
+  "dct:instructionalMethod": [
+    "Tutorial"
+  ],
+  "schema:learningResourceType": [
+    "FAIRmatTutorial"
+  ],
+  "schema:encodingFormat": [
+    "schema:VideoObject"
+  ],
+  "schema:license": [
+    "https://creativecommons.org/licenses/by/4.0/"
+  ],
+  "schema:identifier": "https://www.youtube.com/playlist?list=PLrRaxjvn6FDW-_DzZ4OShfMPcTtnFoynT",
+  "schema:inLanguage": "en",
+  "schema:isBasedOn": [],
+  "schema:isReplacedBy": [
+    "https://www.youtube.com/playlist?list=PLrRaxjvn6FDVhfYbSU537bxdKI7oIbIT3"
+  ]
+}

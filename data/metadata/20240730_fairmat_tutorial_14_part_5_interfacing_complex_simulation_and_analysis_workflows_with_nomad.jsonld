@@ -1,0 +1,44 @@
+{
+  "@context": "context/context.jsonld",
+  "@id": "9c51865e-dfef-4286-bbf0-c1aac76ca07e",
+  "@type": "schema:LearningResource",
+  "dct:title": "FAIRmat Tutorial 14 Part 5: Interfacing complex simulation and analysis workflows with NOMAD",
+  "dct:description": "In this fifth and last part of the 14th FAIRmat Tutorial, José Pizarro interfaces the workflow of complex simulation and analysis with NOMAD. \n\nThe GitHub Repository contains material used and provided during the tutorial: https://fairmat-nfdi.github.io/fairma...\n\nFor more info on the FAIRmat tutorial series, visit our website: https://www.fairmat-nfdi.eu/fairmat/o...\n\nWatch the rest of the tutorial here at    • FAIRmat Tutorial 14: Developing schem...  \n\nDisclaimer: NOMAD is being continuously developed based on input and feedback from the scientific community. Hence, the features, services, or interface may have changed since the time of the recording of this video. \n\nFor up-to-date information please consult our latest tutorials and the NOMAD documentation: https://nomad-lab.eu/prod/v1/docs/\n",
+  "dct:subject": [
+    "Oasis Customization",
+    "NOMAD Plugins",
+    "Develop NOMAD"
+  ],
+  "schema:keywords": [
+    "Write Schema Package",
+    "Develop Plugin",
+    "Simulation",
+    "Workflows"
+  ],
+  "schema:dateCreated": "2025-05-19",
+  "schema:dateModified": "2024-07-30",
+  "schema:educationalLevel": [
+    "Advanced"
+  ],
+  "dct:instructionalMethod": [
+    "Tutorial"
+  ],
+  "schema:learningResourceType": [
+    "FAIRmatTutorial"
+  ],
+  "schema:encodingFormat": [
+    "schema:VideoObject"
+  ],
+  "schema:license": [
+    "https://creativecommons.org/licenses/by/4.0/"
+  ],
+  "schema:identifier": "https://youtu.be/bbDeMMOuEFE?si=HmClBY4age3tjEd3",
+  "schema:inLanguage": "en",
+  "schema:isBasedOn": [],
+  "schema:isPartOf": [
+    "https://www.youtube.com/playlist?list=PLrRaxjvn6FDXiHpOKpRN_Phv14Qdqg7lp"
+  ],
+  "schema:isFormatOf": [
+    "https://fairmat-nfdi.github.io/fairmat-tutorial-14-computational-plugins/custom_workflows/"
+  ]
+}

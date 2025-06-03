@@ -1,0 +1,38 @@
+{
+  "@context": "context/context.jsonld",
+  "@id": "4b02eb69-1ff8-4b05-a570-045553ebb491",
+  "@type": "schema:LearningResource",
+  "dct:title": "FAIRmat Tutorial 6: Experimental data management in NOMAD ",
+  "dct:description": "We present a hands-on tutorial on how FAIRmat supports the data lifecycle from planning and running an experiment to collecting and annotating data according to international community standards for searchability, and reuse.\n\nFor this purpose, we bring a very simple experiment of a temperature dependent I-V measurement in as an example and let every participant follow us and connect to our central data management services, to view, explore and work with the datasets collected on-the-fly.",
+  "dct:subject": [
+    "General NOMAD",
+    "NOMAD CAMELS",
+    "Scientific Use Cases",
+    "NeXus"
+  ],
+  "schema:keywords": [
+    "CAMELS",
+    "NeXus Ontology",
+    "NeXus data modeling"
+  ],
+  "schema:dateCreated": "2025-05-21",
+  "schema:dateModified": "2022-12-14",
+  "schema:educationalLevel": [
+    "Beginner"
+  ],
+  "dct:instructionalMethod": [
+    "Tutorial"
+  ],
+  "schema:learningResourceType": [
+    "FAIRmatTutorial"
+  ],
+  "schema:encodingFormat": [
+    "schema:VideoObject"
+  ],
+  "schema:license": [
+    "https://creativecommons.org/licenses/by/4.0/"
+  ],
+  "schema:identifier": "https://www.youtube.com/playlist?list=PLrRaxjvn6FDU3HeV6byx_kUlU6UXkfhil",
+  "schema:inLanguage": "en",
+  "schema:isBasedOn": []
+}

@@ -1,0 +1,37 @@
+{
+  "@context": "context/context.jsonld",
+  "@id": "edb55fd4-54ce-49ea-9f84-0b5a199b7adb",
+  "@type": "schema:LearningResource",
+  "dct:title": " FAIRmat Tutorial 8: Using base classes and references ",
+  "dct:description": "In this hands-on tutorial, Hampus Näsström will show how to use base classes and references in NOMAD.\n\n    For more info on the FAIRmat tutorial series, and for access to the hands-on materials, visit our website: https://www.fairmat-nfdi.eu/fairmat/outreach-fairmat/tutorials-fairmat\n    Watch the rest of the tutorial here at    • FAIRmat Tutorial 8: Using NOMAD as an...  \n\n\nDisclaimer: NOMAD is being continuously developed based on input and feedback from the scientific community. Hence the features, services or interface may have changed since the time of recording of this video. For up-to-date information please consult our latest tutorials and the NOMAD documentation https://nomad-lab.eu/prod/v1/docs/",
+  "dct:subject": [
+    "ELN"
+  ],
+  "schema:keywords": [
+    "Custom YAML Schema",
+    "Base Section"
+  ],
+  "schema:dateCreated": "2025-05-21",
+  "schema:dateModified": "2023-04-27",
+  "schema:educationalLevel": [
+    "Intermediate"
+  ],
+  "dct:instructionalMethod": [
+    "Tutorial"
+  ],
+  "schema:learningResourceType": [
+    "FAIRmatTutorial"
+  ],
+  "schema:encodingFormat": [
+    "schema:VideoObject"
+  ],
+  "schema:license": [
+    "https://creativecommons.org/licenses/by/4.0/"
+  ],
+  "schema:identifier": "https://youtu.be/BFOBZ2taBmw?si=HDj4YZrhR9jI02R2",
+  "schema:inLanguage": "en",
+  "schema:isBasedOn": [],
+  "schema:isPartOf": [
+    "https://www.youtube.com/playlist?list=PLrRaxjvn6FDWJHeIwvmnmy7frNyO6QDX4"
+  ]
+}

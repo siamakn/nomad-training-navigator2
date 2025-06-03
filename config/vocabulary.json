@@ -10,7 +10,14 @@
     "Oasis Installation",
     "Oasis Configuration",
     "NOMAD Plugins",
-    "Develop NOMAD"
+    "Develop NOMAD",
+    "NeXus",
+    "General RDM",
+    "Scientific Use Cases",
+    "CAMELS",
+    "NOMAD CAMELS",
+    "NOMAD Encyclopedia",
+    "AI"
   ],
   "keywords": [
     "login",
@@ -38,7 +45,18 @@
     "Develop Plugin",
     "Install Plugin",
     "Install Oasis",
-    "Configure Oasis"
+    "Configure Oasis",
+    "NeXus data modeling",
+    "NeXus Ontology",
+    "pynxtools",
+    "Simulation",
+    "Workflows",
+    "General RDM",
+    "DMP",
+    "FAIR principles ",
+    "Tabular Parser",
+    "CAMELS",
+    "AI Toolkit"
   ],
   "educational_levels": [
     "Beginner",

@@ -1,0 +1,35 @@
+{
+  "@context": "context/context.jsonld",
+  "@id": "2c0ce145-a9aa-4b5d-99c9-7ad262e07aa5",
+  "@type": "schema:LearningResource",
+  "dct:title": "FAIRmat Tutorial 11: Research data management, from fundamentals to implementation ",
+  "dct:description": "This FAIRmat tutorial explains the different stages of the research data lifecycle and identifies the best practices for each stage. It explores the FAIR data principles — Findable, Accessible, Interoperable, and Reusable — and provides insights into their implementation during the research process. In addition, It also introduces the concept of data management plans that define the data management process during research projects, along with practical tips on the various components and how to meet funder requirements. \n\nFor more information and the tutorial materials, visit the FAIRmat website: https://www.fairmat-nfdi.eu/events/fairmat-tutorial-11/tutorial-11-home",
+  "dct:subject": [
+    "General RDM"
+  ],
+  "schema:keywords": [
+    "FAIR principles ",
+    "DMP",
+    "General RDM"
+  ],
+  "schema:dateCreated": "2025-05-19",
+  "schema:dateModified": "2023-11-30",
+  "schema:educationalLevel": [
+    "Beginner"
+  ],
+  "dct:instructionalMethod": [
+    "Tutorial"
+  ],
+  "schema:learningResourceType": [
+    "FAIRmatTutorial"
+  ],
+  "schema:encodingFormat": [
+    "schema:VideoObject"
+  ],
+  "schema:license": [
+    "https://creativecommons.org/licenses/by/4.0/"
+  ],
+  "schema:identifier": "https://www.youtube.com/playlist?list=PLrRaxjvn6FDWdPumEXea7xNbx1I4FaPtW",
+  "schema:inLanguage": "en",
+  "schema:isBasedOn": []
+}

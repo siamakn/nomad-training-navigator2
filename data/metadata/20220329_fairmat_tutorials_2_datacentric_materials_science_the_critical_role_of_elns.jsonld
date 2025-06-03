@@ -1,0 +1,36 @@
+{
+  "@context": "context/context.jsonld",
+  "@id": "4cf8c549-ab68-442b-9900-f9d32e368313",
+  "@type": "schema:LearningResource",
+  "dct:title": "FAIRmat Tutorials 2: Data-Centric Materials Science: The Critical Role of ELNs",
+  "dct:description": "Dr. John Henry J. Scott gives an introduction into the role of electronic lab notebooks (ELNs) in data-centric materials science.\n\nMore info on the FAIRmat tutorial series here\n\nwebsite: https://www.fairmat-nfdi.eu/fairmat/outreach-fairmat/tutorials-fairmat\n\nTutorial 2:    • FAIRmat Tutorials 2: Electronic Lab N...  \n\nDisclaimer: NOMAD is being continuously developed based on input and feedback from the scientific community. Hence the features, services or interface may have changed since the time of recording of this video. For up-to-date information please consult our latest tutorials and the NOMAD documentation https://nomad-lab.eu/prod/v1/docs/",
+  "dct:subject": [
+    "ELN"
+  ],
+  "schema:keywords": [
+    "Introduction"
+  ],
+  "schema:dateCreated": "2025-05-21",
+  "schema:dateModified": "2022-03-29",
+  "schema:educationalLevel": [
+    "Beginner"
+  ],
+  "dct:instructionalMethod": [
+    "Tutorial"
+  ],
+  "schema:learningResourceType": [
+    "FAIRmatTutorial"
+  ],
+  "schema:encodingFormat": [
+    "schema:VideoObject"
+  ],
+  "schema:license": [
+    "https://creativecommons.org/licenses/by/4.0/"
+  ],
+  "schema:identifier": "https://youtu.be/DcTvizGAB88?si=Q5tx2AiSlzZC3j_2",
+  "schema:inLanguage": "en",
+  "schema:isBasedOn": [],
+  "schema:isPartOf": [
+    "https://www.youtube.com/playlist?list=PLrRaxjvn6FDVZvROmQW_zmIyhDMMJfwZL"
+  ]
+}

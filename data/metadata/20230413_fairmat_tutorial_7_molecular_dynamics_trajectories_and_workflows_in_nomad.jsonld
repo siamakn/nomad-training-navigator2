@@ -1,0 +1,37 @@
+{
+  "@context": "context/context.jsonld",
+  "@id": "145d300d-98e1-4bf9-bf9c-4b1e4ce22ed4",
+  "@type": "schema:LearningResource",
+  "dct:title": "FAIRmat Tutorial 7: Molecular Dynamics Trajectories and Workflows in NOMAD",
+  "dct:description": "The FAIRmat team has recently extended the NOMAD infrastructure to support trajectories and workflows, including classical molecular dynamics simulations. This interactive tutorial will walk users through the new features, demonstrating how to upload data, assess the system composition and equilibration, explore the trajectory metadata, and extract archive entries to perform detailed analyses.",
+  "dct:subject": [
+    "Scientific Use Cases",
+    "General NOMAD"
+  ],
+  "schema:keywords": [
+    "Workflows",
+    "Simulation",
+    "NORTH",
+    "Introduction"
+  ],
+  "schema:dateCreated": "2025-05-21",
+  "schema:dateModified": "2023-04-13",
+  "schema:educationalLevel": [
+    "Intermediate"
+  ],
+  "dct:instructionalMethod": [
+    "Tutorial"
+  ],
+  "schema:learningResourceType": [
+    "FAIRmatTutorial"
+  ],
+  "schema:encodingFormat": [
+    "schema:VideoObject"
+  ],
+  "schema:license": [
+    "https://creativecommons.org/licenses/by/4.0/"
+  ],
+  "schema:identifier": "https://www.youtube.com/playlist?list=PLrRaxjvn6FDXxq37e6zp83q3XK32Sj6ES",
+  "schema:inLanguage": "en",
+  "schema:isBasedOn": []
+}

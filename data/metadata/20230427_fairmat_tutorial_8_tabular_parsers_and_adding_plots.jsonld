@@ -1,0 +1,38 @@
+{
+  "@context": "context/context.jsonld",
+  "@id": "e6fec3e8-5dd9-4df1-bf20-62348d77e7dd",
+  "@type": "schema:LearningResource",
+  "dct:title": "FAIRmat Tutorial 8: Tabular parsers and adding plots",
+  "dct:description": "In this video, Andrea Albino will introduce reading of files with the tabular parser and adding plots in the NOMAD ELN, within a hands-on tutorial.\n\n\n    For more info on the FAIRmat tutorial series, and for access to the hands-on materials, visit our website: https://www.fairmat-nfdi.eu/fairmat/outreach-fairmat/tutorials-fairmat\n    Watch the rest of the tutorial here at    • FAIRmat Tutorial 8: Using NOMAD as an...  \n\n\nDisclaimer: NOMAD is being continuously developed based on input and feedback from the scientific community. Hence the features, services or interface may have changed since the time of recording of this video. For up-to-date information please consult our latest tutorials and the NOMAD documentation https://nomad-lab.eu/prod/v1/docs/",
+  "dct:subject": [
+    "ELN"
+  ],
+  "schema:keywords": [
+    "Custom YAML Schema",
+    "Tabular Parser YAML",
+    "Tabular Parser"
+  ],
+  "schema:dateCreated": "2025-05-21",
+  "schema:dateModified": "2023-04-27",
+  "schema:educationalLevel": [
+    "Intermediate"
+  ],
+  "dct:instructionalMethod": [
+    "Tutorial"
+  ],
+  "schema:learningResourceType": [
+    "FAIRmatTutorial"
+  ],
+  "schema:encodingFormat": [
+    "schema:VideoObject"
+  ],
+  "schema:license": [
+    "https://creativecommons.org/licenses/by/4.0/"
+  ],
+  "schema:identifier": "FAIRmat Tutorial 8: Tabular parsers and adding plots",
+  "schema:inLanguage": "en",
+  "schema:isBasedOn": [],
+  "schema:isPartOf": [
+    "https://www.youtube.com/playlist?list=PLrRaxjvn6FDWJHeIwvmnmy7frNyO6QDX4"
+  ]
+}

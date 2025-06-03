@@ -1,0 +1,35 @@
+{
+  "@context": "context/context.jsonld",
+  "@id": "6d7088e0-c76f-4721-9d53-d256591ea7ed",
+  "@type": "schema:LearningResource",
+  "dct:title": "FAIRmat Tutorial 5: NOMAD Encyclopedia ",
+  "dct:description": "The NOMAD Encyclopedia is a web-based public infrastructure that provides this materials-oriented view on the NOMAD Repository & Archive. In this tutorial we will discuss how to navigate the materials space using the Encyclopedia GUI as well as the more advanced tasks which are possible using the Encyclopedia API.",
+  "dct:subject": [
+    "NOMAD Encyclopedia"
+  ],
+  "schema:keywords": [
+    "General RDM"
+  ],
+  "schema:dateCreated": "2025-05-21",
+  "schema:dateModified": "2022-10-19",
+  "schema:educationalLevel": [
+    "Beginner",
+    "Intermediate",
+    "Advanced"
+  ],
+  "dct:instructionalMethod": [
+    "Tutorial"
+  ],
+  "schema:learningResourceType": [
+    "FAIRmatTutorial"
+  ],
+  "schema:encodingFormat": [
+    "schema:VideoObject"
+  ],
+  "schema:license": [
+    "https://creativecommons.org/licenses/by/4.0/"
+  ],
+  "schema:identifier": "https://www.youtube.com/playlist?list=PLrRaxjvn6FDWoJZwXpW28YyXnA0vdpYej",
+  "schema:inLanguage": "en",
+  "schema:isBasedOn": []
+}

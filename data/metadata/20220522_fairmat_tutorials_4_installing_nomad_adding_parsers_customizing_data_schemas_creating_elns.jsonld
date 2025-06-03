@@ -1,0 +1,41 @@
+{
+  "@context": "context/context.jsonld",
+  "@id": "bbead6cb-5035-4261-9652-10ccb4df941e",
+  "@type": "schema:LearningResource",
+  "dct:title": "FAIRmat Tutorials 4: Installing NOMAD, adding parsers, customizing data schemas, creating ELNs",
+  "dct:description": "In this FAIRmat tutorial Markus Scheidgen demonstrates:  Installing NOMAD, adding parsers, customizing data schemas, creating ELNs\nMore info on the FAIRmat tutorial series here\n\nwebsite: https://www.fairmat-nfdi.eu/fairmat/outreach-fairmat/tutorials-fairmat\n\nTutorial 4:    • FAIRmat Tutorials 4: NOMAD Oasis and ...  \n\nDisclaimer: NOMAD is being continuously developed based on input and feedback from the scientific community. Hence the features, services or interface may have changed since the time of recording of this video. For up-to-date information please consult our latest tutorials and the NOMAD documentation https://nomad-lab.eu/prod/v1/docs/",
+  "dct:subject": [
+    "General NOMAD",
+    "Oasis Customization",
+    "Oasis Installation",
+    "Oasis Configuration",
+    "Develop NOMAD"
+  ],
+  "schema:keywords": [
+    "Configure Oasis"
+  ],
+  "schema:dateCreated": "2025-05-21",
+  "schema:dateModified": "2022-05-22",
+  "schema:educationalLevel": [
+    "Intermediate",
+    "Advanced"
+  ],
+  "dct:instructionalMethod": [
+    "Tutorial"
+  ],
+  "schema:learningResourceType": [
+    "FAIRmatTutorial"
+  ],
+  "schema:encodingFormat": [
+    "schema:VideoObject"
+  ],
+  "schema:license": [
+    "https://creativecommons.org/licenses/by/4.0/"
+  ],
+  "schema:identifier": "https://youtu.be/s9Ju4-CgPHc?si=d1rp1_KvQK81gG1J",
+  "schema:inLanguage": "en",
+  "schema:isBasedOn": [],
+  "schema:isPartOf": [
+    "https://www.youtube.com/playlist?list=PLrRaxjvn6FDXqfEz1rDWvbGkzMBm7afsl"
+  ]
+}

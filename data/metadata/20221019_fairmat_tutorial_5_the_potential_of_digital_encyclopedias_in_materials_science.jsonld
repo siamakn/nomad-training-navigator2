@@ -1,0 +1,36 @@
+{
+  "@context": "context/context.jsonld",
+  "@id": "0629a2b7-7b31-4b91-b39f-27b53811ed75",
+  "@type": "schema:LearningResource",
+  "dct:title": "FAIRmat Tutorial 5: The potential of digital encyclopedias in materials science",
+  "dct:description": "In this overview talk for the fifth FAIRmat tutorial, Christoph T. Koch talks about The potential of digital encyclopedias in materials science.\n\n    For more info on the FAIRmat tutorial series visit our website: https://www.fairmat-nfdi.eu/fairmat/outreach-fairmat/tutorials-fairmat\n    Watch the second installment of Tutorial 5 on the NOMAD Encyclopedia here:    • FAIRmat Tutorial 5: Introduction to t...  \n\n\nDisclaimer: NOMAD is being continuously developed based on input and feedback from the scientific community. Hence the features, services or interface may have changed since the time of recording of this video. For up-to-date information please consult our latest tutorials and the NOMAD documentation https://nomad-lab.eu/prod/v1/docs/",
+  "dct:subject": [
+    "NOMAD Encyclopedia"
+  ],
+  "schema:keywords": [
+    "General RDM"
+  ],
+  "schema:dateCreated": "2025-05-21",
+  "schema:dateModified": "2022-10-19",
+  "schema:educationalLevel": [
+    "Beginner"
+  ],
+  "dct:instructionalMethod": [
+    "Tutorial"
+  ],
+  "schema:learningResourceType": [
+    "FAIRmatTutorial"
+  ],
+  "schema:encodingFormat": [
+    "schema:VideoObject"
+  ],
+  "schema:license": [
+    "https://creativecommons.org/licenses/by/4.0/"
+  ],
+  "schema:identifier": "https://youtu.be/U6Cgg62hZuY?si=CxoTDJAKmyHjjYKf",
+  "schema:inLanguage": "en",
+  "schema:isBasedOn": [],
+  "schema:isPartOf": [
+    "https://www.youtube.com/playlist?list=PLrRaxjvn6FDWoJZwXpW28YyXnA0vdpYej"
+  ]
+}

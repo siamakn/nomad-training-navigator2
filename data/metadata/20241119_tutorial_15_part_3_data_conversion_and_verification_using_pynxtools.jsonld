@@ -1,0 +1,39 @@
+{
+  "@context": "context/context.jsonld",
+  "@id": "7d3a4bdf-e5e7-4d35-ac8b-0981e32b2336",
+  "@type": "schema:LearningResource",
+  "dct:title": "Tutorial 15 Part 3 - Data conversion and verification using pynxtools",
+  "dct:description": "In this third part, Ron Hildebrandt demonstrates data conversion and verification using pynxtools.\n\nYou can find the slides used under this link: https://box.hu-berlin.de/d/2f8ee9e64e...\n\nYou can find the documents relevant to this part here: https://events.fairmat-nfdi.eu/event/...\n\nFor more info on the FAIRmat tutorial series, visit our website: https://www.fairmat-nfdi.eu/fairmat/o...\n\nWatch the rest of the tutorial here at    • FAIRmat Tutorial 15: Use of pynxtools...  \n\nDisclaimer: NOMAD is being continuously developed based on input and feedback from the scientific community. Hence, the features, services, or interface may have changed since this video was recorded.\n\nFor up-to-date information, please consult our latest tutorials and the NOMAD documentation: https://nomad-lab.eu/prod/v1/docs/\n\nChapters:\n00:00:00 Introduction\n00:01:59 Generation of NeXus files\n00:13:30 pynxtools\n00:52:48 Verification by pynxtools",
+  "dct:subject": [
+    "NeXus"
+  ],
+  "schema:keywords": [
+    "pynxtools",
+    "NeXus Ontology",
+    "NeXus data modeling"
+  ],
+  "schema:dateCreated": "2025-05-15",
+  "schema:dateModified": "2024-11-19",
+  "schema:educationalLevel": [
+    "Intermediate"
+  ],
+  "dct:instructionalMethod": [
+    "Tutorial"
+  ],
+  "schema:learningResourceType": [
+    "FAIRmatTutorial"
+  ],
+  "schema:encodingFormat": [
+    "schema:VideoObject"
+  ],
+  "schema:license": [],
+  "schema:identifier": "https://youtu.be/Xdgh99S91Qg?si=Q7lQ2K2Rc6Krq0K7",
+  "schema:inLanguage": "en",
+  "schema:isBasedOn": [],
+  "schema:isPartOf": [
+    "https://www.youtube.com/playlist?list=PLrRaxjvn6FDWascr_J2W54SmNE6wrLxR5"
+  ],
+  "schema:isFormatOf": [
+    "https://box.hu-berlin.de/d/2f8ee9e64edf4d8a90d3/files/?p=%2FRon%20Hildebrandt%20Data%20conversion%20and%20verification%20using%20pynxtools.pdf"
+  ]
+}

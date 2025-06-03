@@ -1,0 +1,40 @@
+{
+  "@context": "context/context.jsonld",
+  "@id": "e6f056e3-becd-412c-aca5-917db35d1206",
+  "@type": "schema:LearningResource",
+  "dct:title": "FAIRmat Tutorial 8: Using NOMAD as an Electronic lab notebook (ELN) for FAIR data ",
+  "dct:description": "In this FAIRmat tutorial, we focus on the usage of NOMAD as an ELN which enables the users to generate data following the FAIR principles. We will show how we adopted NOMAD to capture data from synthesis and experiment and make use of an automated data workflow. The key point here is writing a data schema and its implementation in NOMAD. After defining the used terms, we will start explaining this process by writing a simple schema and then go on to more advanced usage of NOMAD, e.g. using the build in csv/xlsx-file parser, automatized data visualization, adding extra functionality by usage of base classes, referencing to other data entries in NOMAD, and searching your ELN data. The tutorial is aimed at both scientists new to NOMAD and structured data as well as data stewards. Each lecture of the tutorial will be followed directly by a Q&A session and a hands-on tutorial.",
+  "dct:subject": [
+    "ELN"
+  ],
+  "schema:keywords": [
+    "Built-in Schema",
+    "Custom YAML Schema",
+    "Tabular Parser YAML",
+    "Base Section",
+    "Tabular Parser"
+  ],
+  "schema:dateCreated": "2025-05-21",
+  "schema:dateModified": "2023-04-27",
+  "schema:educationalLevel": [
+    "Intermediate"
+  ],
+  "dct:instructionalMethod": [
+    "Tutorial"
+  ],
+  "schema:learningResourceType": [
+    "FAIRmatTutorial"
+  ],
+  "schema:encodingFormat": [
+    "schema:VideoObject"
+  ],
+  "schema:license": [
+    "https://creativecommons.org/licenses/by/4.0/"
+  ],
+  "schema:identifier": "https://www.youtube.com/playlist?list=PLrRaxjvn6FDWJHeIwvmnmy7frNyO6QDX4",
+  "schema:inLanguage": "en",
+  "schema:isBasedOn": [],
+  "schema:isFormatOf": [
+    "https://github.com/FAIRmat-NFDI/AreaA-Examples/tree/main/tutorial8"
+  ]
+}

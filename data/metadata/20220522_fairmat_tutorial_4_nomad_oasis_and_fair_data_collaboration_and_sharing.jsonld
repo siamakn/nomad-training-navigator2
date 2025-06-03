@@ -1,0 +1,41 @@
+{
+  "@context": "context/context.jsonld",
+  "@id": "cf2fdcba-8f40-454e-9ab0-7b4a7ece4e8b",
+  "@type": "schema:LearningResource",
+  "dct:title": "FAIRmat Tutorial 4: NOMAD Oasis and FAIR Data Collaboration and Sharing ",
+  "dct:description": "In this tutorial, we focus on how to get started with NOMAD Oasis and adapt it to your research. One the first day, two talks will introduce you the general FAIRmat strategy and its \"bottom-up\" approach to manage heterogenous but FAIR data. On the second day, we will give the practical, step-by-step guides to get started with an Oasis: How you can install NOMAD Oasis, create example data, add schemas, and create ELNs.",
+  "dct:subject": [
+    "General NOMAD",
+    "ELN",
+    "Oasis Customization",
+    "Oasis Installation",
+    "Oasis Configuration",
+    "Develop NOMAD"
+  ],
+  "schema:keywords": [
+    "Install Oasis",
+    "Configure Oasis"
+  ],
+  "schema:dateCreated": "2025-05-21",
+  "schema:dateModified": "2022-05-22",
+  "schema:educationalLevel": [
+    "Intermediate",
+    "Advanced",
+    "Beginner"
+  ],
+  "dct:instructionalMethod": [
+    "Tutorial"
+  ],
+  "schema:learningResourceType": [
+    "FAIRmatTutorial"
+  ],
+  "schema:encodingFormat": [
+    "schema:VideoObject"
+  ],
+  "schema:license": [
+    "https://creativecommons.org/licenses/by/4.0/"
+  ],
+  "schema:identifier": "https://www.youtube.com/playlist?list=PLrRaxjvn6FDXqfEz1rDWvbGkzMBm7afsl",
+  "schema:inLanguage": "en",
+  "schema:isBasedOn": []
+}

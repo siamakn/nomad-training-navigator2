@@ -1,0 +1,38 @@
+{
+  "@context": "context/context.jsonld",
+  "@id": "a6f43e2a-9a79-46ab-ade2-dc7ecfb46086",
+  "@type": "schema:LearningResource",
+  "dct:title": "Tutorial 15 Part 2 - NeXus data modeling",
+  "dct:description": "In this second part, Sandor Brockhauser talks about data modeling with NeXus.\n\nYou can find the slides used under this link: https://box.hu-berlin.de/d/2f8ee9e64e...\n\nFor more info on the FAIRmat tutorial series, visit our website: https://www.fairmat-nfdi.eu/fairmat/o...\n\nWatch the rest of the tutorial here at    • FAIRmat Tutorial 15: Use of pynxtools...  \n\nDisclaimer: NOMAD is being continuously developed based on input and feedback from the scientific community. Hence, the features, services, or interface may have changed since this video was recorded \n\nFor up-to-date information, please consult our latest tutorials and the NOMAD documentation: https://nomad-lab.eu/prod/v1/docs/\n\nChapters:\n0:00 NeXus and Data modeling\n5:55 Data modeling in NOMAD\n8:38 NeXus Standard\n14:46 NeXus Ontology\n20:48 Summary",
+  "dct:subject": [
+    "NeXus"
+  ],
+  "schema:keywords": [
+    "NeXus data modeling",
+    "NeXus Ontology"
+  ],
+  "schema:dateCreated": "2025-05-15",
+  "schema:dateModified": "2024-11-19",
+  "schema:educationalLevel": [
+    "Intermediate"
+  ],
+  "dct:instructionalMethod": [
+    "Tutorial"
+  ],
+  "schema:learningResourceType": [
+    "FAIRmatTutorial"
+  ],
+  "schema:encodingFormat": [
+    "schema:VideoObject"
+  ],
+  "schema:license": [],
+  "schema:identifier": "https://youtu.be/88Q_gBSvA4w?si=CN9V8YScX8CnzLyQ",
+  "schema:inLanguage": "en",
+  "schema:isBasedOn": [],
+  "schema:isPartOf": [
+    "https://www.youtube.com/playlist?list=PLrRaxjvn6FDWascr_J2W54SmNE6wrLxR5"
+  ],
+  "schema:isFormatOf": [
+    "https://box.hu-berlin.de/d/2f8ee9e64edf4d8a90d3/files/?p=%2FSandor%20Blockhauser%20NeXus%20data%20modelling.pdf"
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "@context": "context/context.jsonld",
+  "@id": "87350363-67a3-42fa-9058-b68f02e30809",
+  "@type": "schema:LearningResource",
+  "dct:title": "FAIRmat Tutorial 16: Getting started with NOMAD for materials-science research data management",
+  "dct:description": "n this tutorial, you'll learn how to use NOMAD to manage and organize your materials-science research data. Whether you are working with computational or experimental data, NOMAD's graphical user interface makes it easy to upload, share, explore, and analyze your data.\nThis hands-on tutorial will focus on using NOMAD to improve collaboration in your research projects and to ensure that your data adheres to the FAIR data principles (Findable, Accessible, Interoperable, and Reusable).\n\nThis tutorial was held online on February 26, 2025, as part of the FAIRmat Tutorials series.\nEvent page: https://events.fairmat-nfdi.eu/event/34/\n \n📄 TUTORIAL DOCUMENTATION\nFollow along with the full tutorial guide here:\n🔗 https://fairmat-nfdi.github.io/FAIRmat-tutorial-16/\n\n📁 DOWNLOAD SLIDES & EXAMPLE FILES\nGrab all the slides and example files used in the tutorial:\n🔗 https://github.com/FAIRmat-NFDI/FAIRmat-tutorial-16/raw/refs/heads/main/tutorial_16_materials.zip\n\n💬 JOIN OUR COMMUNITY ON DISCORD\nHave questions or want to connect with other researchers using NOMAD?\nJoin the NOMAD Discord server and be part of the conversation!\n🔗 https://discord.gg/Gyzx3ukUw8\n\n⚠️ Disclaimer: NOMAD is under continuous development based on input and feedback from the scientific community. Therefore, features, services, or interface may have changed since this video was recorded.\nFor up-to-date information, please consult our latest tutorials and the NOMAD documentation: https://nomad-lab.eu/prod/v1/docs/",
+  "dct:subject": [
+    "General NOMAD",
+    "Publish",
+    "Explore",
+    "ELN"
+  ],
+  "schema:keywords": [
+    "login",
+    "Introduction",
+    "Upload Data",
+    "Create Dataset",
+    "Get DOI",
+    "Manage Members",
+    "Supported Files",
+    "Filter Menu",
+    "Widgets",
+    "Dashboard",
+    "Built-in Schema",
+    "Custom YAML Schema",
+    "Tabular Parser YAML",
+    "NeXus Data Converter"
+  ],
+  "schema:dateCreated": "2025-05-15",
+  "schema:dateModified": "2025-04-01",
+  "schema:educationalLevel": [
+    "Intermediate"
+  ],
+  "dct:instructionalMethod": [
+    "Tutorial"
+  ],
+  "schema:learningResourceType": [
+    "FAIRmatTutorial"
+  ],
+  "schema:encodingFormat": [
+    "schema:VideoObject"
+  ],
+  "schema:license": [],
+  "schema:identifier": "https://www.youtube.com/playlist?list=PLrRaxjvn6FDVxKMHqsksxSRAnQCVq-iPI",
+  "schema:inLanguage": "en",
+  "schema:isBasedOn": [],
+  "schema:isFormatOf": [
+    "https://fairmat-nfdi.github.io/FAIRmat-tutorial-16/index.html"
+  ]
+}

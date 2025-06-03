@@ -1,0 +1,43 @@
+{
+  "@context": "context/context.jsonld",
+  "@id": "824ad7b3-1496-4f1d-b41a-4d689c04a9a8",
+  "@type": "schema:LearningResource",
+  "dct:title": "FAIRmat Tutorials 4: Adapting the NOMAD Oasis to your Research",
+  "dct:description": "In this FAIRmat tutorial Markus Scheidgen talks about adapting the NOMAD Oasis to your research.\nMore info on the FAIRmat tutorial series here\n\nwebsite: https://www.fair-di.eu/fairmat-tutori...\n\nTutorial 4:    • FAIRmat Tutorials 4: NOMAD Oasis and ...  \n\nDisclaimer: NOMAD is being continuously developed based on input and feedback from the scientific community. Hence the features, services or interface may have changed since the time of recording of this video. For up-to-date information please consult our latest tutorials and the NOMAD documentation https://nomad-lab.eu/prod/v1/docs/",
+  "dct:subject": [
+    "General NOMAD",
+    "Oasis Customization",
+    "Oasis Installation",
+    "Oasis Configuration",
+    "Develop NOMAD",
+    "ELN"
+  ],
+  "schema:keywords": [
+    "Configure Oasis",
+    "Install Oasis"
+  ],
+  "schema:dateCreated": "2025-05-21",
+  "schema:dateModified": "2022-05-22",
+  "schema:educationalLevel": [
+    "Intermediate",
+    "Advanced"
+  ],
+  "dct:instructionalMethod": [
+    "Tutorial"
+  ],
+  "schema:learningResourceType": [
+    "FAIRmatTutorial"
+  ],
+  "schema:encodingFormat": [
+    "schema:VideoObject"
+  ],
+  "schema:license": [
+    "https://creativecommons.org/licenses/by/4.0/"
+  ],
+  "schema:identifier": "https://youtu.be/yrbJW35QfvQ?si=NIlpslhtswo7ifxD",
+  "schema:inLanguage": "en",
+  "schema:isBasedOn": [],
+  "schema:isPartOf": [
+    "https://www.youtube.com/playlist?list=PLrRaxjvn6FDXqfEz1rDWvbGkzMBm7afsl"
+  ]
+}

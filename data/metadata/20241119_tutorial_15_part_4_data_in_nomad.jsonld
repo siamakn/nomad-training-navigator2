@@ -1,0 +1,40 @@
+{
+  "@context": "context/context.jsonld",
+  "@id": "4b42f97e-f0b8-4ac5-828a-c38696e8d635",
+  "@type": "schema:LearningResource",
+  "dct:title": "Tutorial 15 Part 4 - Data in NOMAD",
+  "dct:description": "In this fourth part, Chris Sturm displays how data is handled in NOMAD.\n\nYou can find the slides used under this link: https://box.hu-berlin.de/d/2f8ee9e64e...\n\nFor more info on the FAIRmat tutorial series, visit our website: https://www.fairmat-nfdi.eu/fairmat/o...\n\nWatch the rest of the tutorial here at    • FAIRmat Tutorial 15: Use of pynxtools...  \n\nDisclaimer: NOMAD is being continuously developed based on input and feedback from the scientific community. Hence, the features, services, or interface may have changed since this video was recorded. \n\nFor up-to-date information, please consult our latest tutorials and the NOMAD documentation: https://nomad-lab.eu/prod/v1/docs/",
+  "dct:subject": [
+    "General NOMAD",
+    "Analyze"
+  ],
+  "schema:keywords": [
+    "NORTH",
+    "NeXus Ontology",
+    "NeXus data modeling",
+    "Supported Files"
+  ],
+  "schema:dateCreated": "2025-05-15",
+  "schema:dateModified": "2024-11-19",
+  "schema:educationalLevel": [
+    "Intermediate"
+  ],
+  "dct:instructionalMethod": [
+    "Tutorial"
+  ],
+  "schema:learningResourceType": [
+    "FAIRmatTutorial"
+  ],
+  "schema:encodingFormat": [
+    "schema:VideoObject"
+  ],
+  "schema:license": [
+    "https://creativecommons.org/licenses/by/4.0/"
+  ],
+  "schema:identifier": "https://youtu.be/V4zkWI-Qf0A?si=7Elr7-nSOv8mtLkq",
+  "schema:inLanguage": "en",
+  "schema:isBasedOn": [],
+  "schema:isPartOf": [
+    "https://www.youtube.com/playlist?list=PLrRaxjvn6FDWascr_J2W54SmNE6wrLxR5"
+  ]
+}

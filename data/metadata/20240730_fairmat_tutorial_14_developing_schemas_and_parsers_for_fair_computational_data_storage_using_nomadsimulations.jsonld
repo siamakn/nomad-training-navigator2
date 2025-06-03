@@ -1,0 +1,47 @@
+{
+  "@context": "context/context.jsonld",
+  "@id": "0c014422-e077-4387-8c07-9f035a76f8f5",
+  "@type": "schema:LearningResource",
+  "dct:title": "FAIRmat Tutorial 14: Developing schemas and parsers for FAIR computational data storage using NOMAD-Simulations",
+  "dct:description": "NOMAD is an open-source, community-driven data infrastructure, focusing on materials science data. Originally built as a repository for data from DFT calculations, the NOMAD software can automatically extract data from the output of a large variety of simulation codes. Our previous computation-focused tutorials (CECAM workshop, Tutorial 10, and Tutorial 7) have highlighted the extension of NOMAD’s functionalities to support advanced many-body calculations, classical molecular dynamics simulations, and complex simulation workflows.\n\nBut how can you utilize this infrastructure and associated suite of tools if your simulation code or method is not yet supported? This tutorial will provide foundational knowledge for customizing NOMAD to fit the specific needs of your computational research project. The following provides an outline of the major topics that will be covered:\n\n    Introduction to the NOMAD software and repository\n    Working with the NOMAD-Simulations schema plugin\n    Extending NOMAD-Simulations to support custom methods and outputs\n    Creating parser plugins from scratch\n    Extra: Interfacing complex simulation and analysis workflows with NOMAD\n\nJoin us on our Discord Channel for Tutorial 14! Use this chat to contact us before the tutorial, ask questions and discuss during the tutorial, and stay in touch with us beyond the tutorial.\n",
+  "dct:subject": [
+    "General NOMAD",
+    "NOMAD Plugins",
+    "Oasis Customization"
+  ],
+  "schema:keywords": [
+    "Introduction",
+    "Write Normalizer",
+    "Write Parser",
+    "Write Schema Package",
+    "Develop Plugin",
+    "Install Plugin",
+    "Simulation",
+    "Workflows"
+  ],
+  "schema:dateCreated": "2025-05-19",
+  "schema:dateModified": "2024-07-30",
+  "schema:educationalLevel": [
+    "Intermediate",
+    "Beginner",
+    "Advanced"
+  ],
+  "dct:instructionalMethod": [
+    "Tutorial"
+  ],
+  "schema:learningResourceType": [
+    "FAIRmatTutorial"
+  ],
+  "schema:encodingFormat": [
+    "schema:VideoObject"
+  ],
+  "schema:license": [
+    "https://creativecommons.org/licenses/by/4.0/"
+  ],
+  "schema:identifier": "https://www.youtube.com/playlist?list=PLrRaxjvn6FDXiHpOKpRN_Phv14Qdqg7lp",
+  "schema:inLanguage": "en",
+  "schema:isBasedOn": [],
+  "schema:isFormatOf": [
+    "https://fairmat-nfdi.github.io/fairmat-tutorial-14-computational-plugins/"
+  ]
+}

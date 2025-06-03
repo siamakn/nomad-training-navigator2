@@ -1,0 +1,40 @@
+{
+  "@context": "context/context.jsonld",
+  "@id": "c57c3067-3163-4ed3-8f1c-2500063d85d6",
+  "@type": "schema:LearningResource",
+  "dct:title": "FAIRmat Tutorial 5: Introduction to the NOMAD Encyclopedia with Lauri Himanen",
+  "dct:description": "In this FAIRmat tutorial Lauri Himanen introduces the complementary materials-oriented view to the data provided by the NOMAD Materials Encyclopedia. \n\n    For more info on the FAIRmat tutorial series visit our website: https://www.fairmat-nfdi.eu/fairmat/outreach-fairmat/tutorials-fairmat\n    Watch Christoph T. Koch's overview talk \"The potential of digital encyclopedias in materials science\" here: \n    Watch our tutorial on publishing and exploring data with NOMAD here:     • FAIRmat tutorials 1: Publishing and E...  \n\n\nDisclaimer: NOMAD is being continuously developed based on input and feedback from the scientific community. Hence the features, services or interface may have changed since the time of recording of this video. For up-to-date information please consult our latest tutorials and the NOMAD documentation https://nomad-lab.eu/prod/v1/docs/",
+  "dct:subject": [
+    "NOMAD Encyclopedia",
+    "API",
+    "General NOMAD"
+  ],
+  "schema:keywords": [
+    "Filter Menu"
+  ],
+  "schema:dateCreated": "2025-05-21",
+  "schema:dateModified": "2022-10-19",
+  "schema:educationalLevel": [
+    "Beginner",
+    "Intermediate",
+    "Advanced"
+  ],
+  "dct:instructionalMethod": [
+    "Tutorial"
+  ],
+  "schema:learningResourceType": [
+    "FAIRmatTutorial"
+  ],
+  "schema:encodingFormat": [
+    "schema:VideoObject"
+  ],
+  "schema:license": [
+    "https://creativecommons.org/licenses/by/4.0/"
+  ],
+  "schema:identifier": "https://youtu.be/oxMY3GpJq0E?si=W67fi_oQnXuCCqxw",
+  "schema:inLanguage": "en",
+  "schema:isBasedOn": [],
+  "schema:isPartOf": [
+    "https://www.youtube.com/playlist?list=PLrRaxjvn6FDWoJZwXpW28YyXnA0vdpYej"
+  ]
+}

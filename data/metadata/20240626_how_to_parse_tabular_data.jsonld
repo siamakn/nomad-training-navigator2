@@ -1,0 +1,40 @@
+{
+  "@context": "context/context.jsonld",
+  "@id": "1c5d3008-7274-4d9d-beaa-fd5cd10ba134",
+  "@type": "schema:LearningResource",
+  "dct:title": "How to parse tabular data",
+  "dct:description": "This guide explains how to use NOMAD’s built-in tabular parser to import and structure data from Excel and CSV files. It covers different parsing modes (by column, row, and nested sections), schema annotations, and how to define paths and quantities for automatic data population. The tutorial also demonstrates how to manage multiple entries, use custom YAML schemas, and link data across sections using references—enabling efficient data handling for experimental inventories, measurements, and structured archives.",
+  "dct:subject": [
+    "Publish",
+    "ELN"
+  ],
+  "schema:keywords": [
+    "Tabular Data",
+    "Tabular Parser YAML",
+    "Excel",
+    "CSV"
+  ],
+  "schema:dateCreated": "2025-06-02",
+  "schema:dateModified": "2024-06-26",
+  "schema:educationalLevel": [
+    "Beginner"
+  ],
+  "dct:instructionalMethod": [
+    "HowTo"
+  ],
+  "schema:learningResourceType": [
+    "NOMADDocumentation"
+  ],
+  "schema:encodingFormat": [
+    "schema:TechArticle"
+  ],
+  "schema:license": [
+    "https://creativecommons.org/publicdomain/zero/1.0/"
+  ],
+  "schema:identifier": "https://nomad-lab.eu/prod/v1/docs/howto/customization/tabular.html",
+  "schema:inLanguage": "en",
+  "schema:isBasedOn": [],
+  "schema:isPartOf": [
+    "https://nomad-lab.eu/prod/v1/docs/"
+  ]
+}

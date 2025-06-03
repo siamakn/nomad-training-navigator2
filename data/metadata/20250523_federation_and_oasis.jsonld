@@ -1,0 +1,37 @@
+{
+  "@context": "context/context.jsonld",
+  "@id": "3ba73eb8-dc17-4376-84e2-aa58e6d9cd4c",
+  "@type": "schema:LearningResource",
+  "dct:title": "Federation and Oasis",
+  "dct:description": "This page introduces NOMAD Oasis, a decentralized and customizable installation of the NOMAD platform. It explains why a federated infrastructure benefits data sovereignty, local resource utilization, and domain-specific customization. The document outlines use cases across academia, industry, and research consortia, and describes how data can be transferred between Oases and the central NOMAD. It also provides details about the bundle-based transfer system, current limitations, and plans for improving trust, interoperability, and partial metadata exchange within a federated NOMAD network.",
+  "dct:subject": [
+    "General NOMAD"
+  ],
+  "schema:keywords": [
+    "Introduction",
+    "Install Oasis"
+  ],
+  "schema:dateCreated": "2025-05-23",
+  "schema:dateModified": "2025-05-23",
+  "schema:educationalLevel": [
+    "Beginner"
+  ],
+  "dct:instructionalMethod": [
+    "Explanation"
+  ],
+  "schema:learningResourceType": [
+    "NOMADDocumentation"
+  ],
+  "schema:encodingFormat": [
+    "schema:TechArticle"
+  ],
+  "schema:license": [
+    "https://creativecommons.org/publicdomain/zero/1.0/"
+  ],
+  "schema:identifier": "https://nomad-lab.eu/prod/v1/docs/explanation/oasis.html",
+  "schema:inLanguage": "en",
+  "schema:isBasedOn": [],
+  "schema:isPartOf": [
+    "https://nomad-lab.eu/prod/v1/docs/"
+  ]
+}

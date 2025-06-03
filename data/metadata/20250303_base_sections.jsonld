@@ -1,0 +1,40 @@
+{
+  "@context": "context/context.jsonld",
+  "@id": "60466a4d-b68d-45d7-9d9a-b4846bcab814",
+  "@type": "schema:LearningResource",
+  "dct:title": "Base Sections",
+  "dct:description": "This reference page introduces the nomad.datamodel.metainfo.basesections package, which provides standardized base section definitions for use in materials science schemas. These base sections promote consistency, reusability, and interoperability across NOMAD schemas and enable advanced platform features such as workflow visualization. Developers are encouraged to inherit from these base sections when designing custom schemas to align with NOMAD’s core structure and ensure compatibility with built-in functionality.",
+  "dct:subject": [
+    "Develop NOMAD"
+  ],
+  "schema:keywords": [
+    "NOMAD Metainfo",
+    "Base Section",
+    "Built-in Schema",
+    "Write Schema Package",
+    "Custom YAML Schema"
+  ],
+  "schema:dateCreated": "2025-06-02",
+  "schema:dateModified": "2025-03-03",
+  "schema:educationalLevel": [
+    "Beginner"
+  ],
+  "dct:instructionalMethod": [
+    "Reference"
+  ],
+  "schema:learningResourceType": [
+    "NOMADDocumentation"
+  ],
+  "schema:encodingFormat": [
+    "schema:TechArticle"
+  ],
+  "schema:license": [
+    "https://creativecommons.org/publicdomain/zero/1.0/"
+  ],
+  "schema:identifier": "https://nomad-lab.eu/prod/v1/docs/reference/basesections.html",
+  "schema:inLanguage": "en",
+  "schema:isBasedOn": [],
+  "schema:isPartOf": [
+    "https://nomad-lab.eu/prod/v1/docs/index.html"
+  ]
+}

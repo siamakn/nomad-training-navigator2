@@ -1,0 +1,41 @@
+{
+  "@context": "context/context.jsonld",
+  "@id": "f2d306f0-8a4c-4736-946b-3fa6ffa3e2a2",
+  "@type": "schema:LearningResource",
+  "dct:title": "Uploading and Publishing Data in NOMAD",
+  "dct:description": "This tutorial provides a complete walkthrough for uploading, sharing, and publishing research data in NOMAD using both computational and experimental examples. It introduces key components of the NOMAD platform�including uploads, entries, and datasets�and guides users through organizing files, processing data, assigning metadata, and obtaining DOIs. The tutorial also covers the use of NexusDataConverter for experimental data via the NOMAD GUI. By following this guide, users will gain practical skills to structure and publish FAIR-compliant data within NOMAD.",
+  "dct:subject": [
+    "Publish"
+  ],
+  "schema:keywords": [
+    "Upload Data",
+    "Create Dataset",
+    "Get DOI",
+    "Supported Files",
+    "Introduction",
+    "Nexus Data Converter"
+  ],
+  "schema:dateCreated": "2025-05-23",
+  "schema:dateModified": "2025-04-04",
+  "schema:educationalLevel": [
+    "Beginner"
+  ],
+  "dct:instructionalMethod": [
+    "Tutorial"
+  ],
+  "schema:learningResourceType": [
+    "NOMADDocumentation"
+  ],
+  "schema:encodingFormat": [
+    "schema:TechArticle"
+  ],
+  "schema:license": [
+    "https://creativecommons.org/publicdomain/zero/1.0/"
+  ],
+  "schema:identifier": "https://nomad-lab.eu/prod/v1/docs/tutorial/upload_publish.html",
+  "schema:inLanguage": "en",
+  "schema:isBasedOn": [],
+  "schema:isPartOf": [
+    "https://nomad-lab.eu/prod/v1/docs/"
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "@context": "context/context.jsonld",
+  "@id": "32387259-c4cd-4f8b-9a2e-214d9fad6048",
+  "@type": "schema:LearningResource",
+  "dct:title": "How to write a schema package",
+  "dct:description": "This guide provides comprehensive instructions on creating schema packages in NOMAD using the plugin system. It covers defining custom metainfo schemas in Python, registering them through plugin entry points, and using schema packages to structure and validate scientific data. You’ll learn how to organize quantities and sections, extend existing NOMAD schemas, implement normalization logic, version schemas safely, and even migrate old data. This is essential for developers and Oasis administrators aiming to define domain-specific models, support ELN usage, or enhance parsing workflows with structured metadata.",
+  "dct:subject": [
+    "NOMAD Plugins"
+  ],
+  "schema:keywords": [
+    "Write Schema Package",
+    "Develop Plugin"
+  ],
+  "schema:dateCreated": "2025-05-23",
+  "schema:dateModified": "2025-05-31",
+  "schema:educationalLevel": [
+    "Intermediate"
+  ],
+  "dct:instructionalMethod": [
+    "HowTo"
+  ],
+  "schema:learningResourceType": [
+    "NOMADDocumentation"
+  ],
+  "schema:encodingFormat": [
+    "schema:TechArticle"
+  ],
+  "schema:license": [
+    "https://creativecommons.org/publicdomain/zero/1.0/"
+  ],
+  "schema:identifier": "https://nomad-lab.eu/prod/v1/docs/howto/plugins/schema_packages.html",
+  "schema:inLanguage": "en",
+  "schema:isBasedOn": [],
+  "schema:isPartOf": [
+    "https://nomad-lab.eu/prod/v1/docs/"
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "@context": "context/context.jsonld",
+  "@id": "6ffd189a-dc10-4437-8ede-692d0a2a8bb7",
+  "@type": "schema:LearningResource",
+  "dct:title": "Introduction to plugins",
+  "dct:description": "This guide introduces the plugin system of NOMAD, which allows administrators and developers to customize NOMAD installations by adding functionality through Python packages. It explains the anatomy of a plugin, including entry points for parsers, apps, normalizers, APIs, and schema packages. The guide provides recommendations for naming conventions, testing with pytest, formatting with ruff, and documenting with mkdocs. It also outlines how to publish plugins via GitHub or PyPI and how to control plugin activation through the nomad.yaml configuration file.",
+  "dct:subject": [
+    "NOMAD Plugins"
+  ],
+  "schema:keywords": [
+    "Develop Plugin",
+    "Install Plugin",
+    "Plugin Template Repository",
+    "Plugin Entry Points"
+  ],
+  "schema:dateCreated": "2025-05-23",
+  "schema:dateModified": "2025-04-14",
+  "schema:educationalLevel": [
+    "Intermediate"
+  ],
+  "dct:instructionalMethod": [
+    "HowTo"
+  ],
+  "schema:learningResourceType": [
+    "NOMADDocumentation"
+  ],
+  "schema:encodingFormat": [
+    "schema:TechArticle"
+  ],
+  "schema:license": [
+    "https://creativecommons.org/publicdomain/zero/1.0/"
+  ],
+  "schema:identifier": "https://nomad-lab.eu/prod/v1/docs/howto/plugins/plugins.html",
+  "schema:inLanguage": "en",
+  "schema:isBasedOn": [],
+  "schema:isPartOf": [
+    "https://nomad-lab.eu/prod/v1/docs/"
+  ]
+}

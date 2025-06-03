@@ -1,0 +1,37 @@
+{
+  "@context": "context/context.jsonld",
+  "@id": "054d52c8-d526-4f21-96f3-3223f2d3338c",
+  "@type": "schema:LearningResource",
+  "dct:title": "How to define and use ELNs in NOMAD",
+  "dct:description": "This guide explains how to create Electronic Lab Notebooks (ELNs) within the NOMAD platform by using annotated YAML schemas. It covers how to structure data entries, apply ELN-specific annotations, and enable GUI-based editing for scientific data. The documentation also includes examples, labeling conventions, and references to annotation types used to customize the user interface.",
+  "dct:subject": [
+    "ELN"
+  ],
+  "schema:keywords": [
+    "Custom YAML Schema",
+    "Annotations"
+  ],
+  "schema:dateCreated": "2025-06-02",
+  "schema:dateModified": "2024-05-04",
+  "schema:educationalLevel": [
+    "Beginner"
+  ],
+  "dct:instructionalMethod": [
+    "HowTo"
+  ],
+  "schema:learningResourceType": [
+    "NOMADDocumentation"
+  ],
+  "schema:encodingFormat": [
+    "schema:TechArticle"
+  ],
+  "schema:license": [
+    "https://creativecommons.org/publicdomain/zero/1.0/"
+  ],
+  "schema:identifier": "https://nomad-lab.eu/prod/v1/docs/howto/customization/elns.html",
+  "schema:inLanguage": "en",
+  "schema:isBasedOn": [],
+  "schema:isPartOf": [
+    "https://nomad-lab.eu/prod/v1/docs/"
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "@context": "context/context.jsonld",
+  "@id": "fedb22df-a70c-471e-baf1-c602ffe7e81c",
+  "@type": "schema:LearningResource",
+  "dct:title": "Annotations",
+  "dct:description": "This reference page describes how annotations enhance schema definitions in NOMAD by providing metadata that guides visualization, data entry, search behavior, and more. It covers annotation structures for ELNs, browser views, display options, and plotting using Plotly. Special annotations like label_quantity and tabular are explained for organizing tabular data and customizing data entry forms. Advanced features include plot configuration via Python or YAML, and visualization of HDF5 datasets with H5Web. The page includes usage examples and reference models to help users apply annotations effectively in their custom schemas or plugins.",
+  "dct:subject": [
+    "Develop NOMAD",
+    "NOMAD Plugins",
+    "Oasis Customization",
+    "ELN"
+  ],
+  "schema:keywords": [
+    "Plotly",
+    "PlotSection",
+    "Annotations",
+    "Custom YAML Schema",
+    "Write Schema Package"
+  ],
+  "schema:dateCreated": "2025-06-02",
+  "schema:dateModified": "2025-04-29",
+  "schema:educationalLevel": [
+    "Beginner"
+  ],
+  "dct:instructionalMethod": [
+    "Reference"
+  ],
+  "schema:learningResourceType": [
+    "NOMADDocumentation"
+  ],
+  "schema:encodingFormat": [
+    "schema:TechArticle"
+  ],
+  "schema:license": [
+    "https://creativecommons.org/publicdomain/zero/1.0/"
+  ],
+  "schema:identifier": "https://nomad-lab.eu/prod/v1/docs/reference/annotations.html",
+  "schema:inLanguage": "en",
+  "schema:isBasedOn": [],
+  "schema:isPartOf": [
+    "https://nomad-lab.eu/prod/v1/docs/index.html"
+  ]
+}

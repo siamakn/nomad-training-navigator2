@@ -1,0 +1,73 @@
+{
+  "@context": "context/context.jsonld",
+  "@id": "d4fbc946-e009-486f-bb71-3d2a74ba7939",
+  "@type": "schema:LearningResource",
+  "dct:title": "NOMAD Documentation",
+  "dct:description": "This is the primary documentation portal for NOMAD, the FAIR data platform for materials science. It showcases NOMAD's data management, sharing and publication capabilities, offering structured access to tutorials, how-to guides, technical references and explanations. The portal also connects users to community resources, development guidelines, and support channels.",
+  "dct:subject": [
+    "General NOMAD",
+    "Publish",
+    "Explore",
+    "Analyze",
+    "ELN",
+    "API",
+    "Oasis Customization",
+    "Oasis Installation",
+    "Oasis Configuration",
+    "NOMAD Plugins",
+    "Develop NOMAD"
+  ],
+  "schema:keywords": [
+    "login",
+    "register",
+    "Introduction",
+    "Upload Data",
+    "Create Dataset",
+    "Get DOI",
+    "Manage Members",
+    "Supported Files",
+    "Filter Menu",
+    "Widgets",
+    "Dashboard",
+    "Built-in Schema",
+    "NORTH",
+    "Custom YAML Schema",
+    "Base Section",
+    "Tabular Parser YAML",
+    "NeXus Data Converter",
+    "Write Example Upload",
+    "Write App",
+    "Write Normalizer",
+    "Write Parser",
+    "Write Schema Package",
+    "Develop Plugin",
+    "Install Plugin",
+    "Install Oasis",
+    "Configure Oasis"
+  ],
+  "schema:dateCreated": "2025-05-22",
+  "schema:dateModified": "2025-05-22",
+  "schema:educationalLevel": [
+    "Beginner",
+    "Intermediate",
+    "Advanced"
+  ],
+  "dct:instructionalMethod": [
+    "Tutorial",
+    "Explanation",
+    "HowTo",
+    "Reference"
+  ],
+  "schema:learningResourceType": [
+    "NOMADDocumentation"
+  ],
+  "schema:encodingFormat": [
+    "schema:TechArticle"
+  ],
+  "schema:license": [
+    "https://creativecommons.org/publicdomain/zero/1.0/"
+  ],
+  "schema:identifier": "https://nomad-lab.eu/prod/v1/docs/",
+  "schema:inLanguage": "en",
+  "schema:isBasedOn": []
+}

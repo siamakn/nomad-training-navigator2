@@ -1,0 +1,38 @@
+{
+  "@context": "context/context.jsonld",
+  "@id": "349fb5c5-33d5-43f1-a4bc-b6d3b637f633",
+  "@type": "schema:LearningResource",
+  "dct:title": "From files to data",
+  "dct:description": "This documentation introduces NOMAD’s bottom-up approach to FAIR data management. It explains how raw files are uploaded, organized, and automatically processed into machine-actionable data entries through parsing, normalization, and indexing. The roles of mainfiles, entries, datasets, and schema-based customization are clarified, including the function of ELNs and custom archive files. It also outlines how NOMAD supports heterogeneous data formats and provides structured access to processed data via search interfaces and APIs.",
+  "dct:subject": [
+    "General NOMAD"
+  ],
+  "schema:keywords": [
+    "Data processing",
+    "Introduction",
+    "Upload Data"
+  ],
+  "schema:dateCreated": "2025-05-23",
+  "schema:dateModified": "2023-07-03",
+  "schema:educationalLevel": [
+    "Beginner"
+  ],
+  "dct:instructionalMethod": [
+    "Explanation"
+  ],
+  "schema:learningResourceType": [
+    "NOMADDocumentation"
+  ],
+  "schema:encodingFormat": [
+    "schema:TechArticle"
+  ],
+  "schema:license": [
+    "https://creativecommons.org/publicdomain/zero/1.0/"
+  ],
+  "schema:identifier": "https://nomad-lab.eu/prod/v1/docs/explanation/basics.html",
+  "schema:inLanguage": "en",
+  "schema:isBasedOn": [],
+  "schema:isPartOf": [
+    "https://nomad-lab.eu/prod/v1/docs/"
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "@context": "context/context.jsonld",
+  "@id": "2789da31-2ba0-4335-bd13-ac9a4b7d2dd3",
+  "@type": "schema:LearningResource",
+  "dct:title": "Command Line Interface (CLI)",
+  "dct:description": "This reference page provides an overview and detailed reference for NOMAD’s Command Line Interface (CLI). The CLI allows users to interact with NOMAD’s core functionalities directly from the terminal, including managing uploads, processing data, querying the archive, and performing administrative tasks. It is structured using the click framework and exposes a wide range of subcommands grouped by functionality. This documentation is auto-generated using mkdocs-click.",
+  "dct:subject": [
+    "Develop NOMAD"
+  ],
+  "schema:keywords": [
+    "Command Line Interface"
+  ],
+  "schema:dateCreated": "2025-06-02",
+  "schema:dateModified": "2023-05-09",
+  "schema:educationalLevel": [
+    "Beginner"
+  ],
+  "dct:instructionalMethod": [
+    "Reference"
+  ],
+  "schema:learningResourceType": [
+    "NOMADDocumentation"
+  ],
+  "schema:encodingFormat": [
+    "schema:TechArticle"
+  ],
+  "schema:license": [
+    "https://creativecommons.org/publicdomain/zero/1.0/"
+  ],
+  "schema:identifier": "https://nomad-lab.eu/prod/v1/docs/reference/cli.html",
+  "schema:inLanguage": "en",
+  "schema:isBasedOn": [],
+  "schema:isPartOf": [
+    "https://nomad-lab.eu/prod/v1/docs/index.html"
+  ]
+}

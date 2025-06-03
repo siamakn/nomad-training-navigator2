@@ -1,0 +1,37 @@
+{
+  "@context": "context/context.jsonld",
+  "@id": "ab7ba2f7-fa40-4604-9843-54cc8d2894ac",
+  "@type": "schema:LearningResource",
+  "dct:title": "How to write an example upload",
+  "dct:description": "This guide explains how to create example uploads in NOMAD using the plugin system. Example uploads provide users with ready-to-use datasets for demonstration, education, or testing purposes. The guide covers how to define an ExampleUploadEntryPoint, how to structure and register the upload, and different ways to include data—such as embedding it in the plugin, downloading from external URLs, or dynamically generating it with custom code. Example uploads appear in the NOMAD GUI and can be instantiated by users with a single click.",
+  "dct:subject": [
+    "NOMAD Plugins"
+  ],
+  "schema:keywords": [
+    "Develop Plugin",
+    "Write Example Upload"
+  ],
+  "schema:dateCreated": "2025-05-23",
+  "schema:dateModified": "2025-03-21",
+  "schema:educationalLevel": [
+    "Intermediate"
+  ],
+  "dct:instructionalMethod": [
+    "HowTo"
+  ],
+  "schema:learningResourceType": [
+    "NOMADDocumentation"
+  ],
+  "schema:encodingFormat": [
+    "schema:TechArticle"
+  ],
+  "schema:license": [
+    "https://creativecommons.org/publicdomain/zero/1.0/"
+  ],
+  "schema:identifier": "https://nomad-lab.eu/prod/v1/docs/howto/plugins/example_uploads.html",
+  "schema:inLanguage": "en",
+  "schema:isBasedOn": [],
+  "schema:isPartOf": [
+    "https://nomad-lab.eu/prod/v1/docs/"
+  ]
+}

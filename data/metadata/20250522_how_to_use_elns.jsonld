@@ -1,0 +1,37 @@
+{
+  "@context": "context/context.jsonld",
+  "@id": "f720df93-8b13-4991-8ebf-1f5cf94d0625",
+  "@type": "schema:LearningResource",
+  "dct:title": "How to use ELNs",
+  "dct:description": "This guide explains how to create and manage entries using NOMAD�s Electronic Lab Notebooks (ELNs). It covers manual ELN entry creation, defining custom ELN schemas, and importing data from external ELN providers such as elabFTW, Labfolder, Chemotion, and OpenBIS. Users learn how to enhance data with structured metadata and benefit from NOMAD�s schema-based interoperability. Integration workflows are outlined for each third-party ELN, including authentication, upload steps, and metadata mapping. Some features are under development and subject to future updates.",
+  "dct:subject": [
+    "ELN"
+  ],
+  "schema:keywords": [
+    "Custom YAML Schema",
+    "Built-in Schema"
+  ],
+  "schema:dateCreated": "2025-05-22",
+  "schema:dateModified": "2024-11-06",
+  "schema:educationalLevel": [
+    "Beginner"
+  ],
+  "dct:instructionalMethod": [
+    "HowTo"
+  ],
+  "schema:learningResourceType": [
+    "NOMADDocumentation"
+  ],
+  "schema:encodingFormat": [
+    "schema:VideoObject"
+  ],
+  "schema:license": [
+    "https://creativecommons.org/publicdomain/zero/1.0/"
+  ],
+  "schema:identifier": "https://nomad-lab.eu/prod/v1/docs/howto/manage/eln.html",
+  "schema:inLanguage": "en",
+  "schema:isBasedOn": [],
+  "schema:isPartOf": [
+    "https://nomad-lab.eu/prod/v1/docs"
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "@context": "context/context.jsonld",
+  "@id": "b7645145-b11f-4a16-ad8f-415b7d6dea43",
+  "@type": "schema:LearningResource",
+  "dct:title": "Glossary",
+  "dct:description": "This reference page provides a comprehensive glossary of terms used throughout the NOMAD documentation and platform. It defines key concepts such as entries, uploads, parsers, schemas, quantities, and processed data, along with project-specific terminology like ELNs, plugins, and deployments. This glossary ensures consistent understanding of the NOMAD ecosystem among developers, data stewards, and users by clarifying domain-specific language and relationships within the NOMAD infrastructure.",
+  "dct:subject": [
+    "General NOMAD",
+    "Develop NOMAD"
+  ],
+  "schema:keywords": [
+    "Introduction"
+  ],
+  "schema:dateCreated": "2025-06-02",
+  "schema:dateModified": "2025-04-25",
+  "schema:educationalLevel": [
+    "Beginner"
+  ],
+  "dct:instructionalMethod": [
+    "Reference"
+  ],
+  "schema:learningResourceType": [
+    "NOMADDocumentation"
+  ],
+  "schema:encodingFormat": [
+    "schema:TechArticle"
+  ],
+  "schema:license": [
+    "https://creativecommons.org/publicdomain/zero/1.0/"
+  ],
+  "schema:identifier": "https://nomad-lab.eu/prod/v1/docs/reference/glossary.html",
+  "schema:inLanguage": "en",
+  "schema:isBasedOn": [],
+  "schema:isPartOf": [
+    "https://nomad-lab.eu/prod/v1/docs/index.html"
+  ]
+}

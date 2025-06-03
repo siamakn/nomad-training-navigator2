@@ -1,0 +1,38 @@
+{
+  "@context": "context/context.jsonld",
+  "@id": "5d806ad3-0280-4457-b266-9018dd50021d",
+  "@type": "schema:LearningResource",
+  "dct:title": "Architecture",
+  "dct:description": "This page provides an overview of the architecture and technology stack behind NOMAD, a scalable and modular web platform for FAIR data management in materials science. It explains how NOMAD is structured as a containerized, cloud-enabled system composed of core services—such as the NOMAD app and processing worker—alongside third-party components like MongoDB, Elasticsearch, RabbitMQ, and Keycloak.\n\nThe documentation covers the roles of each service, how tasks are queued and executed, and how the frontend and backend interact through APIs. It also introduces the software frameworks, programming languages, and development tools used to build, deploy, and maintain NOMAD, including Docker, Kubernetes, FastAPI, React, and Python.\n\nWhether running NOMAD locally or deploying it at scale, this page helps users, developers, and system administrators understand the infrastructure that powers NOMAD and how to manage and extend it effectively.",
+  "dct:subject": [
+    "General NOMAD",
+    "Develop NOMAD"
+  ],
+  "schema:keywords": [
+    "NOMAD App",
+    "NOMAD Worker"
+  ],
+  "schema:dateCreated": "2025-05-23",
+  "schema:dateModified": "2023-12-19",
+  "schema:educationalLevel": [
+    "Advanced"
+  ],
+  "dct:instructionalMethod": [
+    "Explanation"
+  ],
+  "schema:learningResourceType": [
+    "NOMADDocumentation"
+  ],
+  "schema:encodingFormat": [
+    "schema:TechArticle"
+  ],
+  "schema:license": [
+    "https://creativecommons.org/publicdomain/zero/1.0/"
+  ],
+  "schema:identifier": "https://nomad-lab.eu/prod/v1/docs/explanation/architecture.html",
+  "schema:inLanguage": "en",
+  "schema:isBasedOn": [],
+  "schema:isPartOf": [
+    "https://nomad-lab.eu/prod/v1/docs/"
+  ]
+}

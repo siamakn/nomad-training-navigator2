@@ -1,0 +1,41 @@
+{
+  "@context": "context/context.jsonld",
+  "@id": "800b17d6-c10c-41d7-adf0-34b041976722",
+  "@type": "schema:LearningResource",
+  "dct:title": "Standardized ingestion of data from materials characterization using NeXus",
+  "dct:description": "This page introduces the NeXus data format and its relevance for standardized ingestion of experimental data in NOMAD. It explains how NeXus—built on HDF5—facilitates structured, self-describing storage of scientific data from techniques like neutron, X-ray, and muon scattering. Emphasis is placed on its alignment with FAIR principles, ontology-driven organization, and its extension for materials science via FAIRmat.",
+  "dct:subject": [
+    "NeXus"
+  ],
+  "schema:keywords": [
+    "Experimental Data",
+    "NeXus data modeling",
+    "NeXus Ontology",
+    "NeXus Data Converter",
+    "HDF5",
+    "Data Modeling"
+  ],
+  "schema:dateCreated": "2025-06-04",
+  "schema:dateModified": "2025-05-01",
+  "schema:educationalLevel": [
+    "Beginner"
+  ],
+  "dct:instructionalMethod": [
+    "Explanation"
+  ],
+  "schema:learningResourceType": [
+    "NOMADDocumentation"
+  ],
+  "schema:encodingFormat": [
+    "schema:TechArticle"
+  ],
+  "schema:license": [
+    "https://creativecommons.org/publicdomain/zero/1.0/"
+  ],
+  "schema:identifier": "https://nomad-lab.eu/prod/v1/docs/examples/experiment_data/nexus.html",
+  "schema:inLanguage": "en",
+  "schema:isBasedOn": [],
+  "schema:isPartOf": [
+    "https://nomad-lab.eu/prod/v1/docs/"
+  ]
+}

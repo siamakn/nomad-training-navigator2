@@ -1,0 +1,40 @@
+{
+  "@context": "context/context.jsonld",
+  "@id": "989ce994-0e41-490d-8f91-b95dc8cd0c11",
+  "@type": "schema:LearningResource",
+  "dct:title": "H5MD-NOMAD: A flexible data-storage schema for uploading molecular simulations to NOMAD",
+  "dct:description": "This page introduces the H5MD-NOMAD schema—a customized and constrained adaptation of the original H5MD format—used for uploading molecular simulation data to NOMAD. It outlines the key changes, unused metadata elements, and unsupported structures in NOMAD’s implementation. Additionally, it describes standardized observables that can be extracted from H5MD-NOMAD files.",
+  "dct:subject": [
+    "Scientific Use Cases"
+  ],
+  "schema:keywords": [
+    "Data Modeling",
+    "Molecular Dynamics",
+    "Computational Data",
+    "H5MD"
+  ],
+  "schema:dateCreated": "2025-06-04",
+  "schema:dateModified": "2024-04-17",
+  "schema:educationalLevel": [
+    "Intermediate"
+  ],
+  "dct:instructionalMethod": [
+    "Explanation",
+    "Reference"
+  ],
+  "schema:learningResourceType": [
+    "NOMADDocumentation"
+  ],
+  "schema:encodingFormat": [
+    "schema:TechArticle"
+  ],
+  "schema:license": [
+    "https://creativecommons.org/publicdomain/zero/1.0/"
+  ],
+  "schema:identifier": "https://nomad-lab.eu/prod/v1/docs/examples/computational_data/h5md_ref.html",
+  "schema:inLanguage": "en",
+  "schema:isBasedOn": [],
+  "schema:isPartOf": [
+    "https://nomad-lab.eu/prod/v1/docs/"
+  ]
+}

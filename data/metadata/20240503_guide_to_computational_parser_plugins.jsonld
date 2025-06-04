@@ -1,0 +1,42 @@
+{
+  "@context": "context/context.jsonld",
+  "@id": "6171b648-84ac-4f5f-bf56-0cf238e066bb",
+  "@type": "schema:LearningResource",
+  "dct:title": "Guide to computational parser plugins",
+  "dct:description": "This page offers a guide to the structure, location, and development of computational parser plugins in NOMAD. It explains how existing parsers are organized within NOMAD's architecture, and outlines the path toward migrating these into modular plugins. It also provides links to GitHub repositories, parser test folders, and resources for writing and configuring custom parser plugins.",
+  "dct:subject": [
+    "NOMAD Plugins",
+    "Develop NOMAD"
+  ],
+  "schema:keywords": [
+    "Parsers",
+    "Write Parser",
+    "Install Plugin",
+    "Develop Plugin",
+    "Computational Data"
+  ],
+  "schema:dateCreated": "2025-06-04",
+  "schema:dateModified": "2024-05-03",
+  "schema:educationalLevel": [
+    "Beginner"
+  ],
+  "dct:instructionalMethod": [
+    "Reference",
+    "Explanation"
+  ],
+  "schema:learningResourceType": [
+    "NOMADDocumentation"
+  ],
+  "schema:encodingFormat": [
+    "schema:TechArticle"
+  ],
+  "schema:license": [
+    "https://creativecommons.org/publicdomain/zero/1.0/"
+  ],
+  "schema:identifier": "https://nomad-lab.eu/prod/v1/docs/examples/computational_data/parser_plugins.html",
+  "schema:inLanguage": "en",
+  "schema:isBasedOn": [],
+  "schema:isPartOf": [
+    "https://nomad-lab.eu/prod/v1/docs/"
+  ]
+}

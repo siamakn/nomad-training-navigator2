@@ -1,0 +1,38 @@
+{
+  "@context": "context/context.jsonld",
+  "@id": "fb74ed2e-0739-49b7-a4a7-04d612e21b07",
+  "@type": "schema:LearningResource",
+  "dct:title": "Standard and Custom Computational Workflows in NOMAD",
+  "dct:description": "This guide demonstrates how to define, structure, and visualize computational workflows in NOMAD using custom .archive.yaml files. Through an example involving DFT, TB, and DMFT calculations under different pressures and temperatures, users learn to build layered workflow hierarchies (SinglePoint, Pressure-level, and Full-system) and understand the use of the workflow visualizer. The document also introduces best practices for enabling automatic workflow recognition by NOMAD.",
+  "dct:subject": [
+    "Publish"
+  ],
+  "schema:keywords": [
+    "Workflows",
+    "DFT",
+    "Computational Data"
+  ],
+  "schema:dateCreated": "2025-06-04",
+  "schema:dateModified": "2024-06-03",
+  "schema:educationalLevel": [
+    "Beginner"
+  ],
+  "dct:instructionalMethod": [
+    "HowTo"
+  ],
+  "schema:learningResourceType": [
+    "NOMADDocumentation"
+  ],
+  "schema:encodingFormat": [
+    "schema:TechArticle"
+  ],
+  "schema:license": [
+    "https://creativecommons.org/publicdomain/zero/1.0/"
+  ],
+  "schema:identifier": "https://nomad-lab.eu/prod/v1/docs/examples/computational_data/workflows.html",
+  "schema:inLanguage": "en",
+  "schema:isBasedOn": [],
+  "schema:isPartOf": [
+    "https://nomad-lab.eu/prod/v1/docs/"
+  ]
+}

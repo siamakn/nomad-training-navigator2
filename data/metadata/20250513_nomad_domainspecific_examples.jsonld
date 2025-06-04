@@ -1,0 +1,46 @@
+{
+  "@context": "context/context.jsonld",
+  "@id": "fb423271-7c86-4440-8309-ad2cba01b7bd",
+  "@type": "schema:LearningResource",
+  "dct:title": "NOMAD Domain-specific Examples",
+  "dct:description": "This page provides an overview of domain-specific examples that demonstrate how NOMAD supports both computational and experimental materials science data. It includes guides and tutorials for uploading, structuring, and parsing data using customized workflows and plugins for diverse research techniques, from DFT and MD simulations to electron microscopy and optical spectroscopy.",
+  "dct:subject": [
+    "Scientific Use Cases"
+  ],
+  "schema:keywords": [
+    "STM",
+    "Atom Probe Tomography",
+    "Optical Spectroscopy",
+    "Photoemission Spectroscopy",
+    "Electron Microscopy",
+    "DFT",
+    "Molecular Dynamics",
+    "Characterization",
+    "Experimental Data",
+    "Computational Data",
+    "NeXus data modeling"
+  ],
+  "schema:dateCreated": "2025-06-04",
+  "schema:dateModified": "2025-05-13",
+  "schema:educationalLevel": [
+    "Beginner"
+  ],
+  "dct:instructionalMethod": [
+    "Explanation"
+  ],
+  "schema:learningResourceType": [
+    "NOMADDocumentation"
+  ],
+  "schema:encodingFormat": [
+    "schema:TechArticle"
+  ],
+  "schema:license": [
+    "https://creativecommons.org/publicdomain/zero/1.0/"
+  ],
+  "schema:identifier": "https://nomad-lab.eu/prod/v1/docs/examples/overview.html",
+  "schema:inLanguage": "en",
+  "schema:isBasedOn": [],
+  "schema:isPartOf": [
+    "https://nomad-lab.eu/prod/v1/docs/"
+  ]
+}

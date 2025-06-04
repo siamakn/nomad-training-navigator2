@@ -1,0 +1,41 @@
+{
+  "@context": "context/context.jsonld",
+  "@id": "2a2bc705-0eeb-4baf-bfb3-525fb1f74def",
+  "@type": "schema:LearningResource",
+  "dct:title": "Domain-specific examples for X-ray photoelectron spectroscopy",
+  "dct:description": "This page presents domain-specific support in NOMAD for handling data from X-ray photoelectron spectroscopy (XPS). It introduces the pynxtools-xps plugin, which enables the parsing and normalization of diverse XPS file formats into a common NeXus-based structure, enhancing data interoperability and semantic clarity. Resources for uploading to NOMAD and supported formats are also provided.",
+  "dct:subject": [
+    "Scientific Use Cases",
+    "NeXus"
+  ],
+  "schema:keywords": [
+    "XPS",
+    "Experimental Data",
+    "NeXus data modeling",
+    "NeXus Ontology",
+    "NeXus Data Converter"
+  ],
+  "schema:dateCreated": "2025-06-04",
+  "schema:dateModified": "2024-06-20",
+  "schema:educationalLevel": [
+    "Beginner"
+  ],
+  "dct:instructionalMethod": [
+    "Explanation"
+  ],
+  "schema:learningResourceType": [
+    "NOMADDocumentation"
+  ],
+  "schema:encodingFormat": [
+    "schema:TechArticle"
+  ],
+  "schema:license": [
+    "https://creativecommons.org/publicdomain/zero/1.0/"
+  ],
+  "schema:identifier": "https://nomad-lab.eu/prod/v1/docs/examples/experiment_data/xps.html",
+  "schema:inLanguage": "en",
+  "schema:isBasedOn": [],
+  "schema:isPartOf": [
+    "https://nomad-lab.eu/prod/v1/docs/"
+  ]
+}

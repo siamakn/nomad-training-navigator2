@@ -1,0 +1,40 @@
+{
+  "@context": "context/context.jsonld",
+  "@id": "1fb179e7-5d0a-459a-8d98-0363b8975ea4",
+  "@type": "schema:LearningResource",
+  "dct:title": "Domain-specific examples for atom probe tomography and field ion microscopy",
+  "dct:description": "This page introduces NOMAD’s support for data from atom probe tomography (APT) and field ion microscopy (FIM), focusing on the pynxtools-apm plugin. It explains how APT/FIM data from various sources is standardized using NeXus conventions and visualized or analyzed using domain-specific tools within NOMAD’s Remote Tools Hub (NORTH). The guide highlights integration with analysis containers like apmtools, featuring open-source tools such as APTyzer, paraprobe-toolbox, and apav.",
+  "dct:subject": [
+    "Scientific Use Cases",
+    "NeXus"
+  ],
+  "schema:keywords": [
+    "Experimental Data",
+    "Atom Probe Tomography",
+    "NeXus data modeling",
+    "NeXus Ontology"
+  ],
+  "schema:dateCreated": "2025-06-04",
+  "schema:dateModified": "2024-06-20",
+  "schema:educationalLevel": [
+    "Beginner"
+  ],
+  "dct:instructionalMethod": [
+    "Explanation"
+  ],
+  "schema:learningResourceType": [
+    "NOMADDocumentation"
+  ],
+  "schema:encodingFormat": [
+    "schema:TechArticle"
+  ],
+  "schema:license": [
+    "https://creativecommons.org/publicdomain/zero/1.0/"
+  ],
+  "schema:identifier": "https://nomad-lab.eu/prod/v1/docs/examples/experiment_data/apm.html",
+  "schema:inLanguage": "en",
+  "schema:isBasedOn": [],
+  "schema:isPartOf": [
+    "https://nomad-lab.eu/prod/v1/docs/"
+  ]
+}

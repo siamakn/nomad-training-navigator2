@@ -1,0 +1,39 @@
+{
+  "@context": "context/context.jsonld",
+  "@id": "a781c305-2870-4e61-89f8-2fc26ddd9f18",
+  "@type": "schema:LearningResource",
+  "dct:title": "How to work with the H5MD-NOMAD schema",
+  "dct:description": "This guide provides step-by-step instructions on preparing and uploading custom molecular dynamics simulation data to NOMAD using the H5MD-NOMAD schema. It demonstrates how to structure an HDF5 file to comply with the expected NOMAD schema, highlights required data groups, and shows how NOMAD processes and visualizes the data upon upload.",
+  "dct:subject": [
+    "Publish",
+    "Scientific Use Cases"
+  ],
+  "schema:keywords": [
+    "Data Modeling",
+    "Computational Data",
+    "H5MD"
+  ],
+  "schema:dateCreated": "2025-06-04",
+  "schema:dateModified": "2024-04-17",
+  "schema:educationalLevel": [
+    "Intermediate"
+  ],
+  "dct:instructionalMethod": [
+    "HowTo"
+  ],
+  "schema:learningResourceType": [
+    "NOMADDocumentation"
+  ],
+  "schema:encodingFormat": [
+    "schema:TechArticle"
+  ],
+  "schema:license": [
+    "https://creativecommons.org/publicdomain/zero/1.0/"
+  ],
+  "schema:identifier": "https://nomad-lab.eu/prod/v1/docs/examples/computational_data/h5md_howto.html",
+  "schema:inLanguage": "en",
+  "schema:isBasedOn": [],
+  "schema:isPartOf": [
+    "https://nomad-lab.eu/prod/v1/docs/"
+  ]
+}

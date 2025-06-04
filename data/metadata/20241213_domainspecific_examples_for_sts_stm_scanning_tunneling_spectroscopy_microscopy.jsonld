@@ -1,0 +1,40 @@
+{
+  "@context": "context/context.jsonld",
+  "@id": "6c03244c-c581-484b-8929-97c662c51cc0",
+  "@type": "schema:LearningResource",
+  "dct:title": "Domain-specific examples for STS / STM (scanning tunneling spectroscopy / microscopy)",
+  "dct:description": "This page introduces NOMAD’s capabilities for handling data from scanning tunneling microscopy (STM) and scanning tunneling spectroscopy (STS). It highlights how the pynxtools-stm plugin standardizes diverse STM/STS raw data formats into a unified structure using the NeXus-based NXsts application definition. This enables semantic enrichment, comparability, and FAIR-compliant data management through the NOMAD platform. The guide also links to documentation for using the plugin and uploading STM/STS datasets.",
+  "dct:subject": [
+    "Scientific Use Cases",
+    "NeXus"
+  ],
+  "schema:keywords": [
+    "STM",
+    "Experimental Data",
+    "NeXus data modeling",
+    "NeXus Ontology"
+  ],
+  "schema:dateCreated": "2025-06-04",
+  "schema:dateModified": "2024-12-13",
+  "schema:educationalLevel": [
+    "Beginner"
+  ],
+  "dct:instructionalMethod": [
+    "Explanation"
+  ],
+  "schema:learningResourceType": [
+    "NOMADDocumentation"
+  ],
+  "schema:encodingFormat": [
+    "schema:TechArticle"
+  ],
+  "schema:license": [
+    "https://creativecommons.org/publicdomain/zero/1.0/"
+  ],
+  "schema:identifier": "https://nomad-lab.eu/prod/v1/docs/examples/experiment_data/stm.html",
+  "schema:inLanguage": "en",
+  "schema:isBasedOn": [],
+  "schema:isPartOf": [
+    "https://nomad-lab.eu/prod/v1/docs/"
+  ]
+}

@@ -101,7 +101,19 @@
     "Write Example Upload",
     "Write Normalizer",
     "Write Parser",
-    "Write Schema Package"
+    "Write Schema Package",
+    "Computational Data",
+    "Experimental Data",
+    "Characterization",
+    "Molecular Dynamics",
+    "DFT",
+    "Electron Microscopy",
+    "Photoemission Spectroscopy",
+    "Optical Spectroscopy",
+    "Atom Probe Tomography",
+    "STM",
+    "H5MD",
+    "XPS"
   ],
   "educational_levels": [
     "Beginner",

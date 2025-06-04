@@ -1,0 +1,42 @@
+{
+  "@context": "context/context.jsonld",
+  "@id": "36688ee9-3c8b-402b-91f3-6f570a2ee0ca",
+  "@type": "schema:LearningResource",
+  "dct:title": "Quick Start: Uploading computational data in NOMAD",
+  "dct:description": "This page introduces new users to the process of uploading and managing computational data in NOMAD. It covers multiple upload methods (GUI, API, curl), explains how NOMAD identifies and processes files, and outlines the structure and meaning of the generated metadata entries. The page also details best practices for organizing simulation data, interpreting parsing results, and understanding NOMAD's internal metadata model (Metainfo), workflows, and data normalization mechanisms.",
+  "dct:subject": [
+    "Publish",
+    "Scientific Use Cases"
+  ],
+  "schema:keywords": [
+    "Computational Data",
+    "Upload Data",
+    "Workflows",
+    "DFT",
+    "Molecular Dynamics"
+  ],
+  "schema:dateCreated": "2025-06-04",
+  "schema:dateModified": "2024-06-24",
+  "schema:educationalLevel": [
+    "Beginner"
+  ],
+  "dct:instructionalMethod": [
+    "Tutorial",
+    "Explanation"
+  ],
+  "schema:learningResourceType": [
+    "NOMADDocumentation"
+  ],
+  "schema:encodingFormat": [
+    "schema:TechArticle"
+  ],
+  "schema:license": [
+    "https://creativecommons.org/publicdomain/zero/1.0/"
+  ],
+  "schema:identifier": "https://nomad-lab.eu/prod/v1/docs/examples/computational_data/uploading.html",
+  "schema:inLanguage": "en",
+  "schema:isBasedOn": [],
+  "schema:isPartOf": [
+    "https://nomad-lab.eu/prod/v1/docs/"
+  ]
+}

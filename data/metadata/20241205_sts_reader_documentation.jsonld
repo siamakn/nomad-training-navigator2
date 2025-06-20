@@ -1,0 +1,47 @@
+{
+  "@context": "context/context.jsonld",
+  "@id": "e194855e-0782-43ea-b84d-31ba508de69a",
+  "@type": "schema:LearningResource",
+  "dct:title": "STS Reader Documentation",
+  "dct:description": "Note: Even though the reader name is STS reader, it also supports data from STM experiments. This is the first version of the reader according to the NeXus application definition NXsts (GitHub page) which is a generic template of concept definitions for STS and STM experiments. Later on, application definitions and readers specific to STM, STS, and AFM will be available. To stay up-to-date, keep visiting this page from time to time. From now onwards, when we mention STS, we are referring to both STM and STS techniques.",
+  "dct:subject": [
+    "NeXus",
+    "Scientific Use Cases"
+  ],
+  "schema:keywords": [
+    "NeXus Ontology",
+    "NeXus data modeling",
+    "NeXus Data Converter",
+    "Scanning Tunneling Spectroscopy (STS)",
+    "Scanning Probe Microscopy (SPM)",
+    "Atomic Force Microscopy (AFM)"
+  ],
+  "schema:dateCreated": "2025-06-20",
+  "schema:dateModified": "2024-12-05",
+  "schema:educationalLevel": [
+    "Beginner",
+    "Intermediate",
+    "Advanced"
+  ],
+  "dct:instructionalMethod": [
+    "Tutorial",
+    "HowTo",
+    "Explanation",
+    "Reference"
+  ],
+  "schema:learningResourceType": [
+    "SelfLearning"
+  ],
+  "schema:encodingFormat": [
+    "schema:TechArticle"
+  ],
+  "schema:license": [
+    "https://www.apache.org/licenses/LICENSE-2.0"
+  ],
+  "schema:identifier": "https://fairmat-nfdi.github.io/pynxtools-stm/",
+  "schema:inLanguage": "en",
+  "schema:isBasedOn": [],
+  "schema:isFormatOf": [
+    "https://github.com/FAIRmat-NFDI/pynxtools-stm"
+  ]
+}

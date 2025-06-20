@@ -1,0 +1,45 @@
+{
+  "@context": "context/context.jsonld",
+  "@id": "d9277e10-886c-455e-9e92-245ff25f6d84",
+  "@type": "schema:LearningResource",
+  "dct:title": "NOMAD Onboarding Workshop",
+  "dct:description": "Welcome to the NOMAD Onboarding Workshop! This workshop is designed to introduce you to the NOMAD platform, its functionalities, and practical use cases in research data management for materials science. Below is an overview of the four modules.\nModules Overview¶\n\n    Introduction to Research Data Management with NOMAD\n    Gain insights into research data management principles and how NOMAD supports making data FAIR (Findable, Accessible, Interoperable, and Reusable).\n\n    Exploring Data in NOMAD\n    Learn to navigate and search materials science data using the NOMAD GUI, with an emphasis on understanding and using NOMAD's powerful search features.\n\n    Using NOMAD as an Electronic Lab Notebook (ELN)\n    Discover how to document, manage, and share your experimental and computational data efficiently with NOMAD's ELN capabilities.\n\n    Leveraging NOMAD's API for Advanced Data Management\n    Explore NOMAD's API to retrieve, process, and utilize data programmatically, including applications in machine learning workflows.\n\nEach module provides hands-on exercises and guides to help you understand and effectively utilize NOMAD's features in your research workflow.",
+  "dct:subject": [
+    "General NOMAD",
+    "Publish",
+    "Explore",
+    "Analyze",
+    "ELN",
+    "API"
+  ],
+  "schema:keywords": [
+    "Create Dataset",
+    "Custom YAML Schema",
+    "Introduction"
+  ],
+  "schema:dateCreated": "2025-06-19",
+  "schema:dateModified": "2025-02-12",
+  "schema:educationalLevel": [
+    "Beginner",
+    "Intermediate"
+  ],
+  "dct:instructionalMethod": [
+    "Tutorial"
+  ],
+  "schema:learningResourceType": [
+    "SelfLearning"
+  ],
+  "schema:encodingFormat": [
+    "schema:TechArticle"
+  ],
+  "schema:license": [
+    "https://creativecommons.org/licenses/by/4.0/",
+    "https://www.apache.org/licenses/LICENSE-2.0"
+  ],
+  "schema:identifier": "https://fairmat-nfdi.github.io/nomad-onboarding-workshop/",
+  "schema:inLanguage": "en",
+  "schema:isBasedOn": [],
+  "schema:isFormatOf": [
+    "https://github.com/FAIRmat-NFDI/nomad-onboarding-workshop"
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "@context": "context/context.jsonld",
+  "@id": "a282fdd5-459c-4bd1-8f8f-7e0119af53dd",
+  "@type": "schema:LearningResource",
+  "dct:title": "nomad-neb-workflows ",
+  "dct:description": "A NOMAD plugin containing the section definitions of a standard Nudged Elastic Band (NEB) workflow.",
+  "dct:subject": [
+    "NOMAD Plugins",
+    "Oasis Customization",
+    "Scientific Use Cases"
+  ],
+  "schema:keywords": [
+    "Nudged Elastic Band (NEB) workflow"
+  ],
+  "schema:dateCreated": "2025-06-19",
+  "schema:dateModified": "2025-06-06",
+  "schema:educationalLevel": [
+    "Beginner"
+  ],
+  "dct:instructionalMethod": [
+    "Tutorial",
+    "HowTo",
+    "Explanation",
+    "Reference"
+  ],
+  "schema:learningResourceType": [
+    "SelfLearning"
+  ],
+  "schema:encodingFormat": [
+    "schema:TechArticle"
+  ],
+  "schema:license": [
+    "https://creativecommons.org/licenses/by/4.0/",
+    "https://www.apache.org/licenses/LICENSE-2.0"
+  ],
+  "schema:identifier": "https://fairmat-nfdi.github.io/nomad-neb-workflows/",
+  "schema:inLanguage": "en",
+  "schema:isBasedOn": [],
+  "schema:isFormatOf": [
+    "https://github.com/FAIRmat-NFDI/nomad-neb-workflows"
+  ]
+}

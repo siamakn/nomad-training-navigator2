@@ -1,0 +1,44 @@
+{
+  "@context": "context/context.jsonld",
+  "@id": "526e0c04-d191-41b7-a124-168168312c3f",
+  "@type": "schema:LearningResource",
+  "dct:title": "NOMAD’s parser for magres",
+  "dct:description": "This is a parser plugin for the magres file format developed in the CCP-NC for Nuclear Magnetic Resonance (NMR) data.",
+  "dct:subject": [
+    "NOMAD Plugins",
+    "Scientific Use Cases"
+  ],
+  "schema:keywords": [
+    "magres file format",
+    "NMR"
+  ],
+  "schema:dateCreated": "2025-06-19",
+  "schema:dateModified": "2025-06-12",
+  "schema:educationalLevel": [
+    "Beginner",
+    "Intermediate",
+    "Advanced"
+  ],
+  "dct:instructionalMethod": [
+    "Tutorial",
+    "HowTo",
+    "Explanation",
+    "Reference"
+  ],
+  "schema:learningResourceType": [
+    "SelfLearning"
+  ],
+  "schema:encodingFormat": [
+    "schema:TechArticle"
+  ],
+  "schema:license": [
+    "https://creativecommons.org/licenses/by/4.0/",
+    "https://www.apache.org/licenses/LICENSE-2.0"
+  ],
+  "schema:identifier": "https://fairmat-nfdi.github.io/nomad-parser-magres/",
+  "schema:inLanguage": "en",
+  "schema:isBasedOn": [],
+  "schema:isFormatOf": [
+    "https://github.com/FAIRmat-NFDI/nomad-parser-magres"
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "@context": "context/context.jsonld",
+  "@id": "8edfd16f-ec7c-42d2-9bea-c158330578cb",
+  "@type": "schema:LearningResource",
+  "dct:title": " NOMAD (FAIRmat) Tutorial - CECAM workshop 29.09.23 ",
+  "dct:description": "Area C - Tutorial for CECAM flagship workshop \"Fair and True Data Processing for Soft Matter Simulations\"",
+  "dct:subject": [
+    "General NOMAD",
+    "Publish",
+    "Explore"
+  ],
+  "schema:keywords": [
+    "Simulation",
+    "Molecular Dynamics"
+  ],
+  "schema:dateCreated": "2025-06-12",
+  "schema:dateModified": "2023-09-29",
+  "schema:educationalLevel": [
+    "Intermediate",
+    "Advanced"
+  ],
+  "dct:instructionalMethod": [
+    "Tutorial"
+  ],
+  "schema:learningResourceType": [
+    "SelfLearning"
+  ],
+  "schema:encodingFormat": [
+    "schema:TechArticle"
+  ],
+  "schema:license": [
+    "https://www.apache.org/licenses/LICENSE-2.0"
+  ],
+  "schema:identifier": "https://fairmat-nfdi.github.io/AreaC-Tutorial-CECAM-2023/",
+  "schema:inLanguage": "en",
+  "schema:isBasedOn": [],
+  "schema:isFormatOf": [
+    "https://github.com/FAIRmat-NFDI/AreaC-Tutorial-CECAM-2023"
+  ]
+}

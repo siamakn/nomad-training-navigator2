@@ -1,0 +1,41 @@
+{
+  "@context": "context/context.jsonld",
+  "@id": "f951fed0-6ed3-4568-ac8e-b282b084c460",
+  "@type": "schema:LearningResource",
+  "dct:title": "FAIRmat Hackathon - FAIR Data Management of Spectroscopy Simulations",
+  "dct:description": "This documentation page will provide foundational knowledge for creating parser plugins in NOMAD to manage computational data of spectroscopy simulations. We will use the nomad-simulations package to populate our data schema and extend it when needed. The steps are more general and can be used to create any parser plugin, but in here we will use examples specifically related with theoretical spectroscopy simulations.",
+  "dct:subject": [
+    "Scientific Use Cases",
+    "NOMAD Plugins"
+  ],
+  "schema:keywords": [
+    "Simulation",
+    "Install Plugin",
+    "Develop Plugin",
+    "Parsers"
+  ],
+  "schema:dateCreated": "2025-06-12",
+  "schema:dateModified": "2024-08-29",
+  "schema:educationalLevel": [
+    "Intermediate",
+    "Advanced"
+  ],
+  "dct:instructionalMethod": [
+    "Tutorial"
+  ],
+  "schema:learningResourceType": [
+    "SelfLearning"
+  ],
+  "schema:encodingFormat": [
+    "schema:TechArticle"
+  ],
+  "schema:license": [
+    "https://www.apache.org/licenses/LICENSE-2.0"
+  ],
+  "schema:identifier": "https://fairmat-nfdi.github.io/hackathon-fair-spectroscopy-data-2024/",
+  "schema:inLanguage": "en",
+  "schema:isBasedOn": [],
+  "schema:isFormatOf": [
+    "https://github.com/FAIRmat-NFDI/hackathon-fair-spectroscopy-data-2024"
+  ]
+}

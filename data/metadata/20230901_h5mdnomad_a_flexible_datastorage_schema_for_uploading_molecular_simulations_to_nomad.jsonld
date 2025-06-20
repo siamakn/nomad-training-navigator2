@@ -1,0 +1,45 @@
+{
+  "@context": "context/context.jsonld",
+  "@id": "9980e873-6151-430a-9a04-1191e82157b7",
+  "@type": "schema:LearningResource",
+  "dct:title": "H5MD-NOMAD: A flexible data-storage schema for uploading molecular simulations to NOMAD",
+  "dct:description": "This repository contains documentation describing how to adapt the H5MD schema for storing molecular dynamics data into a format suitable for upload to NOMAD. ",
+  "dct:subject": [
+    "Develop NOMAD",
+    "Scientific Use Cases"
+  ],
+  "schema:keywords": [
+    "H5MD",
+    "Simulation",
+    "Molecular Dynamics",
+    "Write Schema Package",
+    "Write Parser",
+    "Write Normalizer",
+    "Write App",
+    "NOMAD Contribution"
+  ],
+  "schema:dateCreated": "2025-06-12",
+  "schema:dateModified": "2023-09-01",
+  "schema:educationalLevel": [
+    "Intermediate",
+    "Advanced"
+  ],
+  "dct:instructionalMethod": [
+    "HowTo"
+  ],
+  "schema:learningResourceType": [
+    "SelfLearning"
+  ],
+  "schema:encodingFormat": [
+    "schema:TechArticle"
+  ],
+  "schema:license": [
+    "https://www.apache.org/licenses/LICENSE-2.0"
+  ],
+  "schema:identifier": "https://fairmat-nfdi.github.io/AreaC-DOC-H5MD-for-NOMAD/",
+  "schema:inLanguage": "en",
+  "schema:isBasedOn": [],
+  "schema:isFormatOf": [
+    "https://github.com/FAIRmat-NFDI/AreaC-DOC-H5MD-for-NOMAD"
+  ]
+}

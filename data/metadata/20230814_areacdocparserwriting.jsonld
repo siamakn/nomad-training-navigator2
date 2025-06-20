@@ -1,0 +1,38 @@
+{
+  "@context": "context/context.jsonld",
+  "@id": "c74445ec-aea6-4009-b348-460e8acaee3c",
+  "@type": "schema:LearningResource",
+  "dct:title": "AreaC-DOC-parser-writing",
+  "dct:description": "This repository updates and expands upon the \"how to write a parser\" documentation in the older NOMAD docs: https://nomad-lab.eu/prod/rae/docs/developers.html",
+  "dct:subject": [
+    "Oasis Customization"
+  ],
+  "schema:keywords": [
+    "Write Parser",
+    "Docker Compose",
+    "Install NOMAD"
+  ],
+  "schema:dateCreated": "2025-06-12",
+  "schema:dateModified": "2023-08-14",
+  "schema:educationalLevel": [
+    "Advanced"
+  ],
+  "dct:instructionalMethod": [
+    "HowTo"
+  ],
+  "schema:learningResourceType": [
+    "GitRepo"
+  ],
+  "schema:encodingFormat": [
+    "schema:TechArticle"
+  ],
+  "schema:license": [
+    "https://www.apache.org/licenses/LICENSE-2.0"
+  ],
+  "schema:identifier": "https://nomad-lab.eu/prod/rae/docs/developers.html",
+  "schema:inLanguage": "en",
+  "schema:isBasedOn": [],
+  "schema:isFormatOf": [
+    "https://github.com/FAIRmat-NFDI/AreaC-DOC-parser-writing"
+  ]
+}

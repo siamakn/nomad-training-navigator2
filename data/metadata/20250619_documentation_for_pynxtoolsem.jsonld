@@ -1,0 +1,44 @@
+{
+  "@context": "context/context.jsonld",
+  "@id": "54e96f4c-7fb3-4509-af77-b64123781611",
+  "@type": "schema:LearningResource",
+  "dct:title": "Documentation for pynxtools-em",
+  "dct:description": "pynxtools-em is a free and open-source data software for creating standardized semantic serializations of electron microscopy data and metadata for research data management using NeXus. The software aims at making scientific research data FAIR (findable, accessible, interoperable and reusable).\n\npynxtools-em, which is a plugin for pynxtools, provides a tool for reading data and metadata from various proprietary and open data formats from technology partners and the wider electron microscopy community. The software parses and standardizes these into compliance with the NeXus application definition NXem.\n\npynxtools-em is developed both as a standalone reader and as a tool within NOMAD, which is the open-source research data management platform for Materials Science that is developed by the FAIRmat consortium of the German National Research Data Infrastructure (German NFDI).\n\npynxtools-em solves the challenge that comes with using heterogeneous and semantically ambiguous serialization formats that are commonly used in electron microscopy. In addition, the plugin provides an interface for writing readers for different file formats to be mapped to NeXus.\n\npynxtools-em is useful for scientists from the electron microscopy community, for technology partners, software developers, and data providers who search for ways to make their data more completely aligned with the aims of the FAIR principles. Specifically the tool is useful for research groups who wish to organize their research data based on an interoperable standard.",
+  "dct:subject": [
+    "NeXus"
+  ],
+  "schema:keywords": [
+    "NeXus Ontology",
+    "NeXus data modeling",
+    "NeXus Data Converter",
+    "Electron Microscopy (EM)",
+    "pynxtools"
+  ],
+  "schema:dateCreated": "2025-06-20",
+  "schema:dateModified": "2025-06-19",
+  "schema:educationalLevel": [
+    "Beginner",
+    "Intermediate",
+    "Advanced"
+  ],
+  "dct:instructionalMethod": [
+    "Tutorial",
+    "HowTo",
+    "Explanation"
+  ],
+  "schema:learningResourceType": [
+    "SelfLearning"
+  ],
+  "schema:encodingFormat": [
+    "schema:TechArticle"
+  ],
+  "schema:license": [
+    "https://www.apache.org/licenses/LICENSE-2.0"
+  ],
+  "schema:identifier": "https://fairmat-nfdi.github.io/pynxtools-em/",
+  "schema:inLanguage": "en",
+  "schema:isBasedOn": [],
+  "schema:isFormatOf": [
+    "https://github.com/FAIRmat-NFDI/pynxtools-em"
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "@context": "context/context.jsonld",
+  "@id": "f19b8437-e28b-4956-b7fd-1a7befd8d770",
+  "@type": "schema:LearningResource",
+  "dct:title": " nomad-simulation-parsers ",
+  "dct:description": "A repository for housing NOMAD's collection of simulation parser plugins.",
+  "dct:subject": [
+    "Scientific Use Cases"
+  ],
+  "schema:keywords": [
+    "Simulation"
+  ],
+  "schema:dateCreated": "2025-06-19",
+  "schema:dateModified": "2025-06-19",
+  "schema:educationalLevel": [
+    "Beginner",
+    "Intermediate",
+    "Advanced"
+  ],
+  "dct:instructionalMethod": [
+    "Tutorial",
+    "HowTo",
+    "Explanation",
+    "Reference"
+  ],
+  "schema:learningResourceType": [
+    "SelfLearning"
+  ],
+  "schema:encodingFormat": [
+    "schema:TechArticle"
+  ],
+  "schema:license": [
+    "https://creativecommons.org/licenses/by/4.0/",
+    "https://www.apache.org/licenses/LICENSE-2.0"
+  ],
+  "schema:identifier": "https://fairmat-nfdi.github.io/nomad-parser-plugins-simulation/",
+  "schema:inLanguage": "en",
+  "schema:isBasedOn": [],
+  "schema:isFormatOf": [
+    "https://github.com/FAIRmat-NFDI/nomad-parser-plugins-simulation"
+  ]
+}

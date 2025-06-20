@@ -1,0 +1,43 @@
+{
+  "@context": "context/context.jsonld",
+  "@id": "cc8cbf79-bf4c-4b45-9515-e52438f83fae",
+  "@type": "schema:LearningResource",
+  "dct:title": " NOMAD Workflows Documentation ",
+  "dct:description": "This repository has been archived in favour of a general AreaC documentation page. The new repository can be found in FAIRmat-NFDI/AreaC-DOC.",
+  "dct:subject": [
+    "Develop NOMAD",
+    "Oasis Customization",
+    "Scientific Use Cases"
+  ],
+  "schema:keywords": [
+    "Workflows"
+  ],
+  "schema:dateCreated": "2025-06-12",
+  "schema:dateModified": "2023-08-28",
+  "schema:educationalLevel": [
+    "Beginner",
+    "Intermediate",
+    "Advanced"
+  ],
+  "dct:instructionalMethod": [
+    "Tutorial",
+    "HowTo",
+    "Explanation",
+    "Reference"
+  ],
+  "schema:learningResourceType": [
+    "SelfLearning"
+  ],
+  "schema:encodingFormat": [
+    "schema:TechArticle"
+  ],
+  "schema:license": [
+    "https://www.apache.org/licenses/LICENSE-2.0"
+  ],
+  "schema:identifier": "https://fairmat-nfdi.github.io/AreaC-DOC-workflows/",
+  "schema:inLanguage": "en",
+  "schema:isBasedOn": [],
+  "schema:isFormatOf": [
+    "https://github.com/FAIRmat-NFDI/AreaC-DOC-workflows"
+  ]
+}

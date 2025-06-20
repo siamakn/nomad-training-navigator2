@@ -1,0 +1,49 @@
+{
+  "@context": "context/context.jsonld",
+  "@id": "fb62e058-c7a7-4901-b768-b152cbdecd7f",
+  "@type": "schema:LearningResource",
+  "dct:title": "NOMAD's Measurements Plugin",
+  "dct:description": "Welcome to the official documentation for the NOMAD-measurements Plugin! This plugin is designed to provide structured data schemas for storing experimental measurement data in alignment with the FAIR (Findable, Accessible, Interoperable, and Reusable) principles. It serves as a community or standard plugin, offering commonly used schemas and classes/sections for measurement data that can be shared across a community.\nSupported Measurement Techniques¶\n\nCurrently, this plugin supports the following measurement techniques:\n\n    X-ray Diffraction (XRD): Supports 1D line scans and 2D Reciprocal Space Mapping (RSM) scans. Supports automatic parsing of data for the following file formats (read more here):\n    Panalytical: *.xrdml\n    Bruker: *.brml\n\n    Rigaku: *.rasx\n\n    UV-Vis-NIR Transmission: Supports automatic parsing of data for the following file formats (read more here):\n\n    Perkin Elmers: *.asc\n\n    Physical Properies Measurement System (PPMS): Supports automatic parsing of measurement files and sequence files from the Quantum Design PPMS. For now, ETO, ACT, ACMS, MPMS, and Resistivity modes are supported. Supported file formats:\n    QuantumDesign PPMS: *.dat and *.seq\n\nAdditional measurement techniques are actively being developed and will be included soon, including:\n\n    Raman Spectroscopy\n    X-ray Fluorescence (XRF)\n\nStay tuned for updates as more methods become available!",
+  "dct:subject": [
+    "Oasis Customization",
+    "NOMAD Plugins",
+    "Scientific Use Cases"
+  ],
+  "schema:keywords": [
+    "XRD",
+    "UV-Vis-NIR Transmission",
+    "Physical Properies Measurement System (PPMS)",
+    "Raman Spectroscopy",
+    "Data processing",
+    "Supported Files"
+  ],
+  "schema:dateCreated": "2025-06-19",
+  "schema:dateModified": "2025-05-26",
+  "schema:educationalLevel": [
+    "Beginner",
+    "Intermediate",
+    "Advanced"
+  ],
+  "dct:instructionalMethod": [
+    "Tutorial",
+    "HowTo",
+    "Explanation",
+    "Reference"
+  ],
+  "schema:learningResourceType": [
+    "SelfLearning"
+  ],
+  "schema:encodingFormat": [
+    "schema:TechArticle"
+  ],
+  "schema:license": [
+    "https://creativecommons.org/licenses/by/4.0/",
+    "https://www.apache.org/licenses/LICENSE-2.0"
+  ],
+  "schema:identifier": "https://fairmat-nfdi.github.io/nomad-measurements/",
+  "schema:inLanguage": "en",
+  "schema:isBasedOn": [],
+  "schema:isFormatOf": [
+    "https://github.com/FAIRmat-NFDI/nomad-measurements"
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "@context": "context/context.jsonld",
+  "@id": "e18edf9a-6882-4c2d-9af3-8163d486051d",
+  "@type": "schema:LearningResource",
+  "dct:title": "NOMAD Material Processing Plugin Documentation",
+  "dct:description": "Welcome to the official documentation for the NOMAD Material Processing Plugin! This plugin provides NOMAD schemas, readers, and parsers for data of materials science synthesis processes in alignment with the FAIR (Findable, Accessible, Interoperable, and Reusable) principles. It serves as a community or standard plugin, offering commonly used schemas and classes/sections for material processing data that can be shared across a community.",
+  "dct:subject": [
+    "NOMAD Plugins",
+    "Scientific Use Cases"
+  ],
+  "schema:keywords": [
+    "Materials Processing"
+  ],
+  "schema:dateCreated": "2025-06-19",
+  "schema:dateModified": "2025-03-23",
+  "schema:educationalLevel": [
+    "Beginner",
+    "Intermediate",
+    "Advanced"
+  ],
+  "dct:instructionalMethod": [
+    "Tutorial",
+    "HowTo",
+    "Explanation",
+    "Reference"
+  ],
+  "schema:learningResourceType": [
+    "SelfLearning"
+  ],
+  "schema:encodingFormat": [
+    "schema:TechArticle"
+  ],
+  "schema:license": [
+    "https://creativecommons.org/licenses/by/4.0/",
+    "https://www.apache.org/licenses/LICENSE-2.0"
+  ],
+  "schema:identifier": "https://fairmat-nfdi.github.io/nomad-material-processing/",
+  "schema:inLanguage": "en",
+  "schema:isBasedOn": [],
+  "schema:isFormatOf": [
+    "https://github.com/FAIRmat-NFDI/nomad-material-processing"
+  ]
+}

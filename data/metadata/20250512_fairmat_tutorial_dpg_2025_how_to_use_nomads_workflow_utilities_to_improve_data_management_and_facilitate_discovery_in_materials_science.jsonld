@@ -1,0 +1,39 @@
+{
+  "@context": "context/context.jsonld",
+  "@id": "50f5b135-ded1-4799-a77c-a265d0c71a02",
+  "@type": "schema:LearningResource",
+  "dct:title": " FAIRmat Tutorial DPG 2025 How to Use NOMAD's Workflow Utilities to Improve Data Management and Facilitate Discovery in Materials Science",
+  "dct:description": "FAIRmat Tutorial DPG 2025: How to Use NOMAD's Workflow Utilities to Improve Data Management and Facilitate Discovery in Materials Science\nDescription:\n\n    ℹ️ Note This tutorial is archived. See NOMAD Tutorial Workflow for updated versions.\n",
+  "dct:subject": [
+    "API"
+  ],
+  "schema:keywords": [
+    "Custom API",
+    "Workflows",
+    "Simulation"
+  ],
+  "schema:dateCreated": "2025-06-12",
+  "schema:dateModified": "2025-05-12",
+  "schema:educationalLevel": [
+    "Intermediate",
+    "Advanced"
+  ],
+  "dct:instructionalMethod": [
+    "Tutorial"
+  ],
+  "schema:learningResourceType": [
+    "FAIRmatTutorial"
+  ],
+  "schema:encodingFormat": [
+    "schema:TechArticle"
+  ],
+  "schema:license": [
+    "https://www.apache.org/licenses/LICENSE-2.0"
+  ],
+  "schema:identifier": "https://fairmat-nfdi.github.io/nomad-tutorial-workflows/latest/",
+  "schema:inLanguage": "en",
+  "schema:isBasedOn": [],
+  "schema:isFormatOf": [
+    "https://github.com/FAIRmat-NFDI/fairmat-tutorial-DPG-2025"
+  ]
+}

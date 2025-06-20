@@ -1,0 +1,44 @@
+{
+  "@context": "context/context.jsonld",
+  "@id": "38030153-c87a-47e7-94f1-2293a79e7378",
+  "@type": "schema:LearningResource",
+  "dct:title": "FAIRmat NeXus documentation",
+  "dct:description": "Within FAIRmat, we are extending the NeXus data format standard to support the FAIR data principles for experimental data in materials science (covering solid-state physics and the chemical physics of solids, as well as materials engineering). This is the documentation for both our contribution to the NeXus standard and for our tools for data conversion and verification.",
+  "dct:subject": [
+    "NeXus"
+  ],
+  "schema:keywords": [
+    "pynxtools",
+    "NeXus Ontology",
+    "NeXus Data Converter",
+    "NeXus data modeling"
+  ],
+  "schema:dateCreated": "2025-06-20",
+  "schema:dateModified": "2025-06-20",
+  "schema:educationalLevel": [
+    "Beginner",
+    "Intermediate",
+    "Advanced"
+  ],
+  "dct:instructionalMethod": [
+    "Tutorial",
+    "HowTo",
+    "Explanation",
+    "Reference"
+  ],
+  "schema:learningResourceType": [
+    "SelfLearning"
+  ],
+  "schema:encodingFormat": [
+    "schema:TechArticle"
+  ],
+  "schema:license": [
+    "https://www.apache.org/licenses/LICENSE-2.0"
+  ],
+  "schema:identifier": "https://fairmat-nfdi.github.io/pynxtools/",
+  "schema:inLanguage": "en",
+  "schema:isBasedOn": [],
+  "schema:isFormatOf": [
+    "https://github.com/FAIRmat-NFDI/pynxtools"
+  ]
+}

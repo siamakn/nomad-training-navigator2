@@ -1,0 +1,38 @@
+{
+  "@context": "context/context.jsonld",
+  "@id": "525e8f22-8a98-48bd-8e36-836be497b00f",
+  "@type": "schema:LearningResource",
+  "dct:title": "NeXus definitions",
+  "dct:description": "Definitions of the NeXus Standard File Structure and Contents ",
+  "dct:subject": [
+    "NeXus"
+  ],
+  "schema:keywords": [
+    "NeXus Ontology",
+    "NeXus data modeling",
+    "Data Modeling"
+  ],
+  "schema:dateCreated": "2025-06-12",
+  "schema:dateModified": "2025-06-11",
+  "schema:educationalLevel": [
+    "Beginner",
+    "Intermediate",
+    "Advanced"
+  ],
+  "dct:instructionalMethod": [
+    "Reference",
+    "Tutorial",
+    "HowTo",
+    "Explanation"
+  ],
+  "schema:learningResourceType": [
+    "GitRepo"
+  ],
+  "schema:encodingFormat": [
+    "schema:SoftwareSourceCode"
+  ],
+  "schema:license": [],
+  "schema:identifier": "https://github.com/FAIRmat-NFDI/nexus_definitions",
+  "schema:inLanguage": "en",
+  "schema:isBasedOn": []
+}

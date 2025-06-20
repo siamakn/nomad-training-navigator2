@@ -1,0 +1,47 @@
+{
+  "@context": "context/context.jsonld",
+  "@id": "1600d931-b50b-40c0-8347-918fd6be01a8",
+  "@type": "schema:LearningResource",
+  "dct:title": " nomad-catalysis-plugin",
+  "dct:description": "This is the documentation for the NOMAD plugin for heterogeneous catalysis data. It provides an overview of the supported entry types, their sub-sections and quantities and a guide of how to use the plugin and effectively manage and share catalysis research data in NOMAD.",
+  "dct:subject": [
+    "NOMAD Plugins",
+    "Develop NOMAD",
+    "Scientific Use Cases"
+  ],
+  "schema:keywords": [
+    "Catalysis",
+    "Heterogeneous Catalysis",
+    "Develop Plugin",
+    "Install Plugin"
+  ],
+  "schema:dateCreated": "2025-06-19",
+  "schema:dateModified": "2025-06-17",
+  "schema:educationalLevel": [
+    "Beginner",
+    "Intermediate",
+    "Advanced"
+  ],
+  "dct:instructionalMethod": [
+    "Tutorial",
+    "HowTo",
+    "Explanation",
+    "Reference"
+  ],
+  "schema:learningResourceType": [
+    "SelfLearning"
+  ],
+  "schema:encodingFormat": [
+    "schema:TechArticle"
+  ],
+  "schema:license": [
+    "https://creativecommons.org/licenses/by/4.0/",
+    "https://opensource.org/licenses/MIT"
+  ],
+  "schema:identifier": "https://fairmat-nfdi.github.io/nomad-catalysis-plugin/",
+  "schema:inLanguage": "en",
+  "schema:isBasedOn": [],
+  "schema:isFormatOf": [
+    "https://github.com/FAIRmat-NFDI/nomad-catalysis-plugin"
+  ]
+}

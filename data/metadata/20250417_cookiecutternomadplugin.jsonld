@@ -1,0 +1,25 @@
+{
+  "@context": "context/context.jsonld",
+  "@id": "45b99f0c-74a6-47c8-8493-08477aea56ff",
+  "@type": "schema:LearningResource",
+  "dct:title": " cookiecutter-nomad-plugin",
+  "dct:description": "Minimal Cookiecutter template for authoring [nomad] plugins.",
+  "dct:subject": [
+    "Develop NOMAD"
+  ],
+  "schema:keywords": [
+    "NOMAD Contribution"
+  ],
+  "schema:dateCreated": "2025-06-12",
+  "schema:dateModified": "2025-04-17",
+  "schema:educationalLevel": [],
+  "dct:instructionalMethod": [],
+  "schema:learningResourceType": [],
+  "schema:encodingFormat": [],
+  "schema:license": [
+    "https://opensource.org/licenses/MIT"
+  ],
+  "schema:identifier": "https://github.com/FAIRmat-NFDI/cookiecutter-nomad-plugin",
+  "schema:inLanguage": "en",
+  "schema:isBasedOn": []
+}

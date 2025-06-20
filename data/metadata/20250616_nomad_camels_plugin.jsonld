@@ -1,0 +1,41 @@
+{
+  "@context": "context/context.jsonld",
+  "@id": "f76fab63-9c99-419b-9f8b-275b00204316",
+  "@type": "schema:LearningResource",
+  "dct:title": "NOMAD CAMELS Plugin ",
+  "dct:description": "Plugin for HDF5 (.nxs) files coming from NOMAD CAMELS.. This plugin provides NOMAD schemas, parsers and a search app for data coming from NOMAD CAMELS. It allows you to automatically read and process your CAMELS measurement files in NOMAD and gives an easy-to-use search app to filter and search through all your measurements.",
+  "dct:subject": [
+    "CAMELS",
+    "NOMAD CAMELS"
+  ],
+  "schema:keywords": [
+    "Install Plugin",
+    "Develop Plugin"
+  ],
+  "schema:dateCreated": "2025-06-19",
+  "schema:dateModified": "2025-06-16",
+  "schema:educationalLevel": [
+    "Intermediate",
+    "Advanced"
+  ],
+  "dct:instructionalMethod": [
+    "Tutorial",
+    "HowTo",
+    "Explanation",
+    "Reference"
+  ],
+  "schema:learningResourceType": [
+    "GitRepo",
+    "SelfLearning"
+  ],
+  "schema:encodingFormat": [
+    "schema:TechArticle"
+  ],
+  "schema:license": [
+    "https://creativecommons.org/licenses/by/4.0/",
+    "https://opensource.org/licenses/MIT"
+  ],
+  "schema:identifier": "https://fairmat-nfdi.github.io/nomad-camels-plugin/",
+  "schema:inLanguage": "en",
+  "schema:isBasedOn": []
+}

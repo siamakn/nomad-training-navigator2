@@ -1,0 +1,45 @@
+{
+  "@context": "context/context.jsonld",
+  "@id": "27a3ac4e-cb5f-4fc5-8bec-3b3c9bf0661a",
+  "@type": "schema:LearningResource",
+  "dct:title": "Documentation for pynxtools-mpes",
+  "dct:description": "pynxtools-mpes is a free, and open-source data software for harmonizing multidimensional photoemission spectroscopy (MPES) data and metadata for research data management using NeXus.\n\npynxtools-mpes is a plugin for pynxtools for reading, translating, and standardizing MPES data from different sources such that it is compliant with the NeXus application definition NXmpes. In addition, it also supports the specialized application definition NXmpes_arpes for angle-resolved photoemission spectroscopy (ARPES) experiments.\n\npynxtools-mpes is developed both as a standalone reader and as a tool within NOMAD, which is the open-source data management platform for materials science we are developing within FAIRmat.",
+  "dct:subject": [
+    "NeXus",
+    "Scientific Use Cases"
+  ],
+  "schema:keywords": [
+    "multidimensional photoemission spectroscopy (MPES)",
+    "NeXus Ontology",
+    "NeXus Data Converter",
+    "NeXus data modeling"
+  ],
+  "schema:dateCreated": "2025-06-20",
+  "schema:dateModified": "2025-06-18",
+  "schema:educationalLevel": [
+    "Beginner",
+    "Intermediate",
+    "Advanced"
+  ],
+  "dct:instructionalMethod": [
+    "Tutorial",
+    "HowTo",
+    "Explanation",
+    "Reference"
+  ],
+  "schema:learningResourceType": [
+    "SelfLearning"
+  ],
+  "schema:encodingFormat": [
+    "schema:TechArticle"
+  ],
+  "schema:license": [
+    "https://www.apache.org/licenses/LICENSE-2.0"
+  ],
+  "schema:identifier": "https://fairmat-nfdi.github.io/pynxtools-mpes/",
+  "schema:inLanguage": "en",
+  "schema:isBasedOn": [],
+  "schema:isFormatOf": [
+    "https://github.com/FAIRmat-NFDI/pynxtools-mpes"
+  ]
+}

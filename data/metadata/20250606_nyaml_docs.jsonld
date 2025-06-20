@@ -1,0 +1,42 @@
+{
+  "@context": "context/context.jsonld",
+  "@id": "e1df437d-deb5-46b4-ad3d-2a9d7a272a29",
+  "@type": "schema:LearningResource",
+  "dct:title": "NYAML Docs ",
+  "dct:description": "The NeXus data format, described by the NeXus Definition Language (NXDL), represents a concerted effort aimed at facilitating data exchange within scientific communities, particularly among those engaged in neutron, X-ray, and muon research J. Appl. Cryst. (2015). 48, 301-305. The data format is also being used by the material science community under the project NeXus-FAIRmat supporting FAIR (Findable, Accessible, Interoperable and Reuseable) data principle. It serves as a standardized framework for both data exchange and storage. At its core, the NeXus Definition Language (NXDL) functions as the cornerstone through which scientists delineate the nomenclature and organizational structure of information within NeXus data files, tailored to specific scientific techniques.",
+  "dct:subject": [
+    "NeXus"
+  ],
+  "schema:keywords": [
+    "NeXus Ontology",
+    "NeXus data modeling"
+  ],
+  "schema:dateCreated": "2025-06-20",
+  "schema:dateModified": "2025-06-06",
+  "schema:educationalLevel": [
+    "Beginner",
+    "Intermediate",
+    "Advanced"
+  ],
+  "dct:instructionalMethod": [
+    "Tutorial",
+    "HowTo",
+    "Explanation",
+    "Reference"
+  ],
+  "schema:learningResourceType": [
+    "SelfLearning"
+  ],
+  "schema:encodingFormat": [
+    "schema:TechArticle"
+  ],
+  "schema:license": [
+    "https://www.apache.org/licenses/LICENSE-2.0"
+  ],
+  "schema:identifier": "https://fairmat-nfdi.github.io/nyaml/",
+  "schema:inLanguage": "en",
+  "schema:isBasedOn": [],
+  "schema:isFormatOf": [
+    "https://github.com/FAIRmat-NFDI/nyaml"
+  ]
+}

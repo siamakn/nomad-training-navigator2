@@ -1,0 +1,44 @@
+{
+  "@context": "context/context.jsonld",
+  "@id": "89750cea-122e-4d3d-888b-8d9eddbc59ef",
+  "@type": "schema:LearningResource",
+  "dct:title": "Parse and normalize atom probe tomography and field-ion microscopy data",
+  "dct:description": "pynxtools-apm is a free and open-source data software for creating standardized semantic serializations of atom probe tomography and related field-ion microscopy data and metadata for research data management using NeXus. The software aims at making scientific research data FAIR (findable, accessible, interoperable and reusable).\n\npynxtools-apm, which is a plugin for pynxtools, provides a tool for reading data from various proprietary and open data formats from technology partners of the atom probe community and standardizing it such that it is compliant with the NeXus application definition NXapm.\n\npynxtools-apm is developed both as a standalone reader and as a tool within NOMAD, which is the open-source research data management platform for Materials Science that is developed by the FAIRmat consortium of the German National Research Data Infrastructure (German NFDI).\n\npynxtools-apm solves the challenge that comes with using heterogeneous and semantically ambiguous serialization formats that are commonly used in atom probe research. In addition, the plugin provides an interface for writing readers for different file formats to be mapped to NeXus.\n\npynxtools-apm is useful for scientists from the atom probe community, for technology partners, software developers, and data providers who search for ways to make their data and metadata more completely aligned with the aims of the FAIR principles.",
+  "dct:subject": [
+    "NeXus",
+    "Scientific Use Cases"
+  ],
+  "schema:keywords": [
+    "NeXus Ontology",
+    "NeXus Data Converter",
+    "NeXus data modeling",
+    "Atom Probe Tomography (APM)",
+    "pynxtools"
+  ],
+  "schema:dateCreated": "2025-06-20",
+  "schema:dateModified": "2025-06-20",
+  "schema:educationalLevel": [
+    "Beginner",
+    "Intermediate"
+  ],
+  "dct:instructionalMethod": [
+    "Tutorial",
+    "HowTo",
+    "Explanation"
+  ],
+  "schema:learningResourceType": [
+    "SelfLearning"
+  ],
+  "schema:encodingFormat": [
+    "schema:TechArticle"
+  ],
+  "schema:license": [
+    "https://www.apache.org/licenses/LICENSE-2.0"
+  ],
+  "schema:identifier": "https://fairmat-nfdi.github.io/pynxtools-apm/",
+  "schema:inLanguage": "en",
+  "schema:isBasedOn": [],
+  "schema:isFormatOf": [
+    "https://github.com/FAIRmat-NFDI/pynxtools-apm"
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "@context": "context/context.jsonld",
+  "@id": "2c0d6a73-65c0-4b52-b527-ac890c561e86",
+  "@type": "schema:LearningResource",
+  "dct:title": " IMSI 2024 - AI Toolkit tutorials",
+  "dct:description": "IMSI workshop",
+  "dct:subject": [
+    "API",
+    "AI",
+    "Scientific Use Cases"
+  ],
+  "schema:keywords": [
+    "AI Toolkit",
+    "Data processing"
+  ],
+  "schema:dateCreated": "2025-06-12",
+  "schema:dateModified": "2024-03-11",
+  "schema:educationalLevel": [],
+  "dct:instructionalMethod": [],
+  "schema:learningResourceType": [],
+  "schema:encodingFormat": [],
+  "schema:license": [],
+  "schema:identifier": "https://fairmat-nfdi.github.io/imsi-workshop/",
+  "schema:inLanguage": "en",
+  "schema:isBasedOn": [],
+  "schema:isFormatOf": [
+    "https://github.com/FAIRmat-NFDI/imsi-workshop"
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "@context": "context/context.jsonld",
+  "@id": "73bbccf0-abbe-43fc-8b2e-30c9da008900",
+  "@type": "schema:LearningResource",
+  "dct:title": "Awesome Materials Properties Data Models",
+  "dct:description": "A curated list of resources for data models and ontologies related to materials science and materials properties.",
+  "dct:subject": [
+    "Scientific Use Cases"
+  ],
+  "schema:keywords": [
+    "Data Modeling"
+  ],
+  "schema:dateCreated": "2025-06-12",
+  "schema:dateModified": "2024-06-05",
+  "schema:educationalLevel": [
+    "Beginner"
+  ],
+  "dct:instructionalMethod": [
+    "Reference"
+  ],
+  "schema:learningResourceType": [
+    "GitRepo"
+  ],
+  "schema:encodingFormat": [
+    "schema:TechArticle"
+  ],
+  "schema:license": [],
+  "schema:identifier": "https://github.com/FAIRmat-NFDI/awesome-materials-properties-data-models",
+  "schema:inLanguage": "en",
+  "schema:isBasedOn": []
+}

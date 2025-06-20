@@ -1,0 +1,49 @@
+{
+  "@context": "context/context.jsonld",
+  "@id": "c0a7d252-95ba-4c60-84be-8e191c0c8d40",
+  "@type": "schema:LearningResource",
+  "dct:title": "NOMAD Documentation: Computational Calculations ",
+  "dct:description": "Welcome to the NOMAD documentation for Computational Materials Scientists, where you can find information about how to benefit from using NOMAD to upload and publish data, find and download data, perform complex queries and apply Data Science techniques, as well as develop the current infrastructure for parsers, normalizers, filters and searches, and visualizations. Each main section on the left is self-contained, so that it can independently be browsed through to learn one of the aforementioned aspects. \n\nRepository containing the Area C specific documentation for using NOMAD for computational data.\n\nWe organized the information in correlated sections:\n\n    Uploading and publishing your data in NOMAD.\n    Custom schemas for new features.\n    Writing a parser plugin.\n    Normalizing the parsed metadata.\n    Querying and performing Data Science with NOMAD.\n    Visualizing properties in the entry page.\n    Defining filters for searches.\n    Current features.\n",
+  "dct:subject": [
+    "Publish",
+    "Explore",
+    "Analyze",
+    "NOMAD Plugins",
+    "Oasis Customization"
+  ],
+  "schema:keywords": [
+    "Develop Plugin",
+    "Workflows",
+    "Write Normalizer",
+    "Write Parser",
+    "Write Schema Package"
+  ],
+  "schema:dateCreated": "2025-06-12",
+  "schema:dateModified": "2023-02-28",
+  "schema:educationalLevel": [
+    "Intermediate",
+    "Advanced"
+  ],
+  "dct:instructionalMethod": [
+    "Tutorial",
+    "HowTo",
+    "Explanation",
+    "Reference"
+  ],
+  "schema:learningResourceType": [
+    "SelfLearning"
+  ],
+  "schema:encodingFormat": [
+    "schema:TechArticle"
+  ],
+  "schema:license": [
+    "https://creativecommons.org/licenses/by/4.0/",
+    "https://www.apache.org/licenses/LICENSE-2.0"
+  ],
+  "schema:identifier": "https://fairmat-nfdi.github.io/AreaC-DOC/",
+  "schema:inLanguage": "en",
+  "schema:isBasedOn": [],
+  "schema:isFormatOf": [
+    "https://github.com/FAIRmat-NFDI/AreaC-DOC"
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "@context": "context/context.jsonld",
+  "@id": "3f3cede2-99ae-4349-99bf-0fda8a6a4125",
+  "@type": "schema:LearningResource",
+  "dct:title": "FAIRmat Area A Examples",
+  "dct:description": "This is a repository to support learning resources created by FAIRmat Area A such as NOMAD tutorials, users meeting sessions etc.",
+  "dct:subject": [
+    "General NOMAD",
+    "ELN",
+    "Oasis Customization",
+    "Oasis Installation",
+    "NOMAD Plugins",
+    "Scientific Use Cases"
+  ],
+  "schema:keywords": [
+    "Base Section",
+    "Built-in Schema",
+    "Custom YAML Schema",
+    "Data Modeling",
+    "Develop Plugin",
+    "Data processing",
+    "Install Oasis",
+    "Install Plugin",
+    "NOMAD Metainfo",
+    "Parsers",
+    "Tabular Parser",
+    "Tabular Data",
+    "Tabular Parser YAML",
+    "Write Parser",
+    "Write Normalizer",
+    "Write Schema Package"
+  ],
+  "schema:dateCreated": "2025-06-12",
+  "schema:dateModified": "2025-01-14",
+  "schema:educationalLevel": [
+    "Beginner",
+    "Intermediate"
+  ],
+  "dct:instructionalMethod": [
+    "Tutorial"
+  ],
+  "schema:learningResourceType": [
+    "GitRepo"
+  ],
+  "schema:encodingFormat": [
+    "schema:SoftwareSourceCode"
+  ],
+  "schema:license": [],
+  "schema:identifier": "https://github.com/FAIRmat-NFDI/AreaA-Examples",
+  "schema:inLanguage": "en",
+  "schema:isBasedOn": []
+}

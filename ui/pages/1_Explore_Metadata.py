@@ -1,5 +1,3 @@
-# pages/1_Explore_Metadata.py
-
 import sys
 from pathlib import Path
 sys.path.append(str(Path(__file__).resolve().parent.parent))
@@ -16,7 +14,25 @@ from utils.logger import logger
 vocab_path = Path("config") / "vocabulary.json"
 vocab = json.loads(vocab_path.read_text(encoding="utf-8"))
 
-# Sidebar filters
+# Load and validate metadata
+all_resources = []
+for raw in MetadataManager.backend.list_all():
+    try:
+        all_resources.append(MetadataManager._from_jsonld(raw))
+    except Exception as e:
+        logger.warning(f"Skipped malformed resource: {e}")
+
+# Match functions
+def any_match(selected, available):
+    return not selected or bool(set(selected) & set(available))
+
+def all_match(selected, available):
+    return not selected or set(selected).issubset(set(available))
+
+MATCH_MODE = "ALL"  # or "ANY"
+match_fn = all_match if MATCH_MODE == "ALL" else any_match
+
+# Initialize session state if needed
 if "filters_initialized" not in st.session_state:
     st.session_state.filters_initialized = True
     st.session_state.update({
@@ -32,35 +48,47 @@ if "filters_initialized" not in st.session_state:
         "select_all": False
     })
 
+# Sidebar header
 with st.sidebar:
     st.header("Filters")
-    selected_subjects = st.multiselect("Subjects", vocab["subjects"], key="filter_subjects")
-    selected_keywords = st.multiselect("Keywords", vocab["keywords"], key="filter_keywords")
-    selected_education = st.multiselect("Education Level", vocab["educational_levels"], key="filter_education")
-    selected_methods = st.multiselect("Instructional Method", vocab["instructional_methods"], key="filter_methods")
-    selected_types = st.multiselect("Resource Type", [rt["label"] for rt in vocab["learning_resource_types"]], key="filter_types")
-    selected_formats = st.multiselect("Format", [f["label"] for f in vocab["formats"]], key="filter_formats")
+
+# Partial filtering function to support dynamic option reduction
+def partial_matches(resource):
+    return (
+        match_fn(st.session_state.filter_subjects, resource.subject)
+        and match_fn(st.session_state.filter_keywords, resource.keywords)
+        and match_fn(st.session_state.filter_education, resource.educational_level)
+        and match_fn(st.session_state.filter_methods, resource.instructional_method)
+        and match_fn(st.session_state.filter_types, resource.learning_resource_type)
+        and match_fn(st.session_state.filter_formats, resource.format)
+    )
+
+# Filter resources based on current state selections
+filtered_for_options = list(filter(partial_matches, all_resources))
+
+# Dynamically extract filter options from partially filtered resources
+def extract_unique(attr):
+    return sorted({val for res in filtered_for_options for val in getattr(res, attr)})
+
+available_subjects = extract_unique("subject")
+available_keywords = extract_unique("keywords")
+available_education = extract_unique("educational_level")
+available_methods = extract_unique("instructional_method")
+available_types = extract_unique("learning_resource_type")
+available_formats = extract_unique("format")
+
+# Now display the widgets
+with st.sidebar:
+    selected_subjects = st.multiselect("Subjects", available_subjects, default=st.session_state.filter_subjects, key="filter_subjects")
+    selected_keywords = st.multiselect("Keywords", available_keywords, default=st.session_state.filter_keywords, key="filter_keywords")
+    selected_education = st.multiselect("Education Level", available_education, default=st.session_state.filter_education, key="filter_education")
+    selected_methods = st.multiselect("Instructional Method", available_methods, default=st.session_state.filter_methods, key="filter_methods")
+    selected_types = st.multiselect("Resource Type", available_types, default=st.session_state.filter_types, key="filter_types")
+    selected_formats = st.multiselect("Format", available_formats, default=st.session_state.filter_formats, key="filter_formats")
     admin_mode = st.checkbox("Admin Mode", value=False, key="admin_mode")
 
-# Load and validate metadata
-all_resources = []
-for raw in MetadataManager.backend.list_all():
-    try:
-        all_resources.append(MetadataManager._from_jsonld(raw))
-    except Exception as e:
-        logger.warning(f"Skipped malformed resource: {e}")
-
-# Filtering logic
-def any_match(selected, available):
-    return not selected or bool(set(selected) & set(available))
-
-def all_match(selected, available):
-    return not selected or set(selected).issubset(set(available))
-
-MATCH_MODE = "ALL"  # Change to "ANY" if needed
-
+# Final filter for main results
 def matches(resource):
-    match_fn = all_match if MATCH_MODE == "ALL" else any_match
     return (
         match_fn(selected_subjects, resource.subject)
         and match_fn(selected_keywords, resource.keywords)

@@ -51,17 +51,23 @@ for raw in MetadataManager.backend.list_all():
         logger.warning(f"Skipped malformed resource: {e}")
 
 # Filtering logic
-def matches(resource):
-    def any_match(selected, available):
-        return not selected or set(selected) & set(available)
+def any_match(selected, available):
+    return not selected or bool(set(selected) & set(available))
 
+def all_match(selected, available):
+    return not selected or set(selected).issubset(set(available))
+
+MATCH_MODE = "ALL"  # Change to "ANY" if needed
+
+def matches(resource):
+    match_fn = all_match if MATCH_MODE == "ALL" else any_match
     return (
-        any_match(selected_subjects, resource.subject)
-        and any_match(selected_keywords, resource.keywords)
-        and any_match(selected_education, resource.educational_level)
-        and any_match(selected_methods, resource.instructional_method)
-        and any_match(selected_types, resource.learning_resource_type)
-        and any_match(selected_formats, resource.format)
+        match_fn(selected_subjects, resource.subject)
+        and match_fn(selected_keywords, resource.keywords)
+        and match_fn(selected_education, resource.educational_level)
+        and match_fn(selected_methods, resource.instructional_method)
+        and match_fn(selected_types, resource.learning_resource_type)
+        and match_fn(selected_formats, resource.format)
     )
 
 filtered = list(filter(matches, all_resources))
@@ -131,4 +137,3 @@ if st.session_state.selected_entries:
 
 if not filtered:
     st.info("No results found. Adjust the filters in the sidebar.")
-
